@@ -1,0 +1,74 @@
+{
+    "contactForms": [
+        {
+            "language": "pl-PL",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "text",
+                    "name": "title",
+                    "placeholder": "Tytuł",
+                    "required": true
+                },
+                {
+                    "id": "mail",
+                    "type": "mail",
+                    "name": "mail",
+                    "placeholder": "Email",
+                    "required": true
+                },
+                {
+                    "id": "tel",
+                    "type": "tel",
+                    "name": "tel",
+                    "placeholder": "Telefon",
+                    "required": true
+                },
+                {
+                    "id": "content",
+                    "type": "content",
+                    "name": "content",
+                    "placeholder": "Treść wiadomości",
+                    "resize": "none",
+                    "as": "textarea",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "language": "de-DE",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "text",
+                    "name": "title",
+                    "placeholder": "Titel",
+                    "required": true
+                },
+                {
+                    "id": "mail",
+                    "type": "mail",
+                    "name": "mail",
+                    "placeholder": "Email",
+                    "required": true
+                },
+                {
+                    "id": "tel",
+                    "type": "tel",
+                    "name": "tel",
+                    "placeholder": "Telefon",
+                    "required": true
+                },
+                {
+                    "id": "content",
+                    "type": "content",
+                    "name": "content",
+                    "placeholder": "Inhalt der Nachricht",
+                    "resize": "none",
+                    "as": "textarea",
+                    "required": true
+                }
+            ]
+        }
+    ]
+}
