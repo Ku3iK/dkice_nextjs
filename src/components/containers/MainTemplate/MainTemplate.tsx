@@ -1,9 +1,11 @@
+import Nav from "@components/Nav";
+
 const MainTemplate: React.FunctionComponent = ({
   children,
 }: any) => {
   return (
     <>
-      <nav>nav</nav>
+      <Nav />
         <main>
             {children}
         </main>
