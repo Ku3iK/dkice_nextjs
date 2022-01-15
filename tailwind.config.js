@@ -4,6 +4,7 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    navHeight: '8.4rem',
     color: {
       primary: '#db222a',
       secondary: '#31302d',
@@ -40,7 +41,7 @@ module.exports = {
       md: '768px',
       lg: '992px',
       xl: '1200px',
-      xxl: '1400px',
+      xxl: '1600px',
       xxxl: '1920px',
     },
     spacing: {
