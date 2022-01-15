@@ -8,9 +8,7 @@ const MainTemplate: React.FunctionComponent = ({
     <>
       <Nav />
         <main>
-          <Container>
-              {children}
-          </Container>
+          {children}
         </main>
       <footer>footer</footer>
     </>
