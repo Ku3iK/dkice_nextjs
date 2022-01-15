@@ -1,0 +1,114 @@
+{
+    "contactPage": [
+        {
+            "language": "pl-PL",
+            "pageTitle": "Skontaktuj się z nami!",
+            "pageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis semper turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu tortor eget leo tincidunt sagittis. Nullam sit amet augue et mauris.",
+            "infoTiles": [
+                {
+                    "title": "DKice serwis",
+                    "values": [
+                        {
+                            "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis alias sed, nihil sequi similique aspernatur veritatis corporis iusto soluta suscipit?"
+                        }
+                    ],
+                    "isLink": false
+                },
+                {
+                    "title": "Adres",
+                    "values": [
+                        {
+                            "value": "Damian Kuśnierczak"
+                        },
+                        {
+                            "value": "ul.Kopernika 8"
+                        },
+                        {
+                            "value": "66-470 Kostrzyn nad Odrą"
+                        }
+                    ],
+                    "isLink": false
+                },
+                {
+                    "title": "Dane kontaktowe",
+                    "values": [
+                        {
+                            "value": "dkice.serwis@gmail.com"
+                        },
+                        {
+                            "value": "695 436 862"
+                        },
+                        {
+                            "value": "690 858 793"
+                        }
+                    ],
+                    "isLink": true
+                },
+                {
+                    "title": "NIP",
+                    "values": [
+                        {
+                            "value": "5992920604"
+                        }
+                    ],
+                    "isLink": false
+                }
+            ]
+        },
+        {
+            "language": "de-DE",
+            "pageTitle": "Kontaktieren Sie uns!",
+            "pageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis semper turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu tortor eget leo tincidunt sagittis. Nullam sit amet augue et mauris.",
+            "infoTiles": [
+                {
+                    "title": "DKice service",
+                    "values": [
+                        {
+                            "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis alias sed, nihil sequi similique aspernatur veritatis corporis iusto soluta suscipit?"
+                        }
+                    ],
+                    "isLink": false
+                },
+                {
+                    "title": "Adresse",
+                    "values": [
+                        {
+                            "value": "Damian Kuśnierczak"
+                        },
+                        {
+                            "value": "ul.Kopernika 8"
+                        },
+                        {
+                            "value": "66-470 Kostrzyn nad Odrą"
+                        }
+                    ],
+                    "isLink": false
+                },
+                {
+                    "title": "Kontaktangaben",
+                    "values": [
+                        {
+                            "value": "dkice.serwis@gmail.com"
+                        },
+                        {
+                            "value": "695 436 862"
+                        },
+                        {
+                            "value": "690 858 793"
+                        }
+                    ],
+                    "isLink": true
+                },
+                {
+                    "title": "NIP",
+                    "values": [
+                        {
+                            "value": "5992920604"
+                        }
+                    ],
+                    "isLink": false
+                }
+            ]
+        }
+    ]
+}
