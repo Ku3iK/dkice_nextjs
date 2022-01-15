@@ -1,6 +1,23 @@
+import TitleWithDescription from '@components/TitleWithDescription';
+import contactPageData from 'src/assets/i18n/dkice/contactPage.json';
+import formData from 'src/assets/i18n/contactForms.json';
+import Form from '@components/Form';
+
+const { contactPage } = contactPageData;
+const { contactForms } = formData;
+
 const DkiceContact = () => {
   return (
-    <h1>Dkice contact</h1>
+    <>
+        <TitleWithDescription content={contactPage} />
+        <Form 
+          formName={'dkiceContact'} 
+          isNetlifyFrom 
+          formContent={contactForms} 
+          withoutContainer={true}
+          buttonText={'Wyślij'}
+        />
+    </>
   )
 }
 
