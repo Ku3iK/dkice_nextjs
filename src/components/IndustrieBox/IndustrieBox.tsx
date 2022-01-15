@@ -23,7 +23,7 @@ const IndustrieBox = ({
                         objectFit={'cover'}
                     />
                 )}
-                <h2 className="pb-24 text-32 z-50">{title} fawd</h2>
+                <h2 className="pb-24 text-32 z-50">{title}</h2>
                 <p className="w-full md:w-1/2 leading-24 text-18 z-50">{content}</p>
             </IndustriesBoxWrapper>
         </Link>
