@@ -2,12 +2,13 @@ import InfoTile from '../Tiles/InfoTile/InfoTile';
 import { TitleWithDescriptionWrapper } from './TitleWithDescription.styled';
 import { useRouter } from 'next/router';
 import { InfoTileInterface } from '@components/Tiles/InfoTile/InfoTileInterface';
+import Container from '@components/containers/Container/Container';
 
 const TitleWithDescription = ({ content }: any) => {
     const { locale } = useRouter();
 
     return (
-        <>
+        <Container>
             {content?.filter(({ language }: any) => language === locale )?.map(({ pageTitle, pageDescription, infoTiles }: any, key: number) => (
                 <TitleWithDescriptionWrapper 
                     key={key}
@@ -29,7 +30,7 @@ const TitleWithDescription = ({ content }: any) => {
                     )}
                 </TitleWithDescriptionWrapper>
             ))}
-        </>
+        </Container>
     );
 };
 
