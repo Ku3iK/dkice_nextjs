@@ -18,11 +18,7 @@ export const NavWrapper = styled.nav`
         }
 
         ul {
-            display: flex;
-
             li {
-                padding: 18px;
-
                 a {
                     font-weight: ${({ theme }) => theme.fontWeight.medium};
 
@@ -32,7 +28,7 @@ export const NavWrapper = styled.nav`
                 }
             }
 
-            @media (max-width: ${({ theme }) => theme.screens.tablet}) {
+            @media (max-width: ${({ theme }) => theme.screens.md}) {
                 position: fixed;
                 display: ${({ isNavVisible }: any) => isNavVisible ? 'block' : 'none'};
                 top: 0;
@@ -48,27 +44,14 @@ export const NavWrapper = styled.nav`
         }
 
         &__burgerMenu {
-            display: flex;
-            z-index: 100;
-            padding: 2.4rem 0;
-
             &-burger {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                width: 5rem;
-                height: 3rem;
-                margin-right: 2rem;
-                opacity: 1;
-                cursor: pointer;
-
                 & div {
                     height: .5rem;
                     background-color: ${({ theme }) => theme.color.textDark};
                     width: 100%;
                 }
 
-                @media (min-width: ${({ theme }) => theme.screens.tablet}) {
+                @media (min-width: ${({ theme }) => theme.screens.md}) {
                     display: none;
                     opacity: 0;
                 }
