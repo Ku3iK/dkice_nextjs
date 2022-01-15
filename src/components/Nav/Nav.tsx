@@ -4,6 +4,7 @@ import Link from "next/link";
 import { NavInterface } from "./NavInterface";
 import LanguageButton from "@components/Buttons/LanguageButton";
 import { useRouter } from "next/router";
+import Container from "@components/containers/Container/Container";
 
 const Nav =  ({
     routes,
@@ -13,7 +14,7 @@ const Nav =  ({
 
     return (
         <NavWrapper {...{isNavVisible: isNavVisible}}>
-            <div className={"nav"}>
+            <Container className={"nav"}>
                 <Link href='/'>DKice</Link>
                 <ul>
                     {routes && routes.map(( {path, name }, pathKey ) => (
@@ -42,7 +43,7 @@ const Nav =  ({
                         isDe={ locale === 'de-DE' }
                     />
                 </div>
-            </div>
+            </Container>
         </NavWrapper>
     );
 };
