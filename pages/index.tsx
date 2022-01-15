@@ -1,7 +1,5 @@
-import styled from 'styled-components';
 import IndustrieBox from '@components/IndustrieBox';
 import industriesBoxesContent from 'src/assets/i18n/industriesBoxes.json';
-import magmetBg from 'src/assets/images/magmetBG.jpg';
 import { IndustriesBoxesDataInterface } from 'src/types/IndustriesBoxesDataInterface';
 import { useRouter } from 'next/router';
 
