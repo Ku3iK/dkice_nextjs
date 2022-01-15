@@ -7,9 +7,11 @@ const MainTemplate: React.FunctionComponent = ({
   return (
     <>
       <Nav />
-        <Container>
-            {children}
-        </Container>
+        <main>
+          <Container>
+              {children}
+          </Container>
+        </main>
       <footer>footer</footer>
     </>
   );
