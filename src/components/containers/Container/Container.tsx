@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.main`
+const Container = styled.div`
   width: 100%;
   max-width: 160rem;
   margin: 0 auto;
@@ -12,7 +12,7 @@ const Container = styled.main`
     gap: 6.4rem;
   `}
 
-  @media (min-width: ${({ theme }) => theme.screens.tablet}) {
+  @media (min-width: ${({ theme }) => theme.screens.md}) {
     ${({ contactPageContainer }: any) => contactPageContainer && `
       flex-direction: row;
 
