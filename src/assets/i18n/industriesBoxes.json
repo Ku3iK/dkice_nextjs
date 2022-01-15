@@ -1,0 +1,26 @@
+{
+    "industriesBoxes": [
+        {
+            "language": "pl-PL",
+            "title": "Dkice",
+            "description": "Czyszczenie suchym lodem, czyszczenie hydrodynamiczne"
+        },
+        {
+            "language": "pl-PL",
+            "title": "Dkice schody & balustrady",
+            "description": "Nowocześnie stylizowane ogrodzenia, balustrady, bramy, schody kondygnacyjnych oraz wiele innych konstrukcji metalowych",
+            "bgImage": "/magmetBG.jpg"
+        },
+        {
+            "language": "de-DE",
+            "title": "Dkice",
+            "description": "Trockeneisreinigung, hydrodynamische Reinigung"
+        },
+        {
+            "language": "de-DE",
+            "title": "Dkice treppe & geländer",
+            "description": "Zäune, Geländer, Tore, Treppen und viele andere Metallkonstruktionen im modernen Stil",
+            "bgImage": "/magmetBG.jpg"
+        }
+    ]
+}
