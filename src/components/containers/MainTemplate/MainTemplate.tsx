@@ -1,4 +1,5 @@
 import Nav from "@components/Nav";
+import Container from "../Container/Container";
 
 const MainTemplate: React.FunctionComponent = ({
   children,
@@ -6,9 +7,9 @@ const MainTemplate: React.FunctionComponent = ({
   return (
     <>
       <Nav />
-        <main>
+        <Container>
             {children}
-        </main>
+        </Container>
       <footer>footer</footer>
     </>
   );
