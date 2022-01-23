@@ -1,0 +1,38 @@
+{
+    "pathTranslations": [
+        {
+            "language": "pl-PL",
+            "pathTranslation": [
+                {
+                    "name": "Strona główna",
+                    "path": "/"
+                },
+                {
+                    "name": "Galeria",
+                    "path": "/gallery"
+                },
+                {
+                    "name": "Kontakt",
+                    "path": "/contact"
+                }
+            ]
+        },
+        {
+            "language": "de-DE",
+            "pathTranslation": [
+                {
+                    "name": "Zuhause",
+                    "path": "/"
+                },
+                {
+                    "name": "Galerie",
+                    "path": "/gallery"
+                },
+                {
+                    "name": "Kontakt",
+                    "path": "/contact"
+                }
+            ]
+        }
+    ]
+}
