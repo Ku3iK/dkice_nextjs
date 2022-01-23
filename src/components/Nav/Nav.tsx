@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 import Container from "@components/containers/Container/Container";
 
 const Nav =  ({
+    domain,
     routes,
 }: NavInterface ) => {
     const [ isNavVisible, setNavVisibility ] = useState(false);
@@ -20,7 +21,7 @@ const Nav =  ({
                     {routes && routes.map(( {path, name }, pathKey ) => (
                         <li key={pathKey} className={'p-18'}>
                             <Link 
-                                href={path} 
+                                href={`/${domain}${path}`} 
                                 {...{activeClassName: 'active'}} 
                                 {...{ onClick: () => setNavVisibility(false)}}>
                                     {name}
