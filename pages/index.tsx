@@ -12,13 +12,14 @@ export default function Home() {
     <div className='flex flex-col w-full h-screen pt-84'>
       {industriesBoxes?.filter(({ language }: IndustriesBoxesDataInterface) => language === locale )
         ?.map(({  
+          slug,
           title, 
           description,
           bgImage
         }: IndustriesBoxesDataInterface, key: number) => (
           <IndustrieBox
             {...{key: key}}
-            path={"/dkice"}
+            path={slug}
             title={title}
             content={description} 
             bgImage={bgImage && bgImage}
