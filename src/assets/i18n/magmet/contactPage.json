@@ -1,0 +1,120 @@
+{
+    "contactPage": [
+        {
+            "language": "pl-PL",
+            "pageTitle": "Skontaktuj się z nami!",
+            "pageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis semper turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu tortor eget leo tincidunt sagittis. Nullam sit amet augue et mauris.",
+            "infoTiles": [
+                {
+                    "title": "Dkice schody & balustrady",
+                    "values": [
+                        {
+                            "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis alias sed, nihil sequi similique aspernatur veritatis corporis iusto soluta suscipit?"
+                        }
+                    ],
+                    "isLink": false
+                },
+                {
+                    "title": "Adres",
+                    "values": [
+                        {
+                            "value": "Damian Kuśnierczak"
+                        },
+                        {
+                            "value": "ul.Kopernika 8"
+                        },
+                        {
+                            "value": "66-470 Kostrzyn nad Odrą"
+                        }
+                    ],
+                    "isLink": false
+                },
+                {
+                    "title": "Dane kontaktowe",
+                    "values": [
+                        {
+                            "value": "mark.zaune1@gmail.com"
+                        },
+                        {
+                            "value": "Dkice.serwis@gmail.com"
+                        },
+                        {
+                            "value": "Mark: +49 162 8449736"
+                        },
+                        {
+                            "value": "Łukasz: +48 667 398 725"
+                        }
+                    ],
+                    "isLink": true
+                },
+                {
+                    "title": "NIP",
+                    "values": [
+                        {
+                            "value": "5992920604"
+                        }
+                    ],
+                    "isLink": false
+                }
+            ]
+        },
+        {
+            "language": "de-DE",
+            "pageTitle": "Kontaktieren Sie uns!",
+            "pageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis semper turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu tortor eget leo tincidunt sagittis. Nullam sit amet augue et mauris.",
+            "infoTiles": [
+                {
+                    "title": "MAGMET Zäune",
+                    "values": [
+                        {
+                            "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis alias sed, nihil sequi similique aspernatur veritatis corporis iusto soluta suscipit?"
+                        }
+                    ],
+                    "isLink": false
+                },
+                {
+                    "title": "Adresse",
+                    "values": [
+                        {
+                            "value": "Damian Kuśnierczak"
+                        },
+                        {
+                            "value": "ul.Kopernika 8"
+                        },
+                        {
+                            "value": "66-470 Kostrzyn nad Odrą"
+                        }
+                    ],
+                    "isLink": false
+                },
+                {
+                    "title": "Kontaktangaben",
+                    "values": [
+                        {
+                            "value": "mark.zaune1@gmail.com"
+                        },
+                        {
+                            "value": "Dkice.serwis@gmail.com"
+                        },
+                        {
+                            "value": "Mark: +49 162 8449736"
+                        },
+                        {
+                            "value": "Łukasz: +48 667 398 725"
+                        }
+                    ],
+                    "isLink": true
+                },
+                {
+                    "title": "NIP",
+                    "values": [
+                        {
+                            "value": "5992920604"
+                        }
+                    ],
+                    "isLink": false
+                }
+            ]
+        }
+    ]
+}
