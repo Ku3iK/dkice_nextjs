@@ -11,7 +11,7 @@ const MagmetContact = () => {
     <>
         <TitleWithDescription content={contactPage} />
         <Form 
-          formName={'dkiceContact'} 
+          formName={'magmetContact'} 
           isNetlifyFrom 
           formContent={contactForms} 
           withoutContainer={true}
