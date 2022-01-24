@@ -92,7 +92,11 @@ module.exports = {
       144: '14.4rem',
       160: '16rem',
     },
-    extend: {},
+    extend: {
+      colors: {
+        textLight: '#eeeeee',
+      }
+    },
   },
   plugins: [],
 }
