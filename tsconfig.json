@@ -22,6 +22,6 @@
       "@styles/*": ["src/styles/*"]
     },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.js", "src/lib/datocms.js"],
   "exclude": ["node_modules"]
 }
