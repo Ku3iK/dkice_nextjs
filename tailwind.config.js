@@ -36,7 +36,8 @@ module.exports = {
       name: '"Poppins", sans-serif',
     },
     screens: {
-      xs: '0',
+      xxs: '0',
+      xs: '485px',
       sm: '576px',
       md: '768px',
       lg: '992px',
