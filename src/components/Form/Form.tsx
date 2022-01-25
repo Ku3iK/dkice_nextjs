@@ -19,8 +19,8 @@ const Form = ({
                 name={formName && formName} 
                 method={'POST'} 
                 data-netlify={isNetlifyFrom} 
-                className='flex flex-col justify-center'
-            >   
+                className={'flex flex-col justify-center'}
+            >   <input type="hidden" name="form-name" value={formName && formName} /> 
                 {formContent?.filter(({ language }: any) => language === locale )?.map((({ fields }: any, key: number) => (
                     <FormFieldsList 
                         {...{ key: key }}
