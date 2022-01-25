@@ -1,0 +1,462 @@
+{
+    "useOfDryIceCleaning": [
+        {
+            "tilesContainer": [
+                {
+                    "language": "pl-PL",
+                    "tiles": [
+                        {
+                            "iconUrl": "/icons/garages.png",
+                            "tileTitle": "Warsztaty samochodowe",
+                            "listElements": [
+                                {
+                                    "listElement": "czyszczenie i renowacja wnętrza"
+                                },
+                                {
+                                    "listElement": "czyszczenie podwozia"
+                                },
+                                {
+                                    "listElement": "renowacja youngtimerów i oldtimerów"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/car.png",
+                            "tileTitle": "Przemysł motoryzacyjny",
+                            "listElements": [
+                                {
+                                    "listElement": "doskonała czystość: krótszy cykl czyszczenia = krótsze przestoje"
+                                },
+                                {
+                                    "listElement": "czyszczenie form używanych w różnych procesach produkcyjnych, czy to z gumy czy też z pianki"
+                                },
+                                {
+                                    "listElement": "czyszczenie turbin"
+                                },
+                                {
+                                    "listElement": "czyszczenie urządzeń spawalniczych"
+                                },
+                                {
+                                    "listElement": "czyszczenie linii produkcyjnych"
+                                },
+                                {
+                                    "listElement": "czyszczenie powłok elektroforetycznych"
+                                },
+                                {
+                                    "listElement": "czyszczenie kabin i oprzyrządowania w lakierniach"
+                                },
+                                {
+                                    "listElement": "czyszczenie wentylatorów"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/printing.png",
+                            "tileTitle": "Przemysł poligraficzny",
+                            "listElements": [
+                                {
+                                    "listElement": "czyszczenie pras drukarskich"
+                                },
+                                {
+                                    "listElement": "usuwanie smarów"
+                                },
+                                {
+                                    "listElement": "usuwanie tuszu"
+                                },
+                                {
+                                    "listElement": "usuwanie pyłu papierowego"
+                                },
+                                {
+                                    "listElement": "czyszczenie paneli sterujących, wałków"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/food.png",
+                            "tileTitle": "Przemysł spożywczy",
+                            "listElements": [
+                                {
+                                    "listElement": "czyszczenie form do produkcji wafli etc"
+                                },
+                                {
+                                    "listElement": "usuwanie bakterii"
+                                },
+                                {
+                                    "listElement": "czyszczenie pieców"
+                                },
+                                {
+                                    "listElement": "czyszczenie taśm produkcyjnych"
+                                },
+                                {
+                                    "listElement": "czyszczenie trudnodostępnych miejsc"
+                                },
+                                {
+                                    "listElement": "usuwanie wszystkich rodzajów zlepek produktu na taśmach, silnikach, urządzeniach"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/ladle.png",
+                            "tileTitle": "Przemysł odlewniczy",
+                            "listElements": [
+                                {
+                                    "listElement": "czyszczenie smarów grafitowych z matryc maszyn odlewniczych"
+                                },
+                                {
+                                    "listElement": "usuwanie nadmiaru smaru, pyłu, tuszu, węgla z urządzeń produkcyjnych i siłowników hydraulicznych"
+                                },
+                                {
+                                    "listElement": "czyszczenie przenośników bez demontażu urządzeń pneumatycznych, elektrycznych i łożysk"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/eco-house.png",
+                            "tileTitle": "Przemysł elektryczny i automatyka przemysłowa",
+                            "listElements": [
+                                {
+                                    "listElement": "czyszczenie silników"
+                                },
+                                {
+                                    "listElement": "czyszczenie szaf sterowniczych"
+                                },
+                                {
+                                    "listElement": "czyszczenie akumulatorów"
+                                },
+                                {
+                                    "listElement": "czyszczenie przewodów oraz zabrudzeń taśmach, silnikach i urządzeniach"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/plastic.png",
+                            "tileTitle": "Przetwórstwo tworzyw sztucznych",
+                            "listElements": [
+                                {
+                                    "listElement": "czyszczenie form do wydmuchiwania butelek"
+                                },
+                                {
+                                    "listElement": "czyszczenie form wtryskowych"
+                                },
+                                {
+                                    "listElement": "usuwanie pianki z form i maszyn"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/arch-of-triumph.png",
+                            "tileTitle": "Renowacja zabytków, czyszczenie elewacji",
+                            "listElements": [
+                                {
+                                    "listElement": "usuwanie graffiti"
+                                },
+                                {
+                                    "listElement": "renowacja zabytków"
+                                },
+                                {
+                                    "listElement": "renowacja elewacji"
+                                },
+                                {
+                                    "listElement": "czyszczenie elementów drewnianych"
+                                },
+                                {
+                                    "listElement": "czyszczenie pomników"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/fire.png",
+                            "tileTitle": "Usuwanie skutków pożaru",
+                            "listElements": [
+                                {
+                                    "listElement": "czyszczenie zwęglenia w drewnie, cegle, betonie i metalu"
+                                },
+                                {
+                                    "listElement": "usuwanie sadzy"
+                                },
+                                {
+                                    "listElement": "usuwanie zapachu spalenizny"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/ellipsis.png",
+                            "tileTitle": "Pozostałe zastosowania",
+                            "listElements": [
+                                {
+                                    "listElement": "usuwanie oznakowań w halach i na drogach"
+                                },
+                                {
+                                    "listElement": "usuwanie gumy, kleju, smoły"
+                                },
+                                {
+                                    "listElement": "czyszczenie powierzchni hal przemysłowych"
+                                },
+                                {
+                                    "listElement": "czyszczenie powierzchni wchodzących w kontakt z żywnością"
+                                },
+                                {
+                                    "listElement": "czyszczenie wymienników ciepła, chłodnic, rur, nagrzewnic"
+                                },
+                                {
+                                    "listElement": "usuwanie pleśni"
+                                },
+                                {
+                                    "listElement": "usuwanie reklam z samochodów oraz pozostałości kleju"
+                                },
+                                {
+                                    "listElement": "czyszczenie maszyn i akcesoriów dla przemysłu drzewnego"
+                                },
+                                {
+                                    "listElement": "czyszczenie maszyn i narzędzi do odlewów i formowania"
+                                },
+                                {
+                                    "listElement": "czyszczenie narzędzi do formowania wtryskowego"
+                                },
+                                {
+                                    "listElement": "czyszczenie przenośników oraz łańcuchów w przenośnikach"
+                                },
+                                {
+                                    "listElement": "czyszczenie linii produkcyjnych (elementy elektryczne i mechaniczne) bez konieczności ich demontażu"
+                                },
+                                {
+                                    "listElement": "czyszczenie łopatek turbin"
+                                },
+                                {
+                                    "listElement": "czyszczenie pieców hutniczych"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "language": "de-DE",
+                    "tiles": [
+                        {
+                            "iconUrl": "/icons/garages.png",
+                            "tileTitle": "Kfz-Werkstätten",
+                            "listElements": [
+                                {
+                                    "listElement": "Reinigung und Restaurierung der Innenräume"
+                                },
+                                {
+                                    "listElement": "Reinigung des Fahrgestells"
+                                },
+                                {
+                                    "listElement": "Renovierung von Youngtimern und Oldtimern"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/car.png",
+                            "tileTitle": "Automobilbranche",
+                            "listElements": [
+                                {
+                                    "listElement": "Perfekte Sauberkeit: kürzere Reinigungszyklen = weniger Ausfallzeiten"
+                                },
+                                {
+                                    "listElement": "Reinigung von Formen, die in verschiedenen Produktionsprozessen verwendet werden, ob aus Gummi oder Schaumstoff"
+                                },
+                                {
+                                    "listElement": "Reinigung von Turbinen"
+                                },
+                                {
+                                    "listElement": "Reinigung von Schweißgeräten"
+                                },
+                                {
+                                    "listElement": "Reinigung von Produktionslinien"
+                                },
+                                {
+                                    "listElement": "Reinigung von elektrophoretischen Beschichtungen"
+                                },
+                                {
+                                    "listElement": "Reinigungskabinen und -geräte in Lackierereien"
+                                },
+                                {
+                                    "listElement": "Reinigungsfächer"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/printing.png",
+                            "tileTitle": "Druckindustrie",
+                            "listElements": [
+                                {
+                                    "listElement": "Reinigung von Druckmaschinen"
+                                },
+                                {
+                                    "listElement": "Entfettung"
+                                },
+                                {
+                                    "listElement": "Entfernung von Tinte"
+                                },
+                                {
+                                    "listElement": "Entfernung von Papierstaub"
+                                },
+                                {
+                                    "listElement": "Reinigung von Bedienfeldern, Rollen"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/food.png",
+                            "tileTitle": "Lebensmittelindustrie",
+                            "listElements": [
+                                {
+                                    "listElement": "Reinigung von Wafer-Formen usw."
+                                },
+                                {
+                                    "listElement": "Entfernung von Bakterien"
+                                },
+                                {
+                                    "listElement": "Reinigung von Öfen"
+                                },
+                                {
+                                    "listElement": "Reinigung der Produktionsbänder"
+                                },
+                                {
+                                    "listElement": "Reinigung von schwer zugänglichen Stellen"
+                                },
+                                {
+                                    "listElement": "Entfernung von Produktrückständen aller Art auf Bändern, Motoren, Geräten"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/ladle.png",
+                            "tileTitle": "Gießerei-Industrie",
+                            "listElements": [
+                                {
+                                    "listElement": "Reinigung von Graphitschmierstoffen aus den Druckgussmaschinen"
+                                },
+                                {
+                                    "listElement": "Entfernung von überschüssigem Fett, Staub, Tinte und Kohlenstoff von Produktionsanlagen und Hydraulikzylindern"
+                                },
+                                {
+                                    "listElement": "Reinigung von Förderanlagen ohne Demontage der pneumatischen und elektrischen Ausrüstung und der Lager"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/eco-house.png",
+                            "tileTitle": "Elektroindustrie und industrielle Automatisierung",
+                            "listElements": [
+                                {
+                                    "listElement": "Reinigung von Motoren"
+                                },
+                                {
+                                    "listElement": "Reinigung von Steuerschränken"
+                                },
+                                {
+                                    "listElement": "Batteriereinigung"
+                                },
+                                {
+                                    "listElement": "Reinigung von Kabeln und Schmutz an Riemen, Motoren und Geräten"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/plastic.png",
+                            "tileTitle": "Verarbeitung von Kunststoffen",
+                            "listElements": [
+                                {
+                                    "listElement": "Reinigung von Flaschenblasformen"
+                                },
+                                {
+                                    "listElement": "Reinigung von Spritzgießwerkzeugen"
+                                },
+                                {
+                                    "listElement": "Schaumentfernung aus Formen und Maschinen"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/arch-of-triumph.png",
+                            "tileTitle": "Restaurierung von Denkmälern, Reinigung von Fassaden",
+                            "listElements": [
+                                {
+                                    "listElement": "Graffitientfernung"
+                                },
+                                {
+                                    "listElement": "Restaurierung von Denkmälern"
+                                },
+                                {
+                                    "listElement": "Fassadensanierung"
+                                },
+                                {
+                                    "listElement": "Reinigung von Holzteilen"
+                                },
+                                {
+                                    "listElement": "Reinigung von Denkmälern"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/fire.png",
+                            "tileTitle": "Sanierung von Brandschäden",
+                            "listElements": [
+                                {
+                                    "listElement": "Reinigung von Verkohlungen in Holz, Ziegel, Beton und Metall"
+                                },
+                                {
+                                    "listElement": "Rußbeseitigung"
+                                },
+                                {
+                                    "listElement": "Beseitigung von Brandgeruch"
+                                }
+                            ]
+                        },
+                        {
+                            "iconUrl": "/icons/ellipsis.png",
+                            "tileTitle": "Andere Verwendungen",
+                            "listElements": [
+                                {
+                                    "listElement": "Entfernung von Markierungen in Hallen und auf Straßen"
+                                },
+                                {
+                                    "listElement": "Entfernung von Gummi, Leim, Teer"
+                                },
+                                {
+                                    "listElement": "Reinigung von Industriehallenflächen"
+                                },
+                                {
+                                    "listElement": "Reinigung von Oberflächen, die mit Lebensmitteln in Berührung kommen"
+                                },
+                                {
+                                    "listElement": "Reinigung von Wärmetauschern, Kühlern, Rohren und Heizungen"
+                                },
+                                {
+                                    "listElement": "Schimmelpilzentfernung"
+                                },
+                                {
+                                    "listElement": "Entfernung von Werbematerial und Kleberückständen von Autos"
+                                },
+                                {
+                                    "listElement": "Reinigung von Maschinen und Zubehör für die holzverarbeitende Industrie"
+                                },
+                                {
+                                    "listElement": "Reinigung von Maschinen und Werkzeugen für das Gießen und Formen"
+                                },
+                                {
+                                    "listElement": "Reinigung von Spritzgießwerkzeugen"
+                                },
+                                {
+                                    "listElement": "Reinigung von Förderern und Förderketten"
+                                },
+                                {
+                                    "listElement": "Reinigung von Produktionslinien (elektrische und mechanische Komponenten) ohne deren Demontage"
+                                },
+                                {
+                                    "listElement": "Reinigung von Turbinenschaufeln"
+                                },
+                                {
+                                    "listElement": "Reinigung von Hochöfen"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
