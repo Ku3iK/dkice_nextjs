@@ -1,8 +1,17 @@
-import * as React from "react"
+import Container from '@components/containers/Container/Container';
+import useOfDryIceCleaningContent from 'src/assets/i18n/dkice/useOfDryIceCleaning.json';
+import DynamicContent from '@components/containers/DynamicContent';
+
+const { tilesContainer }: any = useOfDryIceCleaningContent.useOfDryIceCleaning[0];
 
 const DkicePage = () => {
+
   return (
-    <h1>Dkice</h1>
+    <Container>
+      <DynamicContent 
+        tilesContainer={tilesContainer}
+      />
+    </Container>
   )
 }
 
