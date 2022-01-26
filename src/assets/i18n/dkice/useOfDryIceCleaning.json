@@ -4,6 +4,7 @@
             "tilesContainer": [
                 {
                     "language": "pl-PL",
+                    "sectionTitle": "Branże, gdzie można zastosować czyszczenie (piaskowanie) suchym lodem",
                     "tiles": [
                         {
                             "iconUrl": "/icons/garages.png",
@@ -231,6 +232,7 @@
                 },
                 {
                     "language": "de-DE",
+                    "sectionTitle": "Branchen, in denen Trockeneisstrahlen eingesetzt werden kann",
                     "tiles": [
                         {
                             "iconUrl": "/icons/garages.png",
