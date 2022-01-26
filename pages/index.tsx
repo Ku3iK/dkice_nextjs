@@ -9,7 +9,7 @@ export default function Home() {
   const { locale } = useRouter();
 
   return (
-    <div className='flex flex-col w-full h-screen pt-84'>
+    <div className='flex flex-col w-full h-screen pt-80'>
       {industriesBoxes?.filter(({ language }: IndustriesBoxesDataInterface) => language === locale )
         ?.map(({  
           slug,
