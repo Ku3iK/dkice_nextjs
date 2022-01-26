@@ -11,7 +11,7 @@ const IndustrieBox = ({
     content,
     bgImage,
 }: IndustrieBoxInterface ) => {
-    const classes = classNames(`flex flex-col justify-center relative w-full grow p-24 cursor-pointer overflow-hidden text-white z-0`);
+    const classes = classNames(`flex flex-col justify-center relative w-full h-1/2 grow p-24 cursor-pointer overflow-hidden text-white z-0`);
 
     return (
         <Link href={path}>
