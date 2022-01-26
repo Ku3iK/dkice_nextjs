@@ -17,7 +17,7 @@ const DynamicContent = ({
                 <h3 className={'pb-48'}>{sectionTitle}</h3>
             ))}
             <DynamicContentStyled className={'grid xs:grid-cols-2 gap-32'}>
-                <div className={'flex overflow-x-scroll xs:overflow-visible xs:grid xs:grid-cols-1 lg:grid-cols-2 gap-32'}>
+                <div className={'flex overflow-x-scroll xs:overflow-visible xs:grid xs:grid-cols-1 lg:grid-cols-2 gap-32 py-32 md:py-0'}>
                 {tilesContainer?.filter(({ language }: any) => language === locale ).map(({ tiles }, tilesKey: number) => (
                     <React.Fragment key={tilesKey}>
                         {tiles?.map(({ iconUrl, tileTitle, listElements }, contentKey: number) => (
