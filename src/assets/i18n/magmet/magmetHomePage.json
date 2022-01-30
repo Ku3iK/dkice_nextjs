@@ -1,0 +1,24 @@
+{
+    "magmetHomePage": [
+        {
+            "language": "pl-PL",
+            "heroTitle": "Dkice schody & balustrady",
+            "heroDescription": "Dynamicznie rozwijające się przedsiębiorstwo zajmujące się produkcją nowoczesnych oraz stylizowanych ogrodzeń, balustrad, bram, schodów kondygnacyjnych oraz wielu innych konstrukcji metalowych.  Prowadzimy działalność od 2010 roku i nieustannie kładziemy nacisk na jakość wykonywanych przez nas usług oraz współpracę z dobrymi i sprawdzonymi dostawcami.  Dzięki szerokiej ofercie produktów i usług dostarczamy kompletne rozwiązania dla domu oraz przemysłu.",
+            "heroImageUrl": "/magmetBG.jpg",
+            "buttonData": {
+                "href": "",
+                "buttonContent": "Czytaj więcej"
+            }
+        },
+        {
+            "language": "de-DE",
+            "heroTitle": "Dkice treppe & geländer",
+            "heroDescription": "Ein sich dynamisch entwickelndes Unternehmen, das sich mit der Herstellung von modernen und stilisierten Zäunen, Balustraden, Toren, Treppen und vielen anderen Metallkonstruktionen beschäftigt.  Wir sind seit 2010 tätig und legen ständig Wert auf die Qualität unserer Dienstleistungen und die Zusammenarbeit mit guten und geprüften Lieferanten.  Mit einer breiten Palette von Produkten und Dienstleistungen bieten wir Komplettlösungen für Haus und Industrie.",
+            "heroImageUrl": "/magmetBG.jpg",
+            "buttonData": {
+                "href": "",
+                "buttonContent": "Czytaj więcej"
+            }
+        }
+    ]
+}
