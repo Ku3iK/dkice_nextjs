@@ -20,7 +20,6 @@ const DkicePage = () => {
             imageUrl={heroImageUrl}
             buttonData={buttonData}
           />
-          {console.log(tilesContainer)}
           <DynamicContent 
             tilesContainer={tilesContainer[0]}
           />
