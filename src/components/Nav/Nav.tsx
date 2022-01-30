@@ -32,7 +32,7 @@ const Nav =  ({
                 <div className={`nav__burgerMenu flex z-50 py-24`}>
                     {routes && (
                         <div 
-                            className={`nav__burgerMenu-burger flex flex-col justify-between w-30 h-24 mr-10 opacity-100 cursor-pointer`} 
+                            className={`nav__burgerMenu-burger flex flex-col justify-between self-center w-30 h-24 mr-10 opacity-100 cursor-pointer`} 
                             onClick={() => setNavVisibility(!isNavVisible)} 
                             role="button" 
                             tabIndex={0}
