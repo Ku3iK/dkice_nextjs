@@ -17,7 +17,7 @@ const Nav =  ({
         <NavWrapper {...{isNavVisible: isNavVisible}}>
             <Container className={"nav"}>
                 <Link href='/'>DKice</Link>
-                <ul className={'flex'}>
+                <ul className={'hidden md:flex'}>
                     {routes && routes.map(( {path, name }, pathKey ) => (
                         <li key={pathKey} className={'p-18'}>
                             <Link 
@@ -32,7 +32,7 @@ const Nav =  ({
                 <div className={`nav__burgerMenu flex z-50 py-24`}>
                     {routes && (
                         <div 
-                            className={`nav__burgerMenu-burger flex flex-col justify-between w-20 h-12 mr-2 opacity-100 cursor-pointer`} 
+                            className={`nav__burgerMenu-burger flex flex-col justify-between w-30 h-24 mr-10 opacity-100 cursor-pointer`} 
                             onClick={() => setNavVisibility(!isNavVisible)} 
                             role="button" 
                             tabIndex={0}
