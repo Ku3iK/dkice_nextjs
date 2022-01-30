@@ -93,6 +93,13 @@ module.exports = {
       144: '14.4rem',
       160: '16rem',
     },
+    lineHeight: {
+      24: '2.4rem',
+      32: '3.2rem',
+      40: '4rem',
+      56: '5.6rem',
+      72: '7.2rem',
+    },
     extend: {
       colors: {
         textLight: '#eeeeee',
