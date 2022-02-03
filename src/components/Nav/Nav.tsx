@@ -19,11 +19,15 @@ const Nav =  ({
                 <Link href='/'>DKice</Link>
                 <ul className={'hidden md:flex'}>
                     {routes && routes.map(( {path, name }, pathKey ) => (
-                        <li key={pathKey} className={'p-18'}>
+                        <li 
+                            key={pathKey} 
+                            className={'p-18'} 
+                            onClick={() => setNavVisibility(false)}
+                        >
                             <Link 
                                 href={`/${domain}${path}`} 
                                 {...{activeClassName: 'active'}} 
-                                {...{ onClick: () => setNavVisibility(false)}}>
+                            >
                                     {name}
                             </Link>
                         </li>
