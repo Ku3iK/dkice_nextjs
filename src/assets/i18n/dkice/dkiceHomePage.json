@@ -237,7 +237,22 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "whatIsDryIceCleaningSection": {
+                "isTitleInOtherColumn": true,
+                "title": "Na czym polega czyszczenie suchym lodem?",
+                "texts": [
+                    {
+                        "text": "Proces czyszczenia suchym lodem wykorzystuje granulki, które uderzają wwybrany element i tym samym powodują nagłe, punktowe przechłodzenie powłoki lub zabrudzenia, które planujemy usunąć."
+                    },
+                    {
+                        "text": "Dzięki wysokiej energii kinetycznej, granulki suchego lodu nie tylko ulegają deformacji i zgnieceniu – w czasie uderzeń w obrabiany przedmiot pojawiają się również mikropęknięcia w warstwie zabrudzeń. Następnie cząsteczki suchego lodu wchodzą w nie i zwiększają swoją objętość nawet 1000-krotnie, by oddzielić niechcianą warstwę od wybranej powierzchni. Medium używane w całej procedurze przechodzi w stan gazowy."
+                    },
+                    {
+                        "text": "W odróżnieniu od większości tradycyjnych technik, czyszczenie suchym lodem nie stanowi procesu ściernego. Na powierzchni nie dochodzi do pojawienia się żadnych zarysowań czy zużycia."
+                    }
+                ]
+            }
         },
         {
             "language": "de-DE",
@@ -476,7 +491,22 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "whatIsDryIceCleaningSection": {
+                "isTitleInOtherColumn": true,
+                "title": "Was ist Trockeneisreinigung?",
+                "texts": [
+                    {
+                        "text": "Bei der Trockeneisreinigung wird ein Granulat verwendet, das auf das ausgewählte Teil aufprallt und so eine plötzliche, punktuelle Abkühlung der zu entfernenden Beschichtung oder Verschmutzung bewirkt."
+                    },
+                    {
+                        "text": "Dank ihrer hohen kinetischen Energie verformen und zerkleinern die Trockeneispellets nicht nur, sondern erzeugen beim Aufprall auf das Werkstück auch Mikrorisse in der Schmutzschicht. Die Trockeneispartikel dringen dann in die Risse ein und vergrößern ihr Volumen bis zum 1000-fachen, um die unerwünschte Schicht von der ausgewählten Oberfläche zu trennen. Das während des gesamten Verfahrens verwendete Medium geht in einen gasförmigen Zustand über."
+                    },
+                    {
+                        "text": "Im Gegensatz zu den meisten traditionellen Verfahren ist die Trockeneisreinigung kein abrasiver Prozess. Die Oberfläche weist keine Kratzer oder Abnutzungen auf."
+                    }
+                ]
+            }
         }
     ]
 }
