@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { ContainerInterface } from './ContainerInterface';
 
-const Container = styled.div`
+const Container = styled.div<ContainerInterface>`
   width: 100%;
   max-width: 160rem;
   margin: 0 auto;
@@ -12,8 +13,16 @@ const Container = styled.div`
     gap: 6.4rem;
   `}
 
+  ${({ insideSection }) => insideSection && `
+    padding: 0 2.4rem;
+  `}
+
+  ${({ withoutPadding }) => withoutPadding && `
+    padding: 0;
+  `}
+
   @media (min-width: ${({ theme }) => theme.screens.md}) {
-    ${({ contactPageContainer }: any) => contactPageContainer && `
+    ${({ contactPageContainer }) => contactPageContainer && `
       flex-direction: row;
 
       div {
