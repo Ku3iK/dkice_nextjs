@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import BgImageHero from '@components/BgImageHero';
 import TitleWithText from '@components/TextContainers/TitleWithText';
+import AccordionSection from '@components/AccordionSection';
 
 const { dkiceHomePage }: any = dkiceHomePageContent;
 
@@ -20,7 +21,8 @@ const DkicePage = () => {
         heroImageUrl, 
         buttonData, 
         tilesContainer,
-        whatIsDryIceCleaningSection
+        whatIsDryIceCleaningSection,
+        principlesOfDryIceCleaning
       }: any, key: number) => (
         <React.Fragment key={key}>
           <BgImageHero 
@@ -35,6 +37,13 @@ const DkicePage = () => {
               title={whatIsDryIceCleaningSection.title}
               texts={whatIsDryIceCleaningSection.texts}
               classNames="py-48 md:py-80"
+            />
+            <AccordionSection 
+              reverseElements
+              title={principlesOfDryIceCleaning.title}
+              description={principlesOfDryIceCleaning.description}
+              tabs={principlesOfDryIceCleaning.accordionTabs}
+              classNames="pb-48 md:pb-80"
             />
             <DynamicContent 
               tilesContainer={tilesContainer[0]}
