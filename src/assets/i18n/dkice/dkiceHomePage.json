@@ -252,6 +252,44 @@
                         "text": "W odróżnieniu od większości tradycyjnych technik, czyszczenie suchym lodem nie stanowi procesu ściernego. Na powierzchni nie dochodzi do pojawienia się żadnych zarysowań czy zużycia."
                     }
                 ]
+            },
+            "principlesOfDryIceCleaning": {
+                "title": "Zasady czyszczenia suchym lodem.",
+                "description": "Co sprawia, że Klienci coraz chętniej decydują się na czyszczenie suchym lodem?",
+                "accordionTabs": [
+                    {
+                        "tabTitle": "Ciągłość pracy zakładu",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "czyszczenie elementów maszyn, form czy narzędzimaszyn jest możliwa podczas pracy: nie wymaga demontażu ani przerw w produkcji, a więc nie generuje przerwy w harmonogramie działania przedsiębiorstwa."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Bezinwazyjność",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "w czyszczeniu suchym lodem nie stosuje się środków chemicznych ani ściernych, dzięki czemu proces nie powoduje uszkodzenia powierzchni."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Ekologia",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "suchy lód z formy stałej przechodzi w gazową, pomijając ciekły stan skupienia (sublimacja suchego lodu. Proces czyszczenia suchym lodem nie staje się więc przyczyną powstawania dodatkowych zanieczyszczeń."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Bezpieczeństwo dla urządzeń elektrycznych",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "to jedyna tak skuteczna metoda czyszczenia na sucho instalacji elektrycznej."
+                            }
+                        ]
+                    }
+                ]
             }
         },
         {
@@ -504,6 +542,44 @@
                     },
                     {
                         "text": "Im Gegensatz zu den meisten traditionellen Verfahren ist die Trockeneisreinigung kein abrasiver Prozess. Die Oberfläche weist keine Kratzer oder Abnutzungen auf."
+                    }
+                ]
+            },
+            "principlesOfDryIceCleaning": {
+                "title": "Grundsätze der Trockeneisreinigung.",
+                "description": "Warum entscheiden sich die Kunden immer häufiger für die Trockeneisreinigung?",
+                "accordionTabs": [
+                    {
+                        "tabTitle": "Kontinuität des Anlagenbetriebs",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Die Reinigung von Maschinenteilen, Formen oder Werkzeugen ist bei laufendem Betrieb möglich: Sie erfordert keine Demontage oder Unterbrechung der Produktion und führt daher nicht zu einer Unterbrechung des Zeitplans des Unternehmens."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Nicht-invasiv",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Bei der Trockeneisreinigung werden keine Chemikalien oder Scheuermittel verwendet, so dass die Oberfläche nicht beschädigt wird."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Ökologie",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Trockeneis geht vom festen in den gasförmigen Zustand über, wobei der flüssige Zustand der Materie umgangen wird (Trockeneissublimation). Der Trockeneis-Reinigungsprozess wird daher nicht zu einer Ursache für zusätzliche Verunreinigungen."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Sicherheit für elektrische Geräte",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "ist die einzige wirksame Methode zur Trockenreinigung von Elektroinstallationen."
+                            }
+                        ]
                     }
                 ]
             }
