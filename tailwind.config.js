@@ -103,6 +103,13 @@ module.exports = {
     extend: {
       colors: {
         textLight: '#eeeeee',
+      },
+      borderRadius: {
+        4: '.4rem',
+        8: '.8rem',
+        16: '1.6rem',
+        32: '3.2rem',
+        48: '4.8rem',
       }
     },
   },
