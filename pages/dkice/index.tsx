@@ -7,6 +7,7 @@ import BgImageHero from '@components/BgImageHero';
 import TitleWithText from '@components/TextContainers/TitleWithText';
 import AccordionSection from '@components/AccordionSection';
 import TextsGrid from '@components/TextContainers/TextsGrid';
+import TextWithList from '@components/TextContainers/TextWithList';
 
 const { dkiceHomePage }: any = dkiceHomePageContent;
 
@@ -24,7 +25,8 @@ const DkicePage = () => {
         whatIsDryIceCleaningSection,
         principlesOfDryIceCleaning,
         dryIceApplication,
-        cleanlinssInEveryField
+        cleanlinssInEveryField,
+        hydronomyCleaning
       }: any, key: number) => (
         <React.Fragment key={key}>
           <BgImageHero 
@@ -60,6 +62,13 @@ const DkicePage = () => {
             />
             <DynamicContent 
               tilesContainer={tilesContainer[0]}
+              classNames="py-48 md:py-80"
+            />
+            <TextWithList
+              title={hydronomyCleaning.title}
+              description={hydronomyCleaning.description}
+              listTitle={hydronomyCleaning.listTitle}
+              listContent={hydronomyCleaning.listContent}
               classNames="py-48 md:py-80"
             />
           </Container>
