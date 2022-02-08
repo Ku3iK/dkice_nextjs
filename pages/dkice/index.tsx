@@ -7,6 +7,7 @@ import React from 'react';
 import BgImageHero from '@components/BgImageHero';
 import TitleWithText from '@components/TextContainers/TitleWithText';
 import AccordionSection from '@components/AccordionSection';
+import TextsGrid from '@components/TextContainers/TextsGrid';
 
 const { dkiceHomePage }: any = dkiceHomePageContent;
 
@@ -22,7 +23,8 @@ const DkicePage = () => {
         buttonData, 
         tilesContainer,
         whatIsDryIceCleaningSection,
-        principlesOfDryIceCleaning
+        principlesOfDryIceCleaning,
+        dryIceApplication
       }: any, key: number) => (
         <React.Fragment key={key}>
           <BgImageHero 
@@ -45,8 +47,14 @@ const DkicePage = () => {
               tabs={principlesOfDryIceCleaning.accordionTabs}
               classNames="pb-48 md:pb-80"
             />
+            <TextsGrid
+              title={dryIceApplication.title}
+              texts={dryIceApplication.texts}
+              classNames="py-48 md:py-80"
+            />
             <DynamicContent 
               tilesContainer={tilesContainer[0]}
+              classNames="py-48 md:py-80"
             />
           </Container>
         </React.Fragment>
