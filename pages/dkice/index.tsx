@@ -1,7 +1,6 @@
 import Container from '@components/containers/Container/Container';
 import dkiceHomePageContent from 'src/assets/i18n/dkice/dkiceHomePage.json';
 import DynamicContent from '@components/containers/DynamicContent';
-import Hero from '@components/Hero';
 import { useRouter } from 'next/router';
 import React from 'react';
 import BgImageHero from '@components/BgImageHero';
