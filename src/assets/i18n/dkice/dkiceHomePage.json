@@ -383,6 +383,28 @@
                         ]
                     }
                 ]
+            },
+            "hydronomyCleaning": {
+                "title": "Hydronomiczne czyszczenie pod wysokim ciśnieniem",
+                "description": "Wykonujemy usługi specjalistycznego mycia ciśnieniowego (mycie hydrodynamiczne, water jetting) polegającego na skierowaniu na czyszczone powierzchnie strumienia wody pod ciśnieniem od 50 do 2500 bar. Mycie wodą zapewnia najwyższy możliwy stopień czystości powierzchni. Metoda wykorzystywana jest do usuwania ciężkich osadów technologicznych z instalacji przemysłowych, a także przy usuwaniu betonu z konstrukcji żelbetowych z pozostawieniem zbrojenia oraz przy cięciu konstrukcyjnym żelbetu.",
+                "listTitle": "Zalety czyszczenia metodą hydrodynamiczną:",
+                "listContent": [
+                    {
+                        "listElement": "Eliminacja zapylenia otoczenia oraz zmniejszenie ilości odpadów"
+                    },
+                    {
+                        "listElement": "Brak odkształceń konstrukcji"
+                    },
+                    {
+                        "listElement": "Większa wydajność czyszczenia w porównaniu do metod tradycyjnych"
+                    },
+                    {
+                        "listElement": "Całkowita eliminacja korozji"
+                    },
+                    {
+                        "listElement": "Precyzyjne i selektywne usunięcie warstw powłoki malarskiej"
+                    }
+                ]
             }
         },
         {
@@ -766,6 +788,28 @@
                                 "tabParagraph": "Zur Entfernung von Graffiti und Kaugummi auf Gehwegen, Straßen, Gebäudefassaden, Mauern oder Brücken."
                             }
                         ]
+                    }
+                ]
+            },
+            "hydronomyCleaning": {
+                "title": "Hydronomische Hochdruckreinigung",
+                "description": "Wir bieten spezialisierte Druckreinigungsdienste (hydrodynamische Reinigung, Wasserstrahlen), bei denen Wasserstrahlen mit einem Druck von 50 bis 2500 bar auf die zu reinigenden Oberflächen gerichtet werden. Das Wasserstrahlen gewährleistet den höchstmöglichen Grad an Oberflächenreinheit. Die Methode wird eingesetzt, um schwere technologische Ablagerungen aus Industrieanlagen zu entfernen, Beton aus Stahlbetonkonstruktionen zu entfernen, wobei die Bewehrung an Ort und Stelle verbleibt, und für das strukturelle Schneiden von Stahlbeton.",
+                "listTitle": "Vorteile der hydrodynamischen Reinigung:",
+                "listContent": [
+                    {
+                        "listElement": "Beseitigung von Staub in der Umgebung und Verringerung der Abfallmenge"
+                    },
+                    {
+                        "listElement": "Keine strukturelle Verformung"
+                    },
+                    {
+                        "listElement": "Größere Reinigungskapazität als bei herkömmlichen Methoden"
+                    },
+                    {
+                        "listElement": "Vollständige Beseitigung der Korrosion"
+                    },
+                    {
+                        "listElement": "Präzises und selektives Abtragen von Farbschichten"
                     }
                 ]
             }
