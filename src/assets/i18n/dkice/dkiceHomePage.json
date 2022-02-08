@@ -313,6 +313,76 @@
                         "text": "Suchym lodem można też czyścić zabytki, by usnąć farbę, pleśń, sadzę oraz inne nagromadzone przez lata zanieczyszczenia. Renowacja następuje bez tworzenia pęknięć, rys i wżerów na powierzchniach. Możliwe jest czyszczenie marmuru, szkła, onyksu itp. bez powodowania uszkodzeń. Metoda jest wykorzystywana do renowacji historycznych budynków, pomników czy pojazdów zabytkowych. Może być też używana do czyszczenia uszkodzeń spowodowanych przez dym np. na księgozbiorach. Stosuje się ją również do usuwania graffiti."
                     }
                 ]
+            },
+            "cleanlinssInEveryField": {
+                "title": "Czystość na każdym polu.",
+                "description": "W procesie czyszczenia suchym lodem nie stosuje się żadnych detergentów. Metoda ta doskonale sprawdza się wszędzie tam, gdzie niedozwolone jest czyszczenie wodą lub piaskowanie. Dzieje się tak ponieważ suchy lód przechodzi w powietrzu z postaci stałej (granulat CO2) bezpośrednio do gazowej (sublimuje), dlatego też podczas czyszczenia nie powstają ścieki.",
+                "accordionTabs": [
+                    {
+                        "tabTitle": "Przemysł metalurgiczny i maszynowy",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Ice Blaster umożliwia codzienne i dogłębne czyszczenie maszyn produkcyjnych, robotów spawalniczych, przenośników taśmowych i lakierni."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Drukarnie",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Do czyszczenia wszystkich maszyn drukarskich, cylindrów i narzędzi."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Przemysł drzewny i elektryczny",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Do czyszczenia maszyn do obróbki drewna, generatorów, turbin i szaf sterowniczych, itp."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Przemysł tworzyw sztucznych i opakowań",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Do usuwania sylikonu, gumy, farb, lakierów i innych silnie przylegających zabrudzeń z form wtryskowych i linii produkcyjnych."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Przemysł motoryzacyjny, odlewnie i produkcja form wtryskowych",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Do usuwania silnie przylegających zabrudzeń: pozostałości sylikonu czy gumy, farby, lakiery, powłoki ochronne z form wtryskowych, narzędzi i linii produkcyjnych."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Przemysł spożywczy, farmaceutyczny i kosmetyczny",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Do czyszczenia systemów przenośnikowych, systemów napełniania i mieszalników, linii produkcyjnych, zbiorników i pieców. Skutecznie usuwa: zapieczony brud, tłuszcz i skrobię."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Przemysł papierniczy",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Do usuwania kleju, wapna, pyłu i celulozy z urządzeń produkcyjnych."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Obiekty komunalne i użyteczności publicznej",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Do usuwania graffiti oraz gum do żucia z chodników, ulic, elewacji budynków, murów czy mostów."
+                            }
+                        ]
+                    }
+                ]
             }
         },
         {
@@ -626,6 +696,76 @@
                     },
                     {
                         "text": "Trockeneis kann auch zur Reinigung von Denkmälern verwendet werden, um Farbe, Schimmel, Ruß und anderen Schmutz zu entfernen, der sich im Laufe der Jahre angesammelt hat. Die Renovierung erfolgt, ohne dass Risse, Kratzer oder Lochfraß auf den Oberflächen entstehen. Es ist möglich, Marmor, Glas, Onyx usw. zu reinigen, ohne sie zu beschädigen. Das Verfahren wird bei der Restaurierung historischer Gebäude, Denkmäler oder historischer Fahrzeuge eingesetzt. Es kann auch zur Reinigung von Rauchschäden, z. B. an Büchern, verwendet werden. Es wird auch zur Entfernung von Graffiti verwendet."
+                    }
+                ]
+            },
+            "cleanlinssInEveryField": {
+                "title": "Sauberkeit in allen Bereichen.",
+                "description": "Bei der Trockeneisreinigung werden keine Reinigungsmittel verwendet. Diese Methode ist ideal, wenn Wasser- oder Sandstrahlen nicht erlaubt ist. Das liegt daran, dass Trockeneis in der Luft direkt vom festen Zustand (CO2-Granulat) in den gasförmigen Zustand (Sublimation) übergeht und daher während des Reinigungsprozesses kein Abwasser entsteht.",
+                "accordionTabs": [
+                    {
+                        "tabTitle": "Metallurgie- und Maschinenbauindustrie",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Ice Blaster ermöglicht die tägliche und gründliche Reinigung von Produktionsmaschinen, Schweißrobotern, Förderbändern und Lackieranlagen."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Drucker",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Zur Reinigung aller Druckmaschinen, Zylinder und Werkzeuge."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Holz- und Elektroindustrie",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Zur Reinigung von Holzbearbeitungsmaschinen, Generatoren, Turbinen, Schaltschränken usw."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Kunststoff- und Verpackungsindustrie",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Zur Entfernung von Silikon, Gummi, Farben, Lacken und anderen stark haftenden Verunreinigungen aus Spritzgussformen und Produktionslinien."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Automobilindustrie, Gießereien und Formenbau",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Zur Entfernung von stark haftenden Verschmutzungen: Silikon- oder Gummirückstände, Farben, Lacke, Schutzschichten von Spritzgussformen, Werkzeugen und Produktionsanlagen."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Lebensmittel-, Pharma- und Kosmetikindustrie",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Zur Reinigung von Förderanlagen, Abfüllanlagen und Mischern, Produktionslinien, Tanks und Öfen. Entfernt wirkungsvoll: eingebrannten Schmutz, Fett und Stärke."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Papierindustrie",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Zur Entfernung von Leim, Kalk, Staub und Zellulose aus Produktionsanlagen."
+                            }
+                        ]
+                    },
+                    {
+                        "tabTitle": "Kommunale und öffentliche Einrichtungen",
+                        "tabParagraphs": [
+                            {
+                                "tabParagraph": "Zur Entfernung von Graffiti und Kaugummi auf Gehwegen, Straßen, Gebäudefassaden, Mauern oder Brücken."
+                            }
+                        ]
                     }
                 ]
             }

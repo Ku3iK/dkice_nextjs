@@ -23,7 +23,8 @@ const DkicePage = () => {
         tilesContainer,
         whatIsDryIceCleaningSection,
         principlesOfDryIceCleaning,
-        dryIceApplication
+        dryIceApplication,
+        cleanlinssInEveryField
       }: any, key: number) => (
         <React.Fragment key={key}>
           <BgImageHero 
@@ -49,6 +50,12 @@ const DkicePage = () => {
             <TextsGrid
               title={dryIceApplication.title}
               texts={dryIceApplication.texts}
+              classNames="py-48 md:py-80"
+            />
+            <AccordionSection 
+              title={cleanlinssInEveryField.title}
+              description={cleanlinssInEveryField.description}
+              tabs={cleanlinssInEveryField.accordionTabs}
               classNames="py-48 md:py-80"
             />
             <DynamicContent 
