@@ -12,7 +12,7 @@ const TitleWithText: React.FunctionComponent<TitleWithTextInterface> = ({
 }) => {
     return(
         <section className={classNames}>
-            <Container className={'grid md:grid-cols-2 gap-48 pt-0'} {...{withoutPadding: true}}>
+            <Container className={'grid md:grid-cols-2 gap-32 md:gap-48 pt-0'} {...{withoutPadding: true}}>
                 {isTitleInOtherColumn && (
                     <div>
                         <Headings level={2}>{title}</Headings>

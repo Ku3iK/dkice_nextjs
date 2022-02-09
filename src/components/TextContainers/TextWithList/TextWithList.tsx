@@ -17,7 +17,7 @@ const TextWithList: React.FunctionComponent<TextWithListInterface> = ({
                 {title && (
                     <Headings level={2}>{title}</Headings>
                 )}
-                <div className={'grid md:grid-cols-2 gap-48'}>
+                <div className={'grid md:grid-cols-2 gap-32 md:gap-48'}>
                     {description && (
                         <div>
                             <Paragraphs 
