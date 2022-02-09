@@ -6,7 +6,7 @@ const headingsClassNames = {
     2: 'text-28 leading-32 sm:text-32 sm:leading-40 md:text-48 md:leading-56 font-bold',
     3: 'text-32 leading-40',
     4: 'text-30 leading-40 font-extrabold',
-    5: 'text-24 leading-32',
+    5: 'text-20 leading-24 md:text-24 md:leading-32',
     6: 'text-20 leading-24',
     subtitle: 'text-10 leading-24 text-n4 font-black tracking-2 uppercase',
 };
