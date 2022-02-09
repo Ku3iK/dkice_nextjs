@@ -25,6 +25,22 @@ const GlobalStyles = createGlobalStyle`
         background-color: ${theme.color.background};
     }
 
+    section {
+        padding-bottom: 4.8rem;
+
+        &.firstSection {
+            padding-top: 4.8rem;
+        }
+
+        @media (min-width: ${({ theme }) => theme.screens.md}) {
+            padding-bottom: 8rem;
+
+            &.firstSection {
+                padding-top: 8rem;
+            }
+        }
+    }
+
     .hyphnes {
         hyphens: auto;
     }

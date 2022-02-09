@@ -14,7 +14,7 @@ const AccordionSection: React.FunctionComponent<AccordionSectionInterface & Acco
     tabs,
 }) => {
     return(
-        <div className={`grid md:grid-cols-2 gap-32 md:gap-48 ${classNames}`}>
+        <section className={`grid md:grid-cols-2 gap-32 md:gap-48 ${classNames}`}>
             <div className={clsx(
                 {'md:order-last': reverseElements}
             )}>
@@ -24,7 +24,7 @@ const AccordionSection: React.FunctionComponent<AccordionSectionInterface & Acco
             <AccordionComponent 
                 tabs={tabs}
             />
-        </div>
+        </section>
     );
 }
 
