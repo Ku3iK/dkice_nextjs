@@ -12,12 +12,12 @@ const DynamicContent = ({
     const [ activeTile, setActiveTile ] = useState(0);
 
     return(
-        <div id="dynamicContent" className={`${classNames}`}>
+        <section id="dynamicContent" className={`${classNames}`}>
             {tilesContainer.sectionTitle && (
                 <Headings level={2}>{tilesContainer.sectionTitle}</Headings>
             )}
-            <DynamicContentStyled className={'grid xs:grid-cols-2 gap-32 pt-48'}>
-                <div className={'flex overflow-x-scroll xs:overflow-visible xs:grid xs:grid-cols-1 lg:grid-cols-2 gap-32 py-32 md:py-0'}>
+            <DynamicContentStyled className={'grid sm:grid-cols-2 gap-32 pt-48'}>
+                <div className={'flex overflow-x-scroll sm:overflow-visible sm:grid sm:grid-cols-1 lg:grid-cols-2 gap-32 py-32 md:py-0'}>
                 {tilesContainer && (
                     <>
                         {tilesContainer.tiles?.map(({ iconUrl, tileTitle, listElements }, contentKey: number) => (
@@ -44,7 +44,7 @@ const DynamicContent = ({
                     )}
                 </div>
             </DynamicContentStyled>
-        </div>
+        </section>
     );
 };
 
