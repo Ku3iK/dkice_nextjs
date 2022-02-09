@@ -25,6 +25,10 @@ const GlobalStyles = createGlobalStyle`
         background-color: ${theme.color.background};
     }
 
+    .hyphnes {
+        hyphens: auto;
+    }
+
     a {
         text-decoration: none;
         color: ${theme.color.textDark};
