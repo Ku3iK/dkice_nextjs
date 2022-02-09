@@ -9,6 +9,7 @@ import AccordionSection from '@components/AccordionSection';
 import TextsGrid from '@components/TextContainers/TextsGrid';
 import TextWithList from '@components/TextContainers/TextWithList';
 import TextWithImage from '@components/TextContainers/TextWithImage';
+import ListsContainer from '@components/containers/ListsContainer';
 
 const { dkiceHomePage }: any = dkiceHomePageContent;
 
@@ -28,7 +29,8 @@ const DkicePage = () => {
         dryIceApplication,
         cleanlinssInEveryField,
         hydronomyCleaning,
-        whatIsHydronomyCleaning
+        whatIsHydronomyCleaning,
+        whaterJetCleaning
       }: any, key: number) => (
         <React.Fragment key={key}>
           <BgImageHero 
@@ -73,6 +75,10 @@ const DkicePage = () => {
               texts={whatIsHydronomyCleaning.texts}
               imageUrl={whatIsHydronomyCleaning.imageUrl}
               reverseElements={whatIsHydronomyCleaning.reverseElements}
+            />
+            <ListsContainer 
+              title={whaterJetCleaning.title}
+              lists={whaterJetCleaning.lists}
             />
           </Container>
         </React.Fragment>
