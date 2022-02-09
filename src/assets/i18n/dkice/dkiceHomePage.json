@@ -898,6 +898,60 @@
                         "text": "Zur Erzeugung des erforderlichen Wasserdrucks werden spezielle Pumpen (z.B. Plungerpumpen) eingesetzt, die je nach Bedarf in den unterschiedlichsten Ausführungen erhältlich sind, wobei mit modernen Geräten dieser Art Wasserdrücke von über 3000bar erreicht werden können."
                     }
                 ] 
+            },
+            "whaterJetCleaning": {
+                "title": "Anwendungen und Vorteile der Hochdruckwasserstrahlreinigung",
+                "lists": [
+                    {
+                        "listDescription": "Die Technik der Oberflächenreinigung mit Hilfe von Druckwasserstrahlen ermöglicht es, eine Vielzahl von Ablagerungen (auch sehr hartnäckige) zu entfernen. Aus diesem Grund werden hydrodynamische Reinigungsdienste in vielen Industriezweigen eingesetzt, und das grundlegende Tätigkeitsspektrum umfasst: ",
+                        "listContent": [
+                            {
+                                "listElement": "Reinigung von Prozessrohrleitungen und Industrieanlagen"
+                            },
+                            {
+                                "listElement": "Reinigung und Wäsche von Tanks, Silos, Kesseln"
+                            },
+                            {
+                                "listElement": "Reinigung von Betonflächen (Böden, Straßen, Plätze, Flughäfen)"
+                            },
+                            {
+                                "listElement": "Entfernung von Verunreinigungen (Beton, Anstriche) von Gerüsten oder Metallkonstruktionen"
+                            },
+                            {
+                                "listElement": "Korrosionsschutzarbeiten in explosionsgefährdeten Bereichen"
+                            },
+                            {
+                                "listElement": "Reinigung von Kammern, Vertiefungen, Bioreaktoren, usw."
+                            }
+                        ]
+                    },
+                    {
+                        "listDescription": "Die Einwirkung eines Wasserstrahls unter hohem Druck auf eine ausgewählte Oberfläche ist eine äußerst beliebte Technologie, die eine Reihe von Vorteilen mit sich bringt, von denen wir einige nennen können: ",
+                        "listContent": [
+                            {
+                                "listElement": "hohe Genauigkeit und präzise und selektive Entfernung von Schmutzschichten"
+                            },
+                            {
+                                "listElement": "die hydrodynamische Reinigung beschädigt die gereinigte Oberfläche nicht"
+                            },
+                            {
+                                "listElement": "diese Methode ermöglicht es, alle schwer zugänglichen Bereiche zu erreichen"
+                            },
+                            {
+                                "listElement": "Entsperrt auch komplett verstopfte Rohre (z.B. Abwasserrohre) ohne Bohren"
+                            },
+                            {
+                                "listElement": "die hydrodynamische Methode reduziert die Menge der in die Umwelt freigesetzten Chemikalien"
+                            },
+                            {
+                                "listElement": "Diese Methode kann in explosionsgefährdeten Bereichen eingesetzt werden"
+                            }
+                        ]
+                    },
+                    {
+                        "listDescription": "Die hydrodynamische Reinigung mit der hohen dynamischen Energie von Wasserstrahlen ist eine äußerst vielseitige, moderne, effiziente und umweltfreundliche Methode zur Reinigung von Oberflächen unterschiedlicher Art."
+                    }
+                ]
             }
         }
     ]
