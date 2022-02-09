@@ -405,6 +405,22 @@
                         "listElement": "Precyzyjne i selektywne usunięcie warstw powłoki malarskiej"
                     }
                 ]
+            },
+            "whatIsHydronomyCleaning": {
+                "title": "Czym jest czyszczenie hydrodynamiczne?",
+                "imageUrl": "/magmetBG.jpg",
+                "reverseElements": false,
+                "texts": [
+                    {
+                        "text": "To w jaki sposób strumień wody działać będzie na określoną powierzchnię zależy od sporej ilości czynników. Nie da się jednak ukryć, że podstawowym warunkiem jest tu ciśnienie z jakim woda uderza o wybrany materiał. Zjawisko to daje ogrom możliwości, przy czym jedną z usług realizowanych przy użyciu strumienia wody pod wysokim ciśnieniem jest czyszczenie hydrodynamiczne, które w swojej ofercie mają firmy takie jak Spółdzielnia pracy konserwacji urządzeń przemysłowych."
+                    },
+                    {
+                        "text": "Metoda ta polega na natrysku na oczyszczaną powierzchnię dużej ilości wody (ciepłej lub zimnej) pod wysokim ciśnieniem (nawet 300 MPa). W tym przypadku ogromną rolę odgrywa tu również średnica strumienia wody, która uzależniona jest od odpowiednio dobranych dysz (niekiedy także obrotowych), co sprawia dodatkowo, że strumień posiada dość dużą energię kinetyczną, powodując odspojenie od oczyszczanej powierzchni wszelkich zanieczyszczeń z nią związanych i wyniesienie ich na zewnątrz."
+                    },
+                    {
+                        "text": "Do wytworzenia niezbędnego ciśnienia wody wykorzystywane są specjalne pompy (np. nurnikowe), które w zależności od potrzeb dostępne są w zróżnicowanym zakresie konfiguracji, przy czym stosowane współcześnie urządzenia tego typu pozwalają uzyskać ciśnienie wody powyżej 3000bar."
+                    }
+                ] 
             }
         },
         {
@@ -812,6 +828,22 @@
                         "listElement": "Präzises und selektives Abtragen von Farbschichten"
                     }
                 ]
+            },
+            "whatIsHydronomyCleaning": {
+                "title": "Was ist hydrodynamische Reinigung?",
+                "imageUrl": "/magmetBG.jpg",
+                "reverseElements": false,
+                "texts": [
+                    {
+                        "text": "Die Art und Weise, wie ein Wasserstrahl auf eine bestimmte Oberfläche wirkt, hängt von mehreren Faktoren ab. Es lässt sich jedoch nicht leugnen, dass die Grundvoraussetzung der Druck ist, mit dem das Wasser auf das gewählte Material trifft. Dieses Phänomen bietet viele Möglichkeiten, und eine der Dienstleistungen, die mit einem Hochdruckwasserstrahl durchgeführt werden, ist die hydrodynamische Reinigung, die von Unternehmen wie der Genossenschaft für die Wartung von Industrieanlagen angeboten wird."
+                    },
+                    {
+                        "text": "Bei dieser Methode wird eine große Menge Wasser (heiß oder kalt) unter hohem Druck (sogar 300 MPa) auf die zu reinigende Oberfläche gesprüht. In diesem Fall spielt auch der Durchmesser des Wasserstrahls eine wichtige Rolle, der von entsprechend gewählten (manchmal auch rotierenden) Düsen abhängt, was zusätzlich dazu führt, dass der Strahl eine recht hohe kinetische Energie hat, wodurch der gesamte mit der gereinigten Oberfläche verbundene Schmutz gelöst und nach außen getragen wird."
+                    },
+                    {
+                        "text": "Zur Erzeugung des erforderlichen Wasserdrucks werden spezielle Pumpen (z.B. Plungerpumpen) eingesetzt, die je nach Bedarf in den unterschiedlichsten Ausführungen erhältlich sind, wobei mit modernen Geräten dieser Art Wasserdrücke von über 3000bar erreicht werden können."
+                    }
+                ] 
             }
         }
     ]
