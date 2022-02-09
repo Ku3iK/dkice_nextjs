@@ -421,6 +421,60 @@
                         "text": "Do wytworzenia niezbędnego ciśnienia wody wykorzystywane są specjalne pompy (np. nurnikowe), które w zależności od potrzeb dostępne są w zróżnicowanym zakresie konfiguracji, przy czym stosowane współcześnie urządzenia tego typu pozwalają uzyskać ciśnienie wody powyżej 3000bar."
                     }
                 ] 
+            },
+            "whaterJetCleaning": {
+                "title": "Zastosowanie i zalety czyszczenia strumieniem wody pod wysokim ciśnieniem",
+                "lists": [
+                    {
+                        "listDescription": "Technika czyszczenia powierzchni, wykorzystująca strumień wody pod ciśnieniem, pozwala na usunięcie zróżnicowanych osadów (nawet tych niezwykle uporczywych). Dlatego też usługi hydrodynamicznego czyszczenia wykorzystywane są w wielu branżach, zaś podstawowy zakres działań obejmuje: ",
+                        "listContent": [
+                            {
+                                "listElement": "czyszczenie rurociągów technologicznych i instalacji przemysłowych"
+                            },
+                            {
+                                "listElement": "czyszczenie i mycie zbiorników, silosów, kotłów"
+                            },
+                            {
+                                "listElement": "czyszczenie powierzchni betonowych (posadzki, drogi, place, lotniska)"
+                            },
+                            {
+                                "listElement": "usuwaniu zanieczyszczeń (betonu, powłok malarskich) z rusztowań lub konstrukcji metalowych"
+                            },
+                            {
+                                "listElement": "prace antykorozyjne w strefach zagrożenia wybuchem"
+                            },
+                            {
+                                "listElement": "czyszczenie komór, studni, bioreaktorów, itp."
+                            }
+                        ]
+                    },
+                    {
+                        "listDescription": "Działanie na wybraną powierzchnię strumieniem wody pod wysokim ciśnieniem to technologia, która cieszy się niezwykłą popularnością, co wynika z faktu, że niesie ona ze sobą szereg zalet, z których wymienić należy: ",
+                        "listContent": [
+                            {
+                                "listElement": "wysoka dokładność oraz precyzyjne i selektywne usunięcie warstw zanieczyszczeń"
+                            },
+                            {
+                                "listElement": "mycie hydrodynamiczne nie niszczy czyszczonej powierzchni"
+                            },
+                            {
+                                "listElement": "metoda ta pozwala dotrzeć do wszystkich trudno dostępnych przestrzeni"
+                            },
+                            {
+                                "listElement": "umożliwia odblokowanie nawet całkowicie zatkanych rur (np. kanalizacyjnych) bez przewiercania"
+                            },
+                            {
+                                "listElement": "metoda hydrodynamiczna pozwala ograniczyć ilość chemii przedostającej się do otoczenia"
+                            },
+                            {
+                                "listElement": "metodę tę można stosować w strefach zagrożenia wybuchem."
+                            }
+                        ]
+                    },
+                    {
+                        "listDescription": "Usługi hydrodynamicznego czyszczenia, wykorzystujące wysoką energię dynamiczną strug wody, stanowią niezwykle uniwersalną, nowoczesną, wydajną i przyjazną środowisku, metodę czyszczenia powierzchni o zróżnicowanym charakterze."
+                    }
+                ]
             }
         },
         {
