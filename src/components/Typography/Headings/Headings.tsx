@@ -2,13 +2,12 @@ import classNames from 'clsx';
 import { HeadingElementProps, HeadingsInterface } from './HeadingsInterface';
 
 const headingsClassNames = {
-    1: 'text-32 leading-40 sm:text-48 sm:leading-56 lg:text-64 lg:leading-72',
-    2: 'text-48 leading-56 font-bold',
+    1: 'text-48 leading-56 lg:text-64 lg:leading-72',
+    2: 'text-28 leading-32 sm:text-32 sm:leading-40 md:text-48 md:leading-56 font-bold',
     3: 'text-32 leading-40',
     4: 'text-30 leading-40 font-extrabold',
     5: 'text-24 leading-32',
     6: 'text-20 leading-24',
-    7: 'text-16 leading-24',
     subtitle: 'text-10 leading-24 text-n4 font-black tracking-2 uppercase',
 };
 
@@ -25,7 +24,7 @@ const Headings = (props: HeadingsInterface & HeadingElementProps) => {
         //@ts-ignore
         <Tag
             {...props}
-            className={classNames(
+            className={classNames(`break-words hyphnes`,
                 [classHeading],
                 {
                     [headingsClassNames[
