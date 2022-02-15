@@ -87,6 +87,39 @@
                         "text": "In unserem Angebot finden Sie Treppengeländer, Balkongeländer, Terrassengeländer, Tore und Pforten. Selbstverständlich bieten wir Ihnen eine professionelle Installation an."
                     }
                 ]
+            },
+            "whatYouWin": {
+                "title": "Was gewinnt man mit Regulazaun-Geländern?",
+                "description": "Sind Sie auf der Suche nach einem besonders eleganten und praktischen Wohndesign? Möchten Sie, dass Haus und Garten gut zusammenpassen? Reuglazaun ist ein Hersteller von Schmiedegeländern. Wir stellen unsere Produkte nur aus Materialien höchster Qualität her. Sie werden viele Jahre lang wie neu aussehen",
+                "listContent": [
+                    {
+                        "listElement": "Hochwertige Materialien"
+                    },
+                    {
+                        "listElement": "Sicherheit"
+                    },
+                    {
+                        "listElement": "Patterns ohne Ende"
+                    },
+                    {
+                        "listElement": "Verlässlichkeit"
+                    },
+                    {
+                        "listElement": "Lebenslang"
+                    },
+                    {
+                        "listElement": "Wetterfester Schütz"
+                    },
+                    {
+                        "listElement": "Einzelne Projekte"
+                    },
+                    {
+                        "listElement": "Schnelle und professionelle Installation"
+                    },
+                    {
+                        "listElement": "Garantie für eine hervorragende Produktion"
+                    }
+                ]
             }
         }
     ]
