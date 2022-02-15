@@ -8,6 +8,57 @@
             "buttonData": {
                 "href": "",
                 "buttonContent": "Czytaj więcej"
+            },
+            "aboutUs": {
+                "isTitleInOtherColumn": true,
+                "sectionTitle": "Kim jesteśmy oraz czym się zajmujemy?",
+                "texts": [
+                    {
+                        "text": "Nasze balustrady wykonujemy tylko z bardzo wytrzymałymi prętami o kroju kwadratowym lub okrągłym, w konstrukcji pionowej lub poziomej. Nasi klienci mogą sami decydować o maneżu dekoracji. Możliwości motywów dekoracyjnych jest wiele, dlatego jesteśmy pewni, że każdy klient znajdzie to, co najbardziej mu się spodobało."
+                    },
+                    {
+                        "text": "Bez problemu wykonujemy teren wokół ganku, tarasu lub balkonu. Realizujemy najbardziej wymagające projekty naszych klientów, dlatego wiele naszych balustrad jest wyjątkowych. Dzięki indywidualnemu traktowaniu każdego projektu nasze ręcznie robione balustrady mają najwyższą jakość i wyróżniają się na tle konkurencji."
+                    },
+                    {
+                        "text": "Wszystkie nasze części pokryte są warstwą antykorozyjną. Są również bardzo dobrze chronione przed wszelkimi warunkami atmosferycznymi. Balustrady możemy pomalować dowolnym kolorem z palety RAL."
+                    },
+                    {
+                        "text": "W naszej ofercie znajdą Państwo balustrady schodowe, balustrady balkonowe, balustrady tarasowe, bramy i bramy. Oczywiście oferujemy Państwu profesjonalny montaż."
+                    }
+                ]
+            },
+            "whatYouWin": {
+                "title": "Co wygrywasz z balustradami Regulazaun?",
+                "description": "Szukasz szczególnie eleganckiego i praktycznego wykonania projektu domu? Chcesz, aby Twój dom i ogród ładnie do siebie pasowały? Reuglazaun jest producentem balustrad kuźniczych. Nasze produkty wykonujemy wyłącznie z najwyższej jakości materiałów. Będą wyglądać jak nowe przez wiele lat",
+                "listContent": [
+                    {
+                        "listElement": "Najwyższej jakości materiały"
+                    },
+                    {
+                        "listElement": "Bezpieczeństwo"
+                    },
+                    {
+                        "listElement": "Wzory bez końca"
+                    },
+                    {
+                        "listElement": "Niezawodność"
+                    },
+                    {
+                        "listElement": "Czas życia"
+                    },
+                    {
+                        "listElement": "Odporny na warunki atmosferyczne Schütz"
+                    },
+                    {
+                        "listElement": "Indywidualne projekty"
+                    },
+                    {
+                        "listElement": "Szybki i profesjonalny montaż"
+                    },
+                    {
+                        "listElement": "Gwarancja doskonałej produkcji"
+                    }
+                ]
             }
         },
         {
@@ -18,6 +69,24 @@
             "buttonData": {
                 "href": "",
                 "buttonContent": "Czytaj więcej"
+            },
+            "aboutUs": {
+                "isTitleInOtherColumn": true,
+                "sectionTitle": "Wer sind wir und was machen wir?",
+                "texts": [
+                    {
+                        "text": "Unsere Balustraden werden nur mit sehr starken Vierkant- oder Rundstäben in vertikaler oder horizontaler Ausführung hergestellt. Unsere Kunden können selbst über die Art der Dekoration entscheiden. Die Möglichkeiten an dekorativen Motiven sind vielfältig, so dass wir sicher sind, dass jeder Kunde das finden wird, was ihm am besten gefällt."
+                    },
+                    {
+                        "text": "Wir gestalten den Bereich rund um Ihre Veranda, Terrasse oder Ihren Balkon ohne Probleme. Wir führen die anspruchsvollsten Projekte unserer Kunden aus, weshalb viele unserer Geländer einzigartig sind. Da wir jedes Projekt individuell behandeln, sind unsere handgefertigten Balustraden von höchster Qualität und heben sich von der Konkurrenz ab."
+                    },
+                    {
+                        "text": "Alle unsere Teile sind mit einer Anti-Korrosionsschicht versehen. Außerdem sind sie sehr gut gegen alle Wetterbedingungen geschützt. Die Balustraden können in jeder Farbe der RAL-Palette gestrichen werden."
+                    },
+                    {
+                        "text": "In unserem Angebot finden Sie Treppengeländer, Balkongeländer, Terrassengeländer, Tore und Pforten. Selbstverständlich bieten wir Ihnen eine professionelle Installation an."
+                    }
+                ]
             }
         }
     ]
