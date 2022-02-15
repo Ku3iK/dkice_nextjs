@@ -3,6 +3,8 @@ import { useRouter } from 'next/router';
 import Container from '@components/containers/Container/Container';
 import React from 'react';
 import BgImageHero from '@components/BgImageHero';
+import TitleWithText from '@components/TextContainers/TitleWithText';
+import TextWithList from '@components/TextContainers/TextWithList';
 
 const { magmetHomePage }: any = magmetHomePageContent;
 
@@ -11,7 +13,14 @@ const MagmetPage = () => {
 
   return (
     <div className='pt-80'>
-      {magmetHomePage && magmetHomePage?.filter(({ language }: any) => language === locale ).map(({ heroTitle, heroDescription, heroImageUrl, buttonData }: any, key: number) => (
+      {magmetHomePage && magmetHomePage?.filter(({ language }: any) => language === locale ).map(({ 
+        heroTitle, 
+        heroDescription, 
+        heroImageUrl, 
+        buttonData,
+        aboutUs,
+        whatYouWin,
+      }: any, key: number) => (
         <React.Fragment key={key}>
             <BgImageHero 
               title={heroTitle}
@@ -19,6 +28,20 @@ const MagmetPage = () => {
               imageUrl={heroImageUrl}
               buttonData={buttonData}
             />
+            <Container {...{insideSection: true}}>
+              {console.log(aboutUs)}
+              <TitleWithText 
+                isTitleInOtherColumn={aboutUs.isTitleInOtherColumn}
+                title={aboutUs.sectionTitle}
+                texts={aboutUs.texts}
+                classNames={'firstSection'}
+              />
+              <TextWithList 
+                title={whatYouWin.title}
+                description={whatYouWin.description}
+                listContent={whatYouWin.listContent}
+              />
+            </Container>
         </React.Fragment>
       ))}
     </div>
