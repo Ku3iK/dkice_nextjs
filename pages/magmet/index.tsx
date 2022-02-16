@@ -29,7 +29,6 @@ const MagmetPage = () => {
               buttonData={buttonData}
             />
             <Container {...{insideSection: true}}>
-              {console.log(aboutUs)}
               <TitleWithText 
                 isTitleInOtherColumn={aboutUs.isTitleInOtherColumn}
                 title={aboutUs.sectionTitle}
