@@ -105,6 +105,7 @@ module.exports = {
     extend: {
       colors: {
         textLight: '#eeeeee',
+        secondary: '#31302d',
       },
       borderRadius: {
         4: '.4rem',
