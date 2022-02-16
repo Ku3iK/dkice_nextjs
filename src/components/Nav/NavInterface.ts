@@ -1,7 +1,8 @@
+export interface RoutesProps {
+    path: string;
+    name: string;
+}
 export interface NavInterface {
     domain?: string;
-    routes?: Array<{
-        path: string;
-        name: string;
-    }>;
+    routes?: RoutesProps[];
 };
