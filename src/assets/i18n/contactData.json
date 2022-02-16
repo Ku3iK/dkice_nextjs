@@ -1,0 +1,42 @@
+{
+    "contact": {
+        "dkiceMails": [
+            {
+                "mail": "dkice.serwis@gmail.com"
+            }
+        ],
+        "magmetMails": [
+            {
+                "mail": "mark.zaune1@gmail.com"
+            },
+            {
+                "mail": "Dkice.serwis@gmail.com"
+            }
+        ],
+        "companyAddress": {
+            "name": "Damian Kuśnierczak",
+            "street": "ul.Kopernika 8",
+            "address": "66-470 Kostrzyn nad Odrą"
+        },
+        "dkicePhoneNumbers": [
+            {
+                "name": "Damian",
+                "phone": "+48 695 436 862"
+            },
+            {
+                "name": "Kuba",
+                "phone": "+48 690 858 793"
+            }
+        ],
+        "magmetPhoneNumbers": [
+            {
+                "name": "Mark",
+                "phone": "+49 162 8449736"
+            },
+            {
+                "name": "Łukasz",
+                "phone": "+48 667 398 725"
+            }
+        ]
+    }
+}
