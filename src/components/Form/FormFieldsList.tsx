@@ -5,8 +5,9 @@ const FormFieldsList = ({ formContent }: any) => (
     <>
         {formContent && !!formContent && (
             formContent.map((props: any, key: number) => (
-                <Input 
-                    {...{key: key, ...props}}
+                <Input
+                    key={key}
+                    {...props} 
                 />
             ))
         )}

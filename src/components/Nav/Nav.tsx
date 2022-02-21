@@ -15,7 +15,7 @@ const Nav =  ({
 
     return (
         <NavWrapper {...{isNavVisible: isNavVisible}}>
-            <Container className={"nav"}>
+            <Container className={'nav'}>
                 <Link href='/'>DKice</Link>
                 <ul className={'hidden md:flex'}>
                     {routes && !!routes && (routes.map(( {path, name }, pathKey ) => (

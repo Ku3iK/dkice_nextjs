@@ -16,12 +16,13 @@ const Button = ({
         }
     );
 
+    const conditionalAttributes = (as && as === 'a' && scrollTo) ? { href: scrollTo, as: as  } : {};
+
     return (
         <ButtonWrapper 
-            href={as === 'a' && scrollTo && scrollTo}
+            {...conditionalAttributes}
             type={type && type}
             className={classess}
-            as={as && scrollTo && as}
         >
             {children}
         </ButtonWrapper>
