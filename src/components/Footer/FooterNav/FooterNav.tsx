@@ -13,7 +13,7 @@ const FooterNav = ({
                 <Headings level={4}>{navigationTitle}</Headings>
             )}
             <ul className={'pt-16'}>
-                {paths.map(( {path, name }, pathKey ) => (
+                {paths && !!paths && (paths.map(( {path, name }, pathKey ) => (
                     <li 
                         key={pathKey} 
                         className={'py-6 text-textLight'} 
@@ -24,7 +24,7 @@ const FooterNav = ({
                                 {name}
                         </Link>
                     </li>
-                ))}
+                )))}
             </ul>
         </div>
     );

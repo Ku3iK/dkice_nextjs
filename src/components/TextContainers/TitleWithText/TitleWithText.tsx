@@ -20,9 +20,9 @@ const TitleWithText: React.FunctionComponent<TitleWithTextInterface> = ({
                 )}
                 <div>
                     { !isTitleInOtherColumn && <Headings level={2}>{title}</Headings> }
-                    {texts?.map(({ text }, textKey: number) => (
+                    {texts && !!texts && (texts.map(({ text }, textKey: number) => (
                         <Paragraphs key={textKey} className='pb-16'>{text}</Paragraphs>
-                    ))}
+                    )))}
                 </div>
             </Container>
         </section>
