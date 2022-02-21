@@ -18,8 +18,8 @@ export const TextsGrid: React.FunctionComponent<TextGridInterface> = ({
                 )}
                 <div className={'grid md:grid-cols-2 gap-24 pt-48'}>
                     {texts && !!texts && (texts.map(({ text }, textKey: number) => (
-                        <div>
-                            <Paragraphs key={textKey} className='pb-16'>{text}</Paragraphs>
+                        <div key={textKey}>
+                            <Paragraphs className='pb-16'>{text}</Paragraphs>
                         </div>
                     )))}
                 </div>
