@@ -67,27 +67,18 @@
                 "href": "",
                 "buttonContent": "Czytaj więcej"
             },
-            "aboutUs": {
-                "isTitleInOtherColumn": true,
-                "sectionTitle": "Wer sind wir und was machen wir?",
+            "aboutStairs": {
+                "isTitleInOtherColumn": false,
+                "sectionTitle": "Die Treppe",
                 "texts": [
                     {
-                        "text": "Unsere Balustraden werden nur mit sehr starken Vierkant- oder Rundstäben in vertikaler oder horizontaler Ausführung hergestellt. Unsere Kunden können selbst über die Art der Dekoration entscheiden. Die Möglichkeiten an dekorativen Motiven sind vielfältig, so dass wir sicher sind, dass jeder Kunde das finden wird, was ihm am besten gefällt."
-                    },
-                    {
-                        "text": "Wir gestalten den Bereich rund um Ihre Veranda, Terrasse oder Ihren Balkon ohne Probleme. Wir führen die anspruchsvollsten Projekte unserer Kunden aus, weshalb viele unserer Geländer einzigartig sind. Da wir jedes Projekt individuell behandeln, sind unsere handgefertigten Balustraden von höchster Qualität und heben sich von der Konkurrenz ab."
-                    },
-                    {
-                        "text": "Alle unsere Teile sind mit einer Anti-Korrosionsschicht versehen. Außerdem sind sie sehr gut gegen alle Wetterbedingungen geschützt. Die Balustraden können in jeder Farbe der RAL-Palette gestrichen werden."
-                    },
-                    {
-                        "text": "In unserem Angebot finden Sie Treppengeländer, Balkongeländer, Terrassengeländer, Tore und Pforten. Selbstverständlich bieten wir Ihnen eine professionelle Installation an."
+                        "text": "Wir fertigen verschiedene Arten von Treppen - Metall, Stahl, verzinkt. In unserem Angebot finden Sie Innen- und Außentreppen. Passen Sie sie an Ihre Bedürfnisse an."
                     }
                 ]
             },
             "whatYouWin": {
-                "title": "Was gewinnt man mit Regulazaun-Geländern?",
-                "description": "Sind Sie auf der Suche nach einem besonders eleganten und praktischen Wohndesign? Möchten Sie, dass Haus und Garten gut zusammenpassen? Reuglazaun ist ein Hersteller von Schmiedegeländern. Wir stellen unsere Produkte nur aus Materialien höchster Qualität her. Sie werden viele Jahre lang wie neu aussehen",
+                "title": "Balustraden und Geländer.",
+                "description": "Wir fertigen sowohl Außen- als auch Innengeländer (Treppen, Balkone, Fenstertüren). Sie können das Muster und die Farbe sowie die Füllung (Holz, geschmiedet, Plexiglas) selbst wählen.",
                 "listContent": [
                     {
                         "listElement": "Hochwertige Materialien"
@@ -115,6 +106,15 @@
                     },
                     {
                         "listElement": "Garantie für eine hervorragende Produktion"
+                    }
+                ]
+            },
+            "aboutTerraces": {
+                "sectionTitle": "Terrassen und Vordächer.",
+                "isTitleInOtherColumn": false,
+                "texts": [
+                    {
+                        "text": "Unser Angebot umfasst auch moderne Terrassenlösungen und Carports. Die Terrassen bestehen aus Stahlkonstruktionen, die je nach Wunsch des Kunden mit Brettern, Blech oder Polycarbonat verkleidet werden."
                     }
                 ]
             }
