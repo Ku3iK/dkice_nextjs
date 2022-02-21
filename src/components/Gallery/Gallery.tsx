@@ -53,7 +53,7 @@ const Gallery = ({ galleryData }: any) => {
                             {galleryData && !!galleryData && (
                                 galleryData.map(({ image, imageTitle, imageDescription, imageTitleDe, imageDescriptionDe }: GalleryInterface, tileKey: number) => (
                                     <SingleImage
-                                        {...{ key: tileKey }}
+                                        key={tileKey}
                                         image={image}
                                         imageTitle={locale === "pl-PL" ? imageTitle : imageTitleDe}
                                         imageDescription={locale === "pl-PL" ? imageDescription : imageDescriptionDe}

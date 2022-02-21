@@ -18,7 +18,7 @@ export default function Home() {
           bgImage
         }: IndustriesBoxesDataInterface, key: number) => (
           <IndustrieBox
-            {...{key: key}}
+            key={key}
             path={slug}
             title={title}
             content={description} 

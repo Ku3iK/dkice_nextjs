@@ -23,7 +23,7 @@ const Form = ({
             >   <input type="hidden" name="form-name" value={formName && formName} /> 
                 {formContent && !!formContent && (formContent.filter(({ language }: any) => language === locale ).map((({ fields }: any, key: number) => (
                     <FormFieldsList 
-                        {...{ key: key }}
+                        key={key}
                         formContent={fields} 
                     />
                 )))
