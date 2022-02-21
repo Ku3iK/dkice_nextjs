@@ -22,7 +22,7 @@ const GalleryImagesList = ({
                         imageDescriptionDe 
                     }: ImageListInterface, key: number) => (
                         <SingleImage
-                            {...{ key: id }}
+                            key={id}
                             image={image}
                             imageTitle={locale === "pl-PL" ? imageTitle : imageTitleDe}
                             imageDescription={locale === "pl-PL" ? imageDescription : imageDescriptionDe}
