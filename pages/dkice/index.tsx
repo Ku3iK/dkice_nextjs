@@ -18,7 +18,7 @@ const DkicePage = () => {
 
   return (
     <div className='pt-80'>
-      {dkiceHomePage && dkiceHomePage?.filter(({ language }: any) => language === locale ).map(({ 
+      {dkiceHomePage && !!dkiceHomePage && (dkiceHomePage?.filter(({ language }: any) => language === locale ).map(({ 
         heroTitle, 
         heroDescription, 
         heroImageUrl, 
@@ -82,7 +82,7 @@ const DkicePage = () => {
             />
           </Container>
         </React.Fragment>
-      ))}
+      )))}
     </div>
   )
 }

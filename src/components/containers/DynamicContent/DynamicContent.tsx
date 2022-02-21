@@ -20,7 +20,7 @@ const DynamicContent = ({
                 <div className={'flex overflow-x-scroll sm:overflow-visible sm:grid sm:grid-cols-1 lg:grid-cols-2 gap-32 py-32 md:py-0'}>
                 {tilesContainer && (
                     <>
-                        {tilesContainer.tiles?.map(({ iconUrl, tileTitle, listElements }, contentKey: number) => (
+                        {tilesContainer.tiles && !!tilesContainer.tiles && (tilesContainer.tiles.map(({ iconUrl, tileTitle, listElements }, contentKey: number) => (
                             <div
                                 key={contentKey}
                                 onClick={() => setActiveTile(contentKey)}
@@ -31,7 +31,7 @@ const DynamicContent = ({
                                     listElements={listElements}
                                 />
                             </div>
-                        ))}
+                        )))}
                     </>
 
                 )}

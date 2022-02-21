@@ -18,7 +18,7 @@ const AccordionComponent: React.FunctionComponent<AccordionComponentInterface> =
     return (
         <AccordionComponentStyled>
             <Accordion allowZeroExpanded={true}>
-                {tabs?.map(({ tabTitle, tabParagraphs }, tabKey: number) => (
+                {tabs && !!tabs && (tabs.map(({ tabTitle, tabParagraphs }, tabKey: number) => (
                     <AccordionItem key={tabKey} className={'my-12 border-2 rounded-8'}>
                         <AccordionItemHeading className={'p-24'}>
                             <AccordionItemButton className={'flex justify-between'}>
@@ -38,12 +38,12 @@ const AccordionComponent: React.FunctionComponent<AccordionComponentInterface> =
                             </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel className={'px-24 pb-24'}>
-                            {tabParagraphs?.map(({ tabParagraph }, tabParagraphsKey: number) => (
+                            {tabParagraphs && !!tabParagraphs && (tabParagraphs.map(({ tabParagraph }, tabParagraphsKey: number) => (
                                 <Paragraphs key={tabParagraphsKey}>{tabParagraph}</Paragraphs>
-                            ))}
+                            )))}
                         </AccordionItemPanel>
                     </AccordionItem>
-                ))}
+                )))}
             </Accordion>
         </AccordionComponentStyled>
     );

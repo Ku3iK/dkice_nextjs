@@ -9,7 +9,7 @@ const TitleWithDescription = ({ content }: any) => {
 
     return (
         <Container>
-            {content?.filter(({ language }: any) => language === locale )?.map(({ pageTitle, pageDescription, infoTiles }: any, key: number) => (
+            {content && !!content && (content.filter(({ language }: any) => language === locale ).map(({ pageTitle, pageDescription, infoTiles }: any, key: number) => (
                 <TitleWithDescriptionWrapper 
                     key={key}
                     className={'mb-48 text-center md:mt-0 md:mx-auto md:mb-64'}
@@ -18,18 +18,18 @@ const TitleWithDescription = ({ content }: any) => {
                     {pageDescription && <p className={'pb-48'}>{pageDescription}</p>}
                     {infoTiles && !!infoTiles && (
                         <div className={'flex justify-between flex-wrap gap-32 text-left'}>
-                            { infoTiles.map(({ title, values, isLink }: InfoTileInterface, tileKey: number) => (
+                            {infoTiles && !!infoTiles && (infoTiles.map(({ title, values, isLink }: InfoTileInterface, tileKey: number) => (
                                 <InfoTile 
                                     key={tileKey}
                                     title={title}
                                     values={values}
                                     isLink={isLink}
                                 />
-                            ))}
+                            )))}
                         </div>
                     )}
                 </TitleWithDescriptionWrapper>
-            ))}
+            )))}
         </Container>
     );
 };

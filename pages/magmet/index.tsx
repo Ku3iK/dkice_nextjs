@@ -13,7 +13,7 @@ const MagmetPage = () => {
 
   return (
     <div className='pt-80'>
-      {magmetHomePage && magmetHomePage?.filter(({ language }: any) => language === locale ).map(({ 
+      {magmetHomePage && !!magmetHomePage && (magmetHomePage?.filter(({ language }: any) => language === locale ).map(({ 
         heroTitle, 
         heroDescription, 
         heroImageUrl, 
@@ -42,7 +42,7 @@ const MagmetPage = () => {
               />
             </Container>
         </React.Fragment>
-      ))}
+      )))}
     </div>
   )
 }
