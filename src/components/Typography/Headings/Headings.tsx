@@ -1,5 +1,5 @@
 import classNames from 'clsx';
-import { HeadingsInterface } from './HeadingsInterface';
+import { HeadingsInterface, HeadingElementProps } from './HeadingsInterface';
 
 const headingsClassNames = {
     1: 'text-48 leading-56 lg:text-64 lg:leading-72',
@@ -11,7 +11,7 @@ const headingsClassNames = {
     subtitle: 'text-10 leading-24 text-n4 font-black tracking-2 uppercase',
 };
 
-const Headings: React.FunctionComponent<HeadingsInterface> = (props) => {
+const Headings: React.FunctionComponent<HeadingsInterface & HeadingElementProps> = (props) => {
     const { level, classHeading, boldText, children } = props;
 
     let Tag;
@@ -26,6 +26,7 @@ const Headings: React.FunctionComponent<HeadingsInterface> = (props) => {
             {...props}
             className={classNames(`break-words hyphnes`,
                 [classHeading],
+                [props.className],
                 {
                     [headingsClassNames[
                         (classHeading === undefined ? level : classHeading) || 2
