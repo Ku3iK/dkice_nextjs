@@ -50,7 +50,7 @@ const Gallery = ({ galleryData }: any) => {
                             initialSlide={slideIndex}
                             {...imageSliderSettings} 
                         >
-                            {galleryData && galleryData.length > 0 && (
+                            {galleryData && !!galleryData && (
                                 galleryData.map(({ image, imageTitle, imageDescription, imageTitleDe, imageDescriptionDe }: GalleryInterface, tileKey: number) => (
                                     <SingleImage
                                         {...{ key: tileKey }}

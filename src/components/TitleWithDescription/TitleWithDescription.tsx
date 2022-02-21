@@ -16,7 +16,7 @@ const TitleWithDescription = ({ content }: any) => {
                 >
                     {pageTitle && <h1 className={'pb-24 text-32 font-bold'}>{pageTitle}</h1>}
                     {pageDescription && <p className={'pb-48'}>{pageDescription}</p>}
-                    {infoTiles?.length > 0 && (
+                    {infoTiles && !!infoTiles && (
                         <div className={'flex justify-between flex-wrap gap-32 text-left'}>
                             { infoTiles.map(({ title, values, isLink }: InfoTileInterface, tileKey: number) => (
                                 <InfoTile 

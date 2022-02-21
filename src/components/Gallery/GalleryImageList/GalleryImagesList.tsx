@@ -11,7 +11,7 @@ const GalleryImagesList = ({
 
     return (
         <>
-            {imagesList?.length > 0 && (
+            {imagesList && !!imagesList && (
                 imagesList.map((
                     { 
                         id,
