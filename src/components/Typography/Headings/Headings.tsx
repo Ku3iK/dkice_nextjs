@@ -1,5 +1,5 @@
 import classNames from 'clsx';
-import { HeadingElementProps, HeadingsInterface } from './HeadingsInterface';
+import { HeadingsInterface } from './HeadingsInterface';
 
 const headingsClassNames = {
     1: 'text-48 leading-56 lg:text-64 lg:leading-72',
@@ -11,7 +11,7 @@ const headingsClassNames = {
     subtitle: 'text-10 leading-24 text-n4 font-black tracking-2 uppercase',
 };
 
-const Headings = (props: HeadingsInterface & HeadingElementProps) => {
+const Headings: React.FunctionComponent<HeadingsInterface> = (props) => {
     const { level, classHeading, boldText, children } = props;
 
     let Tag;

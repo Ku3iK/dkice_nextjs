@@ -5,5 +5,3 @@ export interface HeadingsInterface {
     classHeading?: 1 | 2 | 3 | 4 | 5 | 6 | 'subtitle';
     boldText?: boolean;
 }
-
-export type HeadingElementProps = HTMLAttributes<HTMLElement>
