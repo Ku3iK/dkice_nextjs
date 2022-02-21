@@ -18,8 +18,9 @@ const MagmetPage = () => {
         heroDescription, 
         heroImageUrl, 
         buttonData,
-        aboutUs,
+        aboutStairs,
         whatYouWin,
+        aboutTerraces,
       }: any, key: number) => (
         <React.Fragment key={key}>
             <BgImageHero 
@@ -30,15 +31,20 @@ const MagmetPage = () => {
             />
             <Container {...{insideSection: true}}>
               <TitleWithText 
-                isTitleInOtherColumn={aboutUs.isTitleInOtherColumn}
-                title={aboutUs.sectionTitle}
-                texts={aboutUs.texts}
+                isTitleInOtherColumn={aboutStairs.isTitleInOtherColumn}
+                title={aboutStairs.sectionTitle}
+                texts={aboutStairs.texts}
                 classNames={'firstSection'}
               />
               <TextWithList 
                 title={whatYouWin.title}
                 description={whatYouWin.description}
                 listContent={whatYouWin.listContent}
+              />
+              <TitleWithText 
+                isTitleInOtherColumn={aboutTerraces.isTitleInOtherColumn}
+                title={aboutTerraces.sectionTitle}
+                texts={aboutTerraces.texts}
               />
             </Container>
         </React.Fragment>

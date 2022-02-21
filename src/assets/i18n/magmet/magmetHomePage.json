@@ -3,33 +3,24 @@
         {
             "language": "pl-PL",
             "heroTitle": "Dkice schody & balustrady",
-            "heroDescription": "Dynamicznie rozwijające się przedsiębiorstwo zajmujące się produkcją nowoczesnych oraz stylizowanych ogrodzeń, balustrad, bram, schodów kondygnacyjnych oraz wielu innych konstrukcji metalowych.  Prowadzimy działalność od 2010 roku i nieustannie kładziemy nacisk na jakość wykonywanych przez nas usług oraz współpracę z dobrymi i sprawdzonymi dostawcami.  Dzięki szerokiej ofercie produktów i usług dostarczamy kompletne rozwiązania dla domu oraz przemysłu.",
+            "heroDescription": "Nasza praca opiera się na profesjonalizmie oraz zaangażowaniu. Tworzymy schody, barierki , bramy , zadaszenia i inne metalowe konstrukcje. Do każdej realizacji podchodzimy indywidualnie, dzięki czemu możemy wykonać konkretne elementy na wymiar. Przyjmujemy zlecenia od Klientów indywidualnych i firm z branży budowlanej. Każdy element  pokryty jest warstwa antykorozyjna oraz kolorem Ral ustalonym przez klienta.",
             "heroImageUrl": "/magmetBG.jpg",
             "buttonData": {
                 "href": "",
                 "buttonContent": "Czytaj więcej"
             },
-            "aboutUs": {
-                "isTitleInOtherColumn": true,
-                "sectionTitle": "Kim jesteśmy oraz czym się zajmujemy?",
+            "aboutStairs": {
+                "isTitleInOtherColumn": false,
+                "sectionTitle": "Schody",
                 "texts": [
                     {
-                        "text": "Nasze balustrady wykonujemy tylko z bardzo wytrzymałymi prętami o kroju kwadratowym lub okrągłym, w konstrukcji pionowej lub poziomej. Nasi klienci mogą sami decydować o maneżu dekoracji. Możliwości motywów dekoracyjnych jest wiele, dlatego jesteśmy pewni, że każdy klient znajdzie to, co najbardziej mu się spodobało."
-                    },
-                    {
-                        "text": "Bez problemu wykonujemy teren wokół ganku, tarasu lub balkonu. Realizujemy najbardziej wymagające projekty naszych klientów, dlatego wiele naszych balustrad jest wyjątkowych. Dzięki indywidualnemu traktowaniu każdego projektu nasze ręcznie robione balustrady mają najwyższą jakość i wyróżniają się na tle konkurencji."
-                    },
-                    {
-                        "text": "Wszystkie nasze części pokryte są warstwą antykorozyjną. Są również bardzo dobrze chronione przed wszelkimi warunkami atmosferycznymi. Balustrady możemy pomalować dowolnym kolorem z palety RAL."
-                    },
-                    {
-                        "text": "W naszej ofercie znajdą Państwo balustrady schodowe, balustrady balkonowe, balustrady tarasowe, bramy i bramy. Oczywiście oferujemy Państwu profesjonalny montaż."
+                        "text": "Tworzymy różnego rodzaju schody – metalowe, stalowe, ocynkowane. W naszej ofercie znajdziesz schody wewnętrzne i zewnętrzne. Dopasuj je do swoich potrzeb."
                     }
                 ]
             },
             "whatYouWin": {
-                "title": "Co wygrywasz z balustradami Regulazaun?",
-                "description": "Szukasz szczególnie eleganckiego i praktycznego wykonania projektu domu? Chcesz, aby Twój dom i ogród ładnie do siebie pasowały? Reuglazaun jest producentem balustrad kuźniczych. Nasze produkty wykonujemy wyłącznie z najwyższej jakości materiałów. Będą wyglądać jak nowe przez wiele lat",
+                "title": "Balustrady oraz poręcze.",
+                "description": "Balustrady wykonujemy zarówno zewnętrzne jak i wewnętrzne (schodowe, balkonowe, okienne - francuskie). Do Państwa należy wybór wzoru oraz koloru, a także to jakie ma być wypełnienie (drewno, kute, plexi)",
                 "listContent": [
                     {
                         "listElement": "Najwyższej jakości materiały"
@@ -44,9 +35,6 @@
                         "listElement": "Niezawodność"
                     },
                     {
-                        "listElement": "Czas życia"
-                    },
-                    {
                         "listElement": "Odporny na warunki atmosferyczne Schütz"
                     },
                     {
@@ -57,6 +45,15 @@
                     },
                     {
                         "listElement": "Gwarancja doskonałej produkcji"
+                    }
+                ]
+            },
+            "aboutTerraces": {
+                "sectionTitle": "Tarasy oraz zadaszenia.",
+                "isTitleInOtherColumn": false,
+                "texts": [
+                    {
+                        "text": "W naszej ofercie znajdują się również nowoczesne rozwiązania tarasowe oraz carporty. Tarasy wykonane są ze stalowych konstrukcji które pokrywane są deską, blachą lub poliwęglanem w zaleności od upodobań klienta."
                     }
                 ]
             }
