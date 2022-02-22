@@ -21,7 +21,7 @@ const TitleWithText: React.FunctionComponent<TitleWithTextInterface> = ({
                 )}
                 <div>
                     { !isTitleInOtherColumn && <Headings level={2}>{title}</Headings> }
-                    {texts && !!texts && (texts.map(({ text }, textKey: number) => (
+                    {!!texts?.length && (texts.map(({ text }, textKey: number) => (
                         <Paragraphs key={textKey} className={clsx('pb-16', { 'pt-32': !isTitleInOtherColumn })}>{text}</Paragraphs>
                     )))}
                 </div>

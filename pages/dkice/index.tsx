@@ -18,7 +18,7 @@ const DkicePage = () => {
 
   return (
     <div className='pt-80'>
-      {dkiceHomePage && !!dkiceHomePage && (dkiceHomePage?.filter(({ language }: any) => language === locale ).map(({ 
+      {!!dkiceHomePage?.length && (dkiceHomePage?.filter(({ language }: any) => language === locale ).map(({ 
         heroTitle, 
         heroDescription, 
         heroImageUrl, 

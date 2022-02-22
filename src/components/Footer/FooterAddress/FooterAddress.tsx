@@ -4,7 +4,7 @@ import { FooterAddressInterface } from "../FooterInterface";
 const FooterAddress = ({ companyAddress }: FooterAddressInterface ) => {
     return (
         <div>
-            {companyAddress && !!companyAddress && (
+            {!!companyAddress?.length && (
                 <div>
                     {Object.keys(companyAddress).map((value, valueIndex) => (
                         <Paragraphs key={valueIndex}>{companyAddress[value]}</Paragraphs>

@@ -16,10 +16,10 @@ const FooterContact = ({
             {title && (
                 <Paragraphs level={'medium'}>{title}</Paragraphs>
             )}
-            {emails && !!emails && (emails.map(({  mail }, mailIndex: number) => (
+            {!!emails?.length && (emails.map(({  mail }, mailIndex: number) => (
                 <Paragraphs key={mailIndex}>{renderLink(mail, 'mailto')}</Paragraphs>
             )))}
-            {phones && !!phones && (phones.map(({ name, phone }, phoneIndex: number) => (
+            {!!phones?.length && (phones.map(({ name, phone }, phoneIndex: number) => (
                 <Paragraphs key={phoneIndex}>{name}: {renderLink(phone, 'tel')}</Paragraphs>
             )))}
         </FooterContactStyled>
