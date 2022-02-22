@@ -22,7 +22,7 @@ export const TextWithImage: React.FunctionComponent<TextWithImageInterface> = ({
                             <Headings level={2}>{title}</Headings>
                         </div>
                     )}
-                    {texts && !!texts && (texts.map(({ text }, textKey: number) => (
+                    {!!texts?.length && (texts.map(({ text }, textKey: number) => (
                         <Paragraphs 
                             key={textKey} 
                             level={'medium'}

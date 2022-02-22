@@ -3,7 +3,7 @@ import Input from './Input/Input';
 
 const FormFieldsList = ({ formContent }: any) => (
     <>
-        {formContent && !!formContent && (
+        {!!formContent?.length && (
             formContent.map((props: any, key: number) => (
                 <Input
                     key={key}

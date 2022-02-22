@@ -6,7 +6,7 @@ const List: React.FunctionComponent<ListInterface> = ({
 }) => {
     return (
         <ul className={'pt-24'}>
-            {listContent && !!listContent && (listContent?.map(({ listElement }, listElementKey: number) => (
+            {!!listContent?.length && (listContent?.map(({ listElement }, listElementKey: number) => (
                 <DotListElement key={listElementKey} content={listElement}/>
             )))}
         </ul>

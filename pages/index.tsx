@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className='flex flex-col w-full h-screen pt-80'>
-      {industriesBoxes && !!industriesBoxes && (industriesBoxes?.filter(({ language }: IndustriesBoxesDataInterface) => language === locale )
+      {!!industriesBoxes?.length && (industriesBoxes?.filter(({ language }: IndustriesBoxesDataInterface) => language === locale )
         .map(({  
           slug,
           title, 

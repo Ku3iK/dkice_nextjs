@@ -15,7 +15,7 @@ export const ListsContainer:React.FunctionComponent<ListsContainerInterface> = (
                     <Headings level={2}>{title}</Headings>
                 )}
                 <div className={'grid xlg:grid-cols-2 gap-32 xlg:gap-48 pt-32 md:pt-48'}>
-                    {lists && !!lists && (lists.map(({ listDescription, listContent }, listKey:number) => (
+                    {!!lists?.length && (lists.map(({ listDescription, listContent }, listKey:number) => (
                         <div key={listKey}>
                             {listDescription && (
                                 <Paragraphs level={'medium'}>{listDescription}</Paragraphs>

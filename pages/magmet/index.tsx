@@ -13,7 +13,7 @@ const MagmetPage = () => {
 
   return (
     <div className='pt-80'>
-      {magmetHomePage && !!magmetHomePage && (magmetHomePage?.filter(({ language }: any) => language === locale ).map(({ 
+      {!!magmetHomePage?.length && (magmetHomePage?.filter(({ language }: any) => language === locale ).map(({ 
         heroTitle, 
         heroDescription, 
         heroImageUrl, 

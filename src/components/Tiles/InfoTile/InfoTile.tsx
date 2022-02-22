@@ -12,7 +12,7 @@ const InfoTile = ({
             className={'flex flex-col grow p-24'}
         >
             <h4 className={'pb-16 text-24 font-semibold'}>{title}</h4>
-            {values && !!values && values.map(({ value }, key: number) => (
+            {!!values?.length && values.map(({ value }, key: number) => (
                 <p 
                     key={key}
                     className={'pb-8 text-16'}
