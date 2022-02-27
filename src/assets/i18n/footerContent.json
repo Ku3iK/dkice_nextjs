@@ -1,16 +1,16 @@
 {
-    "footerContent": [
-        {
-            "language": "pl-PL",
-            "title": "Dkice & Magmet",
-            "description": "Nasza firma składa się z profesionalnego zespołu ludzi, którzy wykazują się wieloletnim doświadczeniem w zakresie specjalistycznego czyszczenia suchym lodem. Prace świadczone przez Dkice charakteryzują się zachowaniem wysokich norm bezpieczeństwa poprzez odpowiednie wyszkolenie kadry w zakresie BHP, stanowiącej podstawę naszej działalności. Do każdego klienta podchodzimy indywidualnie co przekłada się na efektywność naszej pracy. Naszym celem jest jakość oraz zadowolenie klienta.",
-            "contactSectionTitle": "Dane kontaktowe:"
-        },
-        {
-            "language": "de-DE",
-            "title": "Dkice & Magmet",
-            "description": "Unser Unternehmen besteht aus einem professionellen Team von Mitarbeitern, die über langjährige Erfahrung in der spezialisierten Trockeneisreinigung verfügen. Die von Dkice durchgeführten Arbeiten zeichnen sich durch die Aufrechterhaltung hoher Sicherheitsstandards aus, die durch eine angemessene Ausbildung unserer Mitarbeiter im Bereich der Arbeitssicherheit und des Gesundheitsschutzes gewährleistet werden, der die Grundlage unserer Tätigkeit darstellt. Wir gehen auf jeden Kunden individuell ein, was sich in der Effizienz unserer Arbeit niederschlägt. Unser Ziel ist Qualität und Kundenzufriedenheit.",
-            "contactSectionTitle": "Kontaktdetails:"
-        }
-    ]
+  "footerContent": [
+    {
+      "language": "pl-PL",
+      "title": "Dkice & Schody i balustrady",
+      "description": "Nasza firma składa się z profesionalnego zespołu ludzi, którzy wykazują się wieloletnim doświadczeniem w zakresie specjalistycznego czyszczenia suchym lodem. Prace świadczone przez Dkice charakteryzują się zachowaniem wysokich norm bezpieczeństwa poprzez odpowiednie wyszkolenie kadry w zakresie BHP, stanowiącej podstawę naszej działalności. Do każdego klienta podchodzimy indywidualnie co przekłada się na efektywność naszej pracy. Naszym celem jest jakość oraz zadowolenie klienta.",
+      "contactSectionTitle": "Dane kontaktowe:"
+    },
+    {
+      "language": "de-DE",
+      "title": "Dkice & Schody i balustrady",
+      "description": "Unser Unternehmen besteht aus einem professionellen Team von Mitarbeitern, die über langjährige Erfahrung in der spezialisierten Trockeneisreinigung verfügen. Die von Dkice durchgeführten Arbeiten zeichnen sich durch die Aufrechterhaltung hoher Sicherheitsstandards aus, die durch eine angemessene Ausbildung unserer Mitarbeiter im Bereich der Arbeitssicherheit und des Gesundheitsschutzes gewährleistet werden, der die Grundlage unserer Tätigkeit darstellt. Wir gehen auf jeden Kunden individuell ein, was sich in der Effizienz unserer Arbeit niederschlägt. Unser Ziel ist Qualität und Kundenzufriedenheit.",
+      "contactSectionTitle": "Kontaktdetails:"
+    }
+  ]
 }
