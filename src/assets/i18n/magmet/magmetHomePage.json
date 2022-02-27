@@ -1,123 +1,173 @@
 {
-    "magmetHomePage": [
-        {
-            "language": "pl-PL",
-            "heroTitle": "Dkice schody & balustrady",
-            "heroDescription": "Nasza praca opiera się na profesjonalizmie oraz zaangażowaniu. Tworzymy schody, barierki , bramy , zadaszenia i inne metalowe konstrukcje. Do każdej realizacji podchodzimy indywidualnie, dzięki czemu możemy wykonać konkretne elementy na wymiar. Przyjmujemy zlecenia od Klientów indywidualnych i firm z branży budowlanej. Każdy element  pokryty jest warstwa antykorozyjna oraz kolorem Ral ustalonym przez klienta.",
-            "heroImageUrl": "/magmetBG.jpg",
-            "buttonData": {
-                "href": "",
-                "buttonContent": "Czytaj więcej"
-            },
-            "aboutStairs": {
-                "isTitleInOtherColumn": false,
-                "sectionTitle": "Schody",
-                "texts": [
-                    {
-                        "text": "Tworzymy różnego rodzaju schody – metalowe, stalowe, ocynkowane. W naszej ofercie znajdziesz schody wewnętrzne i zewnętrzne. Dopasuj je do swoich potrzeb."
-                    }
-                ]
-            },
-            "whatYouWin": {
-                "title": "Balustrady oraz poręcze.",
-                "description": "Balustrady wykonujemy zarówno zewnętrzne jak i wewnętrzne (schodowe, balkonowe, okienne - francuskie). Do Państwa należy wybór wzoru oraz koloru, a także to jakie ma być wypełnienie (drewno, kute, plexi)",
-                "listContent": [
-                    {
-                        "listElement": "Najwyższej jakości materiały"
-                    },
-                    {
-                        "listElement": "Bezpieczeństwo"
-                    },
-                    {
-                        "listElement": "Wzory bez końca"
-                    },
-                    {
-                        "listElement": "Niezawodność"
-                    },
-                    {
-                        "listElement": "Odporny na warunki atmosferyczne Schütz"
-                    },
-                    {
-                        "listElement": "Indywidualne projekty"
-                    },
-                    {
-                        "listElement": "Szybki i profesjonalny montaż"
-                    },
-                    {
-                        "listElement": "Gwarancja doskonałej produkcji"
-                    }
-                ]
-            },
-            "aboutTerraces": {
-                "sectionTitle": "Tarasy oraz zadaszenia.",
-                "isTitleInOtherColumn": false,
-                "texts": [
-                    {
-                        "text": "W naszej ofercie znajdują się również nowoczesne rozwiązania tarasowe oraz carporty. Tarasy wykonane są ze stalowych konstrukcji które pokrywane są deską, blachą lub poliwęglanem w zaleności od upodobań klienta."
-                    }
-                ]
-            }
-        },
-        {
-            "language": "de-DE",
-            "heroTitle": "Dkice treppe & geländer",
-            "heroDescription": "Ein sich dynamisch entwickelndes Unternehmen, das sich mit der Herstellung von modernen und stilisierten Zäunen, Balustraden, Toren, Treppen und vielen anderen Metallkonstruktionen beschäftigt.  Wir sind seit 2010 tätig und legen ständig Wert auf die Qualität unserer Dienstleistungen und die Zusammenarbeit mit guten und geprüften Lieferanten.  Mit einer breiten Palette von Produkten und Dienstleistungen bieten wir Komplettlösungen für Haus und Industrie.",
-            "heroImageUrl": "/magmetBG.jpg",
-            "buttonData": {
-                "href": "",
-                "buttonContent": "Czytaj więcej"
-            },
-            "aboutStairs": {
-                "isTitleInOtherColumn": false,
-                "sectionTitle": "Die Treppe",
-                "texts": [
-                    {
-                        "text": "Wir fertigen verschiedene Arten von Treppen - Metall, Stahl, verzinkt. In unserem Angebot finden Sie Innen- und Außentreppen. Passen Sie sie an Ihre Bedürfnisse an."
-                    }
-                ]
-            },
-            "whatYouWin": {
-                "title": "Balustraden und Geländer.",
-                "description": "Wir fertigen sowohl Außen- als auch Innengeländer (Treppen, Balkone, Fenstertüren). Sie können das Muster und die Farbe sowie die Füllung (Holz, geschmiedet, Plexiglas) selbst wählen.",
-                "listContent": [
-                    {
-                        "listElement": "Hochwertige Materialien"
-                    },
-                    {
-                        "listElement": "Sicherheit"
-                    },
-                    {
-                        "listElement": "Patterns ohne Ende"
-                    },
-                    {
-                        "listElement": "Verlässlichkeit"
-                    },
-                    {
-                        "listElement": "Lebenslang"
-                    },
-                    {
-                        "listElement": "Wetterfester Schütz"
-                    },
-                    {
-                        "listElement": "Einzelne Projekte"
-                    },
-                    {
-                        "listElement": "Schnelle und professionelle Installation"
-                    },
-                    {
-                        "listElement": "Garantie für eine hervorragende Produktion"
-                    }
-                ]
-            },
-            "aboutTerraces": {
-                "sectionTitle": "Terrassen und Vordächer.",
-                "isTitleInOtherColumn": false,
-                "texts": [
-                    {
-                        "text": "Unser Angebot umfasst auch moderne Terrassenlösungen und Carports. Die Terrassen bestehen aus Stahlkonstruktionen, die je nach Wunsch des Kunden mit Brettern, Blech oder Polycarbonat verkleidet werden."
-                    }
-                ]
-            }
-        }
-    ]
+  "magmetHomePage": [
+    {
+      "language": "pl-PL",
+      "heroTitle": "Dkice schody & balustrady",
+      "heroDescription": "Nasza praca opiera się na profesjonalizmie oraz zaangażowaniu. Tworzymy schody, barierki , bramy , zadaszenia i inne metalowe konstrukcje. Do każdej realizacji podchodzimy indywidualnie, dzięki czemu możemy wykonać konkretne elementy na wymiar. Przyjmujemy zlecenia od Klientów indywidualnych i firm z branży budowlanej. Każdy element  pokryty jest warstwa antykorozyjna oraz kolorem Ral ustalonym przez klienta.",
+      "heroImageUrl": "/magmetBG.jpg",
+      "buttonData": {
+        "href": "",
+        "buttonContent": "Czytaj więcej"
+      },
+      "aboutStairs": {
+        "isTitleInOtherColumn": false,
+        "sectionTitle": "Schody",
+        "texts": [
+          {
+            "text": "Tworzymy różnego rodzaju schody – metalowe, stalowe, ocynkowane. W naszej ofercie znajdziesz schody wewnętrzne i zewnętrzne. Dopasuj je do swoich potrzeb."
+          }
+        ]
+      },
+      "whatYouWin": {
+        "title": "Balustrady oraz poręcze.",
+        "description": "Balustrady wykonujemy zarówno zewnętrzne jak i wewnętrzne (schodowe, balkonowe, okienne - francuskie). Do Państwa należy wybór wzoru oraz koloru, a także to jakie ma być wypełnienie (drewno, kute, plexi)",
+        "listContent": [
+          {
+            "listElement": "Najwyższej jakości materiały"
+          },
+          {
+            "listElement": "Bezpieczeństwo"
+          },
+          {
+            "listElement": "Wzory bez końca"
+          },
+          {
+            "listElement": "Niezawodność"
+          },
+          {
+            "listElement": "Odporny na warunki atmosferyczne Schütz"
+          },
+          {
+            "listElement": "Indywidualne projekty"
+          },
+          {
+            "listElement": "Szybki i profesjonalny montaż"
+          },
+          {
+            "listElement": "Gwarancja doskonałej produkcji"
+          }
+        ]
+      },
+      "aboutTerraces": {
+        "sectionTitle": "Tarasy oraz zadaszenia.",
+        "isTitleInOtherColumn": false,
+        "texts": [
+          {
+            "text": "W naszej ofercie znajdują się również nowoczesne rozwiązania tarasowe oraz carporty. Tarasy wykonane są ze stalowych konstrukcji które pokrywane są deską, blachą lub poliwęglanem w zaleności od upodobań klienta."
+          }
+        ]
+      },
+      "howStairsAreMade": {
+        "title": "Tak powstają Twoje schody",
+        "steps": [
+          {
+            "stepTitle": "Krok 1 - zgłoszenie",
+            "stepDescription": "Skontaktuj się z nami w celu ustalenia podstawowych informacji.",
+            "stepImage": "/howStairsAreMade-1.jpg"
+          },
+          {
+            "stepTitle": "Krok 2 - pomiar",
+            "stepDescription": "Przed przyjazdem wykonujemy wstępną wycenę, umawiamy się z Państwem na pomiar kontrolny po którym podpisujemy umowę. Wszystkie dane oddajemy w ręce naszego projektanta, który tworzy wizualizację.",
+            "stepImage": "/howStairsAreMade-2.jpg"
+          },
+          {
+            "stepTitle": "Krok 3 - produkcja",
+            "stepDescription": "Schody kierowane są do produkcji. Montujemy je w naszym zakładzie, aby sprawdzić czy wszystkie wymiary są zgodne. Następnie przechodzą przez proces cynkowania oraz malowania proszkowego.",
+            "stepImage": "/howStairsAreMade-3.jpg"
+          },
+          {
+            "stepTitle": "Krok 4 - dostawa i montaż",
+            "stepDescription": "Ustalamy z Państwem możliwy dla obu stron termin montażu. W zależności od modelu schodów sam montaż może trwać jeden lub kilka dni.",
+            "stepImage": "/howStairsAreMade-4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "language": "de-DE",
+      "heroTitle": "Dkice treppe & geländer",
+      "heroDescription": "Ein sich dynamisch entwickelndes Unternehmen, das sich mit der Herstellung von modernen und stilisierten Zäunen, Balustraden, Toren, Treppen und vielen anderen Metallkonstruktionen beschäftigt.  Wir sind seit 2010 tätig und legen ständig Wert auf die Qualität unserer Dienstleistungen und die Zusammenarbeit mit guten und geprüften Lieferanten.  Mit einer breiten Palette von Produkten und Dienstleistungen bieten wir Komplettlösungen für Haus und Industrie.",
+      "heroImageUrl": "/magmetBG.jpg",
+      "buttonData": {
+        "href": "",
+        "buttonContent": "Czytaj więcej"
+      },
+      "aboutStairs": {
+        "isTitleInOtherColumn": false,
+        "sectionTitle": "Die Treppe",
+        "texts": [
+          {
+            "text": "Wir fertigen verschiedene Arten von Treppen - Metall, Stahl, verzinkt. In unserem Angebot finden Sie Innen- und Außentreppen. Passen Sie sie an Ihre Bedürfnisse an."
+          }
+        ]
+      },
+      "whatYouWin": {
+        "title": "Balustraden und Geländer.",
+        "description": "Wir fertigen sowohl Außen- als auch Innengeländer (Treppen, Balkone, Fenstertüren). Sie können das Muster und die Farbe sowie die Füllung (Holz, geschmiedet, Plexiglas) selbst wählen.",
+        "listContent": [
+          {
+            "listElement": "Hochwertige Materialien"
+          },
+          {
+            "listElement": "Sicherheit"
+          },
+          {
+            "listElement": "Patterns ohne Ende"
+          },
+          {
+            "listElement": "Verlässlichkeit"
+          },
+          {
+            "listElement": "Lebenslang"
+          },
+          {
+            "listElement": "Wetterfester Schütz"
+          },
+          {
+            "listElement": "Einzelne Projekte"
+          },
+          {
+            "listElement": "Schnelle und professionelle Installation"
+          },
+          {
+            "listElement": "Garantie für eine hervorragende Produktion"
+          }
+        ]
+      },
+      "aboutTerraces": {
+        "sectionTitle": "Terrassen und Vordächer.",
+        "isTitleInOtherColumn": false,
+        "texts": [
+          {
+            "text": "Unser Angebot umfasst auch moderne Terrassenlösungen und Carports. Die Terrassen bestehen aus Stahlkonstruktionen, die je nach Wunsch des Kunden mit Brettern, Blech oder Polycarbonat verkleidet werden."
+          }
+        ]
+      },
+      "howStairsAreMade": {
+        "title": "So wird Ihre Treppe gemacht",
+        "steps": [
+          {
+            "stepTitle": "Schritt 1 - Bewerbung",
+            "stepDescription": "Kontaktieren Sie uns für grundlegende Informationen.",
+            "stepImage": "/howStairsAreMade-1.jpg"
+          },
+          {
+            "stepTitle": "Schritt 2 - Messung",
+            "stepDescription": "Vor unserer Ankunft erstellen wir einen Kostenvoranschlag, vereinbaren mit Ihnen einen Termin für eine Inspektionsmessung und unterzeichnen anschließend einen Vertrag. Wir geben alle Daten in die Hände unseres Designers, der eine Visualisierung erstellt.",
+            "stepImage": "/howStairsAreMade-2.jpg"
+          },
+          {
+            "stepTitle": "Schritt 3 - Produktion",
+            "stepDescription": "Die Treppe geht in Produktion. Wir montieren sie in unserem Werk, um zu prüfen, ob alle Abmessungen korrekt sind. Anschließend werden sie galvanisiert und pulverbeschichtet.",
+            "stepImage": "/howStairsAreMade-3.jpg"
+          },
+          {
+            "stepTitle": "Schritt 4 - Lieferung und Installation",
+            "stepDescription": "Wir vereinbaren mit Ihnen einen für beide Seiten möglichen Montagetermin. Je nach Treppenmodell kann die Montage selbst einen oder mehrere Tage dauern.",
+            "stepImage": "/howStairsAreMade-4.jpg"
+          }
+        ]
+      }
+    }
+  ]
 }
