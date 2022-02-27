@@ -1,957 +1,961 @@
 {
-    "dkiceHomePage": [
+  "dkiceHomePage": [
+    {
+      "language": "pl-PL",
+      "heroTitle": "Dkice",
+      "heroDescription": "Nasza firma składa się z profesionalnego zespołu ludzi, którzy wykazują się wieloletnim doświadczeniem w zakresie specjalistycznego czyszczenia suchym lodem. Prace świadczone przez Dkice charakteryzują się zachowaniem wysokich norm bezpieczeństwa poprzez odpowiednie wyszkolenie kadry w zakresie BHP, stanowiącej podstawę naszej działalności. Do każdego klienta podchodzimy indywidualnie co przekłada się na efektywność naszej pracy. Naszym celem jest jakość oraz zadowolenie klienta.",
+      "heroImageUrl": "/magmetBG.jpg",
+      "buttonData": {
+        "href": "#dynamicContent",
+        "buttonContent": "Czytaj więcej"
+      },
+      "tilesContainer": [
         {
-            "language": "pl-PL",
-            "heroTitle": "Dkice",
-            "heroDescription": "Nasza firma składa się z profesionalnego zespołu ludzi, którzy wykazują się wieloletnim doświadczeniem w zakresie specjalistycznego czyszczenia suchym lodem. Prace świadczone przez Dkice charakteryzują się zachowaniem wysokich norm bezpieczeństwa poprzez odpowiednie wyszkolenie kadry w zakresie BHP, stanowiącej podstawę naszej działalności. Do każdego klienta podchodzimy indywidualnie co przekłada się na efektywność naszej pracy. Naszym celem jest jakość oraz zadowolenie klienta.",
-            "heroImageUrl": "/magmetBG.jpg",
-            "buttonData": {
-                "href": "#dynamicContent",
-                "buttonContent": "Czytaj więcej"
-            },
-            "tilesContainer": [
+          "sectionTitle": "Branże, gdzie można zastosować czyszczenie (piaskowanie) suchym lodem",
+          "tiles": [
+            {
+              "iconUrl": "/icons/garages.png",
+              "tileTitle": "Warsztaty samochodowe",
+              "listElements": [
                 {
-                    "sectionTitle": "Branże, gdzie można zastosować czyszczenie (piaskowanie) suchym lodem",
-                    "tiles": [
-                        {
-                            "iconUrl": "/icons/garages.png",
-                            "tileTitle": "Warsztaty samochodowe",
-                            "listElements": [
-                                {
-                                    "listElement": "czyszczenie i renowacja wnętrza"
-                                },
-                                {
-                                    "listElement": "czyszczenie podwozia"
-                                },
-                                {
-                                    "listElement": "renowacja youngtimerów i oldtimerów"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/car.png",
-                            "tileTitle": "Przemysł motoryzacyjny",
-                            "listElements": [
-                                {
-                                    "listElement": "doskonała czystość: krótszy cykl czyszczenia = krótsze przestoje"
-                                },
-                                {
-                                    "listElement": "czyszczenie form używanych w różnych procesach produkcyjnych, czy to z gumy czy też z pianki"
-                                },
-                                {
-                                    "listElement": "czyszczenie turbin"
-                                },
-                                {
-                                    "listElement": "czyszczenie urządzeń spawalniczych"
-                                },
-                                {
-                                    "listElement": "czyszczenie linii produkcyjnych"
-                                },
-                                {
-                                    "listElement": "czyszczenie powłok elektroforetycznych"
-                                },
-                                {
-                                    "listElement": "czyszczenie kabin i oprzyrządowania w lakierniach"
-                                },
-                                {
-                                    "listElement": "czyszczenie wentylatorów"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/printing.png",
-                            "tileTitle": "Przemysł poligraficzny",
-                            "listElements": [
-                                {
-                                    "listElement": "czyszczenie pras drukarskich"
-                                },
-                                {
-                                    "listElement": "usuwanie smarów"
-                                },
-                                {
-                                    "listElement": "usuwanie tuszu"
-                                },
-                                {
-                                    "listElement": "usuwanie pyłu papierowego"
-                                },
-                                {
-                                    "listElement": "czyszczenie paneli sterujących, wałków"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/food.png",
-                            "tileTitle": "Przemysł spożywczy",
-                            "listElements": [
-                                {
-                                    "listElement": "czyszczenie form do produkcji wafli etc"
-                                },
-                                {
-                                    "listElement": "usuwanie bakterii"
-                                },
-                                {
-                                    "listElement": "czyszczenie pieców"
-                                },
-                                {
-                                    "listElement": "czyszczenie taśm produkcyjnych"
-                                },
-                                {
-                                    "listElement": "czyszczenie trudnodostępnych miejsc"
-                                },
-                                {
-                                    "listElement": "usuwanie wszystkich rodzajów zlepek produktu na taśmach, silnikach, urządzeniach"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/ladle.png",
-                            "tileTitle": "Przemysł odlewniczy",
-                            "listElements": [
-                                {
-                                    "listElement": "czyszczenie smarów grafitowych z matryc maszyn odlewniczych"
-                                },
-                                {
-                                    "listElement": "usuwanie nadmiaru smaru, pyłu, tuszu, węgla z urządzeń produkcyjnych i siłowników hydraulicznych"
-                                },
-                                {
-                                    "listElement": "czyszczenie przenośników bez demontażu urządzeń pneumatycznych, elektrycznych i łożysk"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/eco-house.png",
-                            "tileTitle": "Przemysł elektryczny i automatyka przemysłowa",
-                            "listElements": [
-                                {
-                                    "listElement": "czyszczenie silników"
-                                },
-                                {
-                                    "listElement": "czyszczenie szaf sterowniczych"
-                                },
-                                {
-                                    "listElement": "czyszczenie akumulatorów"
-                                },
-                                {
-                                    "listElement": "czyszczenie przewodów oraz zabrudzeń taśmach, silnikach i urządzeniach"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/plastic.png",
-                            "tileTitle": "Przetwórstwo tworzyw sztucznych",
-                            "listElements": [
-                                {
-                                    "listElement": "czyszczenie form do wydmuchiwania butelek"
-                                },
-                                {
-                                    "listElement": "czyszczenie form wtryskowych"
-                                },
-                                {
-                                    "listElement": "usuwanie pianki z form i maszyn"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/arch-of-triumph.png",
-                            "tileTitle": "Renowacja zabytków, czyszczenie elewacji",
-                            "listElements": [
-                                {
-                                    "listElement": "usuwanie graffiti"
-                                },
-                                {
-                                    "listElement": "renowacja zabytków"
-                                },
-                                {
-                                    "listElement": "renowacja elewacji"
-                                },
-                                {
-                                    "listElement": "czyszczenie elementów drewnianych"
-                                },
-                                {
-                                    "listElement": "czyszczenie pomników"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/fire.png",
-                            "tileTitle": "Usuwanie skutków pożaru",
-                            "listElements": [
-                                {
-                                    "listElement": "czyszczenie zwęglenia w drewnie, cegle, betonie i metalu"
-                                },
-                                {
-                                    "listElement": "usuwanie sadzy"
-                                },
-                                {
-                                    "listElement": "usuwanie zapachu spalenizny"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/ellipsis.png",
-                            "tileTitle": "Pozostałe zastosowania",
-                            "listElements": [
-                                {
-                                    "listElement": "usuwanie oznakowań w halach i na drogach"
-                                },
-                                {
-                                    "listElement": "usuwanie gumy, kleju, smoły"
-                                },
-                                {
-                                    "listElement": "czyszczenie powierzchni hal przemysłowych"
-                                },
-                                {
-                                    "listElement": "czyszczenie powierzchni wchodzących w kontakt z żywnością"
-                                },
-                                {
-                                    "listElement": "czyszczenie wymienników ciepła, chłodnic, rur, nagrzewnic"
-                                },
-                                {
-                                    "listElement": "usuwanie pleśni"
-                                },
-                                {
-                                    "listElement": "usuwanie reklam z samochodów oraz pozostałości kleju"
-                                },
-                                {
-                                    "listElement": "czyszczenie maszyn i akcesoriów dla przemysłu drzewnego"
-                                },
-                                {
-                                    "listElement": "czyszczenie maszyn i narzędzi do odlewów i formowania"
-                                },
-                                {
-                                    "listElement": "czyszczenie narzędzi do formowania wtryskowego"
-                                },
-                                {
-                                    "listElement": "czyszczenie przenośników oraz łańcuchów w przenośnikach"
-                                },
-                                {
-                                    "listElement": "czyszczenie linii produkcyjnych (elementy elektryczne i mechaniczne) bez konieczności ich demontażu"
-                                },
-                                {
-                                    "listElement": "czyszczenie łopatek turbin"
-                                },
-                                {
-                                    "listElement": "czyszczenie pieców hutniczych"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "whatIsDryIceCleaningSection": {
-                "isTitleInOtherColumn": true,
-                "title": "Na czym polega czyszczenie suchym lodem?",
-                "texts": [
-                    {
-                        "text": "Proces czyszczenia suchym lodem wykorzystuje granulki, które uderzają w wybrany element i tym samym powodują nagłe, punktowe przechłodzenie powłoki lub zabrudzenia, które planujemy usunąć."
-                    },
-                    {
-                        "text": "Dzięki wysokiej energii kinetycznej, granulki suchego lodu nie tylko ulegają deformacji i zgnieceniu – w czasie uderzeń w obrabiany przedmiot pojawiają się również mikropęknięcia w warstwie zabrudzeń. Następnie cząsteczki suchego lodu wchodzą w nie i zwiększają swoją objętość nawet 1000-krotnie, by oddzielić niechcianą warstwę od wybranej powierzchni. Medium używane w całej procedurze przechodzi w stan gazowy."
-                    },
-                    {
-                        "text": "W odróżnieniu od większości tradycyjnych technik, czyszczenie suchym lodem nie stanowi procesu ściernego. Na powierzchni nie dochodzi do pojawienia się żadnych zarysowań czy zużycia."
-                    }
-                ]
-            },
-            "principlesOfDryIceCleaning": {
-                "title": "Zasady czyszczenia suchym lodem.",
-                "accordionTabs": [
-                    {
-                        "tabTitle": "Ciągłość pracy zakładu",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "czyszczenie elementów maszyn, form czy narzędzi maszyn jest możliwa podczas pracy: nie wymaga demontażu ani przerw w produkcji, a więc nie generuje przerwy w harmonogramie działania przedsiębiorstwa."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Bezinwazyjność",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "w czyszczeniu suchym lodem nie stosuje się środków chemicznych ani ściernych, dzięki czemu proces nie powoduje uszkodzenia powierzchni."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Ekologia",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "suchy lód z formy stałej przechodzi w gazową, pomijając ciekły stan skupienia (sublimacja suchego lodu. Proces czyszczenia suchym lodem nie staje się więc przyczyną powstawania dodatkowych zanieczyszczeń."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Bezpieczeństwo dla urządzeń elektrycznych",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "to jedyna tak skuteczna metoda czyszczenia na sucho instalacji elektrycznej."
-                            }
-                        ]
-                    }
-                ]
-            },
-            "dryIceApplication": {
-                "title": "Suchy lód - zastosowanie.",
-                "texts": [
-                    {
-                        "text": "Czyszczenie suchym lodem umożliwia dotarcie do zabrudzeń na powierzchniach trudnodostępnych o skomplikowanej geometrii i kształtach. Dlatego najczęściej technologia ta wykorzystywana jest do usuwania zanieczyszczeń z form do wtrysku tworzyw sztucznych i gumy czy aluminium. Świetnie sprawdza się również do odtłuszczania powierzchni, dlatego z powodzeniem wykorzystuje się ją w przemyśle spożywczym, drzewnym, papierniczym i narzędziowniach. Może służyć także do usuwania farby czy korozji."
-                    },
-                    {
-                        "text": "Aby suchy lód zachował swoje cenne właściwości, należy go prawidłowo przechowywać. Najlepszym zabezpieczeniem jest izolowany kontener, np ze styropianu – w przypadku małych objętości, a dla dużych objętości formowany rotacyjnie z izolowaną pokrywą lub grubymi nakładkami górnymi"
-                    },
-                    {
-                        "text": "Gruba izolacja pozwala spowolnić tempo sublimacji suchego lodu (CO2), która prowadzi do rozszerzenia lub pęknięcia pojemnika. Należy pamiętać, aby kontener znajdował się w dobrze wentylowanym pomieszczeniu. Małe ilości suchego lodu do podręcznych prac można przez krótki okres przechowywać w pojemnikach ze styropianu."
-                    },
-                    {
-                        "text": "W przemyśle motoryzacyjnym używa się jej do czyszczenia form, linii technologicznych, także z komponentami elektronicznymi, w przemyśle drzewnym – do czyszczenia urządzeń produkcyjnych z kleju, lakierów oraz żywic, a w przemyśle odlewniczym – do czyszczenia form, tłoczników i ślimaków, odpowietrzeń rdzenia, półstałych odlewów i maszyn odlewniczych, usuwania żywic i środków adhezyjnych. Ma ona również zastosowanie w serwisach samochodowych do kompleksowego czyszczenia wnętrz samochodów, przestrzeni silnikowych, podwozia, układów elektrycznych i elektronicznych."
-                    },
-                    {
-                        "text": "Metoda czyszczenia suchym lodem jest używana również do renowacji powierzchni po pożarach, zadymieniach i powodziach, usuwania pleśni, starej farby, eliminacji brzydkich zapachów, usuwania chwastów, mchu, gum do żucia na polbrukach. Pleśń na ścianach ma tendencje do powracania, ponieważ tradycyjne sposoby jej usuwania nie są skuteczne. Bardzo niska temperatura suchego lodu jest w stanie zniszczyć zarodniki pleśni, co zapobiega nawrotom."
-                    },
-                    {
-                        "text": "Suchym lodem można też czyścić zabytki, by usunąć farbę, pleśń, sadzę oraz inne nagromadzone przez lata zanieczyszczenia. Renowacja następuje bez tworzenia pęknięć, rys i wżerów na powierzchniach. Możliwe jest czyszczenie marmuru, szkła, onyksu itp. bez powodowania uszkodzeń. Metoda jest wykorzystywana do renowacji historycznych budynków, pomników czy pojazdów zabytkowych. Może być też używana do czyszczenia uszkodzeń spowodowanych przez dym np. na księgozbiorach. Stosuje się ją również do usuwania graffiti."
-                    }
-                ]
-            },
-            "cleanlinssInEveryField": {
-                "title": "Czystość na każdym polu.",
-                "description": "W procesie czyszczenia suchym lodem nie stosuje się żadnych detergentów. Metoda ta doskonale sprawdza się wszędzie tam, gdzie niedozwolone jest czyszczenie wodą lub piaskowanie. Dzieje się tak ponieważ suchy lód przechodzi w powietrzu z postaci stałej (granulat CO2) bezpośrednio do gazowej (sublimuje), dlatego też podczas czyszczenia nie powstają ścieki.",
-                "accordionTabs": [
-                    {
-                        "tabTitle": "Przemysł metalurgiczny i maszynowy",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Intelblast umożliwia codzienne i dogłębne czyszczenie maszyn produkcyjnych, robotów spawalniczych, przenośników taśmowych i lakierni."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Drukarnie",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Do czyszczenia wszystkich maszyn drukarskich, cylindrów i narzędzi."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Przemysł drzewny i elektryczny",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Do czyszczenia maszyn do obróbki drewna, generatorów, turbin i szaf sterowniczych, itp."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Przemysł tworzyw sztucznych i opakowań",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Do usuwania sylikonu, gumy, farb, lakierów i innych silnie przylegających zabrudzeń z form wtryskowych i linii produkcyjnych."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Przemysł motoryzacyjny, odlewnie i produkcja form wtryskowych",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Do usuwania silnie przylegających zabrudzeń: pozostałości sylikonu czy gumy, farby, lakiery, powłoki ochronne z form wtryskowych, narzędzi i linii produkcyjnych."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Przemysł spożywczy, farmaceutyczny i kosmetyczny",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Do czyszczenia systemów przenośnikowych, systemów napełniania i mieszalników, linii produkcyjnych, zbiorników i pieców. Skutecznie usuwa: zapieczony brud, tłuszcz i skrobię."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Przemysł papierniczy",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Do usuwania kleju, wapna, pyłu i celulozy z urządzeń produkcyjnych."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Obiekty komunalne i użyteczności publicznej",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Do usuwania graffiti oraz gum do żucia z chodników, ulic, elewacji budynków, murów czy mostów."
-                            }
-                        ]
-                    }
-                ]
-            },
-            "hydronomyCleaning": {
-                "title": "Hydronomiczne czyszczenie pod wysokim ciśnieniem",
-                "description": "Wykonujemy usługi specjalistycznego mycia ciśnieniowego (mycie hydrodynamiczne, water jetting) polegającego na skierowaniu na czyszczone powierzchnie strumienia wody pod ciśnieniem od 50 do 2500 bar. Mycie wodą zapewnia najwyższy możliwy stopień czystości powierzchni. Metoda wykorzystywana jest do usuwania ciężkich osadów technologicznych z instalacji przemysłowych, a także przy usuwaniu betonu z konstrukcji żelbetowych z pozostawieniem zbrojenia oraz przy cięciu konstrukcyjnym żelbetu.",
-                "listTitle": "Zalety czyszczenia metodą hydrodynamiczną:",
-                "listContent": [
-                    {
-                        "listElement": "Eliminacja zapylenia otoczenia oraz zmniejszenie ilości odpadów"
-                    },
-                    {
-                        "listElement": "Brak odkształceń konstrukcji"
-                    },
-                    {
-                        "listElement": "Większa wydajność czyszczenia w porównaniu do metod tradycyjnych"
-                    },
-                    {
-                        "listElement": "Całkowita eliminacja korozji"
-                    },
-                    {
-                        "listElement": "Precyzyjne i selektywne usunięcie warstw powłoki malarskiej"
-                    }
-                ]
-            },
-            "whatIsHydronomyCleaning": {
-                "title": "Czym jest czyszczenie hydrodynamiczne?",
-                "imageUrl": "/magmetBG.jpg",
-                "reverseElements": false,
-                "texts": [
-                    {
-                        "text": "To w jaki sposób strumień wody działać będzie na określoną powierzchnię zależy od sporej ilości czynników. Nie da się jednak ukryć, że podstawowym warunkiem jest tu ciśnienie z jakim woda uderza o wybrany materiał. Zjawisko to daje ogrom możliwości, przy czym jedną z usług realizowanych przy użyciu strumienia wody pod wysokim ciśnieniem jest czyszczenie hydrodynamiczne, które w swojej ofercie mają firmy takie jak Spółdzielnia pracy konserwacji urządzeń przemysłowych."
-                    },
-                    {
-                        "text": "Metoda ta polega na natrysku na oczyszczaną powierzchnię dużej ilości wody (ciepłej lub zimnej) pod wysokim ciśnieniem (nawet 300 MPa). W tym przypadku ogromną rolę odgrywa tu również średnica strumienia wody, która uzależniona jest od odpowiednio dobranych dysz (niekiedy także obrotowych), co sprawia dodatkowo, że strumień posiada dość dużą energię kinetyczną, powodując odspojenie od oczyszczanej powierzchni wszelkich zanieczyszczeń z nią związanych i wyniesienie ich na zewnątrz."
-                    },
-                    {
-                        "text": "Do wytworzenia niezbędnego ciśnienia wody wykorzystywane są specjalne pompy (np. nurnikowe), które w zależności od potrzeb dostępne są w zróżnicowanym zakresie konfiguracji, przy czym stosowane współcześnie urządzenia tego typu pozwalają uzyskać ciśnienie wody powyżej 3000bar."
-                    }
-                ] 
-            },
-            "whaterJetCleaning": {
-                "title": "Zastosowanie i zalety czyszczenia strumieniem wody pod wysokim ciśnieniem",
-                "lists": [
-                    {
-                        "listDescription": "Technika czyszczenia powierzchni, wykorzystująca strumień wody pod ciśnieniem, pozwala na usunięcie zróżnicowanych osadów (nawet tych niezwykle uporczywych). Dlatego też usługi hydrodynamicznego czyszczenia wykorzystywane są w wielu branżach, zaś podstawowy zakres działań obejmuje: ",
-                        "listContent": [
-                            {
-                                "listElement": "czyszczenie rurociągów technologicznych i instalacji przemysłowych"
-                            },
-                            {
-                                "listElement": "czyszczenie i mycie zbiorników, silosów, kotłów"
-                            },
-                            {
-                                "listElement": "czyszczenie powierzchni betonowych (posadzki, drogi, place, lotniska)"
-                            },
-                            {
-                                "listElement": "usuwaniu zanieczyszczeń (betonu, powłok malarskich) z rusztowań lub konstrukcji metalowych"
-                            },
-                            {
-                                "listElement": "prace antykorozyjne w strefach zagrożenia wybuchem"
-                            },
-                            {
-                                "listElement": "czyszczenie komór, studni, bioreaktorów, itp."
-                            }
-                        ]
-                    },
-                    {
-                        "listDescription": "Działanie na wybraną powierzchnię strumieniem wody pod wysokim ciśnieniem to technologia, która cieszy się niezwykłą popularnością, co wynika z faktu, że niesie ona ze sobą szereg zalet, z których wymienić należy: ",
-                        "listContent": [
-                            {
-                                "listElement": "wysoka dokładność oraz precyzyjne i selektywne usunięcie warstw zanieczyszczeń"
-                            },
-                            {
-                                "listElement": "mycie hydrodynamiczne nie niszczy czyszczonej powierzchni"
-                            },
-                            {
-                                "listElement": "metoda ta pozwala dotrzeć do wszystkich trudno dostępnych przestrzeni"
-                            },
-                            {
-                                "listElement": "umożliwia odblokowanie nawet całkowicie zatkanych rur (np. kanalizacyjnych) bez przewiercania"
-                            },
-                            {
-                                "listElement": "metoda hydrodynamiczna pozwala ograniczyć ilość chemii przedostającej się do otoczenia"
-                            },
-                            {
-                                "listElement": "metodę tę można stosować w strefach zagrożenia wybuchem."
-                            }
-                        ]
-                    },
-                    {
-                        "listDescription": "Usługi hydrodynamicznego czyszczenia, wykorzystujące wysoką energię dynamiczną strug wody, stanowią niezwykle uniwersalną, nowoczesną, wydajną i przyjazną środowisku, metodę czyszczenia powierzchni o zróżnicowanym charakterze."
-                    }
-                ]
-            }
-        },
-        {
-            "language": "de-DE",
-            "heroTitle": "Dkice",
-            "heroDescription": "Es hat sich herausgestellt, dass Trockeneis in Granulatform (konzentriertes CO2) aufgrund seiner erstaunlichen physikalischen Eigenschaften ein ideales Reinigungsmittel ist, das in der Industrie gut funktioniert, um Verunreinigungen von empfindlichen Werkzeugen und Geräten nicht-invasiv zu entfernen.",
-            "heroImageUrl": "/magmetBG.jpg",
-            "buttonData": {
-                "href": "#dynamicContent",
-                "buttonContent": "Mehr lesen"
-            },
-            "tilesContainer": [
+                  "listElement": "czyszczenie i renowacja wnętrza"
+                },
                 {
-                    "sectionTitle": "Branchen, in denen Trockeneisstrahlen eingesetzt werden kann",
-                    "tiles": [
-                        {
-                            "iconUrl": "/icons/garages.png",
-                            "tileTitle": "Kfz-Werkstätten",
-                            "listElements": [
-                                {
-                                    "listElement": "Reinigung und Restaurierung der Innenräume"
-                                },
-                                {
-                                    "listElement": "Reinigung des Fahrgestells"
-                                },
-                                {
-                                    "listElement": "Renovierung von Youngtimern und Oldtimern"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/car.png",
-                            "tileTitle": "Automobilbranche",
-                            "listElements": [
-                                {
-                                    "listElement": "Perfekte Sauberkeit: kürzere Reinigungszyklen = weniger Ausfallzeiten"
-                                },
-                                {
-                                    "listElement": "Reinigung von Formen, die in verschiedenen Produktionsprozessen verwendet werden, ob aus Gummi oder Schaumstoff"
-                                },
-                                {
-                                    "listElement": "Reinigung von Turbinen"
-                                },
-                                {
-                                    "listElement": "Reinigung von Schweißgeräten"
-                                },
-                                {
-                                    "listElement": "Reinigung von Produktionslinien"
-                                },
-                                {
-                                    "listElement": "Reinigung von elektrophoretischen Beschichtungen"
-                                },
-                                {
-                                    "listElement": "Reinigungskabinen und -geräte in Lackierereien"
-                                },
-                                {
-                                    "listElement": "Reinigungsfächer"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/printing.png",
-                            "tileTitle": "Druckindustrie",
-                            "listElements": [
-                                {
-                                    "listElement": "Reinigung von Druckmaschinen"
-                                },
-                                {
-                                    "listElement": "Entfettung"
-                                },
-                                {
-                                    "listElement": "Entfernung von Tinte"
-                                },
-                                {
-                                    "listElement": "Entfernung von Papierstaub"
-                                },
-                                {
-                                    "listElement": "Reinigung von Bedienfeldern, Rollen"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/food.png",
-                            "tileTitle": "Lebensmittelindustrie",
-                            "listElements": [
-                                {
-                                    "listElement": "Reinigung von Wafer-Formen usw."
-                                },
-                                {
-                                    "listElement": "Entfernung von Bakterien"
-                                },
-                                {
-                                    "listElement": "Reinigung von Öfen"
-                                },
-                                {
-                                    "listElement": "Reinigung der Produktionsbänder"
-                                },
-                                {
-                                    "listElement": "Reinigung von schwer zugänglichen Stellen"
-                                },
-                                {
-                                    "listElement": "Entfernung von Produktrückständen aller Art auf Bändern, Motoren, Geräten"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/ladle.png",
-                            "tileTitle": "Gießerei-Industrie",
-                            "listElements": [
-                                {
-                                    "listElement": "Reinigung von Graphitschmierstoffen aus den Druckgussmaschinen"
-                                },
-                                {
-                                    "listElement": "Entfernung von überschüssigem Fett, Staub, Tinte und Kohlenstoff von Produktionsanlagen und Hydraulikzylindern"
-                                },
-                                {
-                                    "listElement": "Reinigung von Förderanlagen ohne Demontage der pneumatischen und elektrischen Ausrüstung und der Lager"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/eco-house.png",
-                            "tileTitle": "Elektroindustrie und industrielle Automatisierung",
-                            "listElements": [
-                                {
-                                    "listElement": "Reinigung von Motoren"
-                                },
-                                {
-                                    "listElement": "Reinigung von Steuerschränken"
-                                },
-                                {
-                                    "listElement": "Batteriereinigung"
-                                },
-                                {
-                                    "listElement": "Reinigung von Kabeln und Schmutz an Riemen, Motoren und Geräten"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/plastic.png",
-                            "tileTitle": "Verarbeitung von Kunststoffen",
-                            "listElements": [
-                                {
-                                    "listElement": "Reinigung von Flaschenblasformen"
-                                },
-                                {
-                                    "listElement": "Reinigung von Spritzgießwerkzeugen"
-                                },
-                                {
-                                    "listElement": "Schaumentfernung aus Formen und Maschinen"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/arch-of-triumph.png",
-                            "tileTitle": "Restaurierung von Denkmälern, Reinigung von Fassaden",
-                            "listElements": [
-                                {
-                                    "listElement": "Graffitientfernung"
-                                },
-                                {
-                                    "listElement": "Restaurierung von Denkmälern"
-                                },
-                                {
-                                    "listElement": "Fassadensanierung"
-                                },
-                                {
-                                    "listElement": "Reinigung von Holzteilen"
-                                },
-                                {
-                                    "listElement": "Reinigung von Denkmälern"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/fire.png",
-                            "tileTitle": "Sanierung von Brandschäden",
-                            "listElements": [
-                                {
-                                    "listElement": "Reinigung von Verkohlungen in Holz, Ziegel, Beton und Metall"
-                                },
-                                {
-                                    "listElement": "Rußbeseitigung"
-                                },
-                                {
-                                    "listElement": "Beseitigung von Brandgeruch"
-                                }
-                            ]
-                        },
-                        {
-                            "iconUrl": "/icons/ellipsis.png",
-                            "tileTitle": "Andere Verwendungen",
-                            "listElements": [
-                                {
-                                    "listElement": "Entfernung von Markierungen in Hallen und auf Straßen"
-                                },
-                                {
-                                    "listElement": "Entfernung von Gummi, Leim, Teer"
-                                },
-                                {
-                                    "listElement": "Reinigung von Industriehallenflächen"
-                                },
-                                {
-                                    "listElement": "Reinigung von Oberflächen, die mit Lebensmitteln in Berührung kommen"
-                                },
-                                {
-                                    "listElement": "Reinigung von Wärmetauschern, Kühlern, Rohren und Heizungen"
-                                },
-                                {
-                                    "listElement": "Schimmelpilzentfernung"
-                                },
-                                {
-                                    "listElement": "Entfernung von Werbematerial und Kleberückständen von Autos"
-                                },
-                                {
-                                    "listElement": "Reinigung von Maschinen und Zubehör für die holzverarbeitende Industrie"
-                                },
-                                {
-                                    "listElement": "Reinigung von Maschinen und Werkzeugen für das Gießen und Formen"
-                                },
-                                {
-                                    "listElement": "Reinigung von Spritzgießwerkzeugen"
-                                },
-                                {
-                                    "listElement": "Reinigung von Förderern und Förderketten"
-                                },
-                                {
-                                    "listElement": "Reinigung von Produktionslinien (elektrische und mechanische Komponenten) ohne deren Demontage"
-                                },
-                                {
-                                    "listElement": "Reinigung von Turbinenschaufeln"
-                                },
-                                {
-                                    "listElement": "Reinigung von Hochöfen"
-                                }
-                            ]
-                        }
-                    ]
+                  "listElement": "czyszczenie podwozia"
+                },
+                {
+                  "listElement": "renowacja youngtimerów i oldtimerów"
                 }
-            ],
-            "whatIsDryIceCleaningSection": {
-                "isTitleInOtherColumn": true,
-                "title": "Was ist Trockeneisreinigung?",
-                "texts": [
-                    {
-                        "text": "Bei der Trockeneisreinigung wird ein Granulat verwendet, das auf das ausgewählte Teil aufprallt und so eine plötzliche, punktuelle Abkühlung der zu entfernenden Beschichtung oder Verschmutzung bewirkt."
-                    },
-                    {
-                        "text": "Dank ihrer hohen kinetischen Energie verformen und zerkleinern die Trockeneispellets nicht nur, sondern erzeugen beim Aufprall auf das Werkstück auch Mikrorisse in der Schmutzschicht. Die Trockeneispartikel dringen dann in die Risse ein und vergrößern ihr Volumen bis zum 1000-fachen, um die unerwünschte Schicht von der ausgewählten Oberfläche zu trennen. Das während des gesamten Verfahrens verwendete Medium geht in einen gasförmigen Zustand über."
-                    },
-                    {
-                        "text": "Im Gegensatz zu den meisten traditionellen Verfahren ist die Trockeneisreinigung kein abrasiver Prozess. Die Oberfläche weist keine Kratzer oder Abnutzungen auf."
-                    }
-                ]
+              ]
             },
-            "principlesOfDryIceCleaning": {
-                "title": "Grundsätze der Trockeneisreinigung.",
-                "description": "Warum entscheiden sich die Kunden immer häufiger für die Trockeneisreinigung?",
-                "accordionTabs": [
-                    {
-                        "tabTitle": "Kontinuität des Anlagenbetriebs",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Die Reinigung von Maschinenteilen, Formen oder Werkzeugen ist bei laufendem Betrieb möglich: Sie erfordert keine Demontage oder Unterbrechung der Produktion und führt daher nicht zu einer Unterbrechung des Zeitplans des Unternehmens."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Nicht-invasiv",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Bei der Trockeneisreinigung werden keine Chemikalien oder Scheuermittel verwendet, so dass die Oberfläche nicht beschädigt wird."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Ökologie",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Trockeneis geht vom festen in den gasförmigen Zustand über, wobei der flüssige Zustand der Materie umgangen wird (Trockeneissublimation). Der Trockeneis-Reinigungsprozess wird daher nicht zu einer Ursache für zusätzliche Verunreinigungen."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Sicherheit für elektrische Geräte",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "ist die einzige wirksame Methode zur Trockenreinigung von Elektroinstallationen."
-                            }
-                        ]
-                    }
-                ]
+            {
+              "iconUrl": "/icons/car.png",
+              "tileTitle": "Przemysł motoryzacyjny",
+              "listElements": [
+                {
+                  "listElement": "doskonała czystość: krótszy cykl czyszczenia = krótsze przestoje"
+                },
+                {
+                  "listElement": "czyszczenie form używanych w różnych procesach produkcyjnych, czy to z gumy czy też z pianki"
+                },
+                {
+                  "listElement": "czyszczenie turbin"
+                },
+                {
+                  "listElement": "czyszczenie urządzeń spawalniczych"
+                },
+                {
+                  "listElement": "czyszczenie linii produkcyjnych"
+                },
+                {
+                  "listElement": "czyszczenie powłok elektroforetycznych"
+                },
+                {
+                  "listElement": "czyszczenie kabin i oprzyrządowania w lakierniach"
+                },
+                {
+                  "listElement": "czyszczenie wentylatorów"
+                }
+              ]
             },
-            "dryIceApplication": {
-                "title": "Trockeneis - Anwendung.",
-                "texts": [
-                    {
-                        "text": "Die Trockeneisreinigung ermöglicht es, Verschmutzungen auf schwer zugänglichen Oberflächen mit komplizierten Geometrien und Formen zu erreichen. Aus diesem Grund wird diese Technologie am häufigsten zur Entfernung von Verunreinigungen aus Kunststoff-, Gummi- oder Aluminiumspritzgussformen eingesetzt. Es eignet sich auch hervorragend zum Entfetten von Oberflächen, weshalb es in der Lebensmittel-, Holz-, Papier- und Werkzeugindustrie erfolgreich eingesetzt wird. Es kann auch zum Entfernen von Farbe oder Korrosion verwendet werden."
-                    },
-                    {
-                        "text": "Trockeneis muss richtig gelagert werden, damit seine wertvollen Eigenschaften erhalten bleiben. Der beste Schutz ist ein isolierter Behälter, z. B. aus Polystyrol - bei kleinen Mengen, und bei großen Mengen ein rotationsgeformter Behälter mit isoliertem Deckel oder dicker Abdeckung"
-                    },
-                    {
-                        "text": "Eine dicke Isolierung trägt dazu bei, die Sublimation von Trockeneis (CO2) zu verlangsamen, die zu einer Ausdehnung oder einem Bruch des Behälters führt. Achten Sie darauf, dass der Behälter an einem gut belüfteten Ort aufbewahrt wird. Kleine Mengen Trockeneis für handwerkliche Arbeiten können für kurze Zeit in Styroporbehältern gelagert werden."
-                    },
-                    {
-                        "text": "In der Automobilindustrie wird es zur Reinigung von Formen, Prozesslinien, auch mit elektronischen Bauteilen, in der Holzindustrie - zur Reinigung von Produktionsanlagen von Leim, Lack und Harzen und in der Gießereiindustrie - zur Reinigung von Formen, Gesenken und Schnecken, Kernentlüftungen, halbfesten Gussteilen und Gießmaschinen, zur Entfernung von Harzen und Haftvermittlern eingesetzt. Es wird auch in der Automobilbranche für die komplexe Reinigung von Fahrzeuginnenräumen, Motorräumen, Fahrgestellen, elektrischen und elektronischen Systemen eingesetzt."
-                    },
-                    {
-                        "text": "Die Trockeneis-Reinigungsmethode wird auch eingesetzt, um Oberflächen nach Bränden, Rauch und Überschwemmungen wiederherzustellen, Schimmel und alte Farbe zu entfernen, schlechte Gerüche zu beseitigen, Unkraut, Moos und Kaugummi auf Pflastersteinen zu entfernen. Schimmel an den Wänden neigt dazu, wieder aufzutreten, weil die herkömmlichen Mittel zur Beseitigung des Schimmels nicht wirksam sind. Die sehr niedrige Temperatur von Trockeneis kann Schimmelsporen zerstören, was ein erneutes Auftreten verhindert - sagt Ireneusz Ronkowski."
-                    },
-                    {
-                        "text": "Trockeneis kann auch zur Reinigung von Denkmälern verwendet werden, um Farbe, Schimmel, Ruß und anderen Schmutz zu entfernen, der sich im Laufe der Jahre angesammelt hat. Die Renovierung erfolgt, ohne dass Risse, Kratzer oder Lochfraß auf den Oberflächen entstehen. Es ist möglich, Marmor, Glas, Onyx usw. zu reinigen, ohne sie zu beschädigen. Das Verfahren wird bei der Restaurierung historischer Gebäude, Denkmäler oder historischer Fahrzeuge eingesetzt. Es kann auch zur Reinigung von Rauchschäden, z. B. an Büchern, verwendet werden. Es wird auch zur Entfernung von Graffiti verwendet."
-                    }
-                ]
+            {
+              "iconUrl": "/icons/printing.png",
+              "tileTitle": "Przemysł poligraficzny",
+              "listElements": [
+                {
+                  "listElement": "czyszczenie pras drukarskich"
+                },
+                {
+                  "listElement": "usuwanie smarów"
+                },
+                {
+                  "listElement": "usuwanie tuszu"
+                },
+                {
+                  "listElement": "usuwanie pyłu papierowego"
+                },
+                {
+                  "listElement": "czyszczenie paneli sterujących, wałków"
+                }
+              ]
             },
-            "cleanlinssInEveryField": {
-                "title": "Sauberkeit in allen Bereichen.",
-                "description": "Bei der Trockeneisreinigung werden keine Reinigungsmittel verwendet. Diese Methode ist ideal, wenn Wasser- oder Sandstrahlen nicht erlaubt ist. Das liegt daran, dass Trockeneis in der Luft direkt vom festen Zustand (CO2-Granulat) in den gasförmigen Zustand (Sublimation) übergeht und daher während des Reinigungsprozesses kein Abwasser entsteht.",
-                "accordionTabs": [
-                    {
-                        "tabTitle": "Metallurgie- und Maschinenbauindustrie",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Ice Blaster ermöglicht die tägliche und gründliche Reinigung von Produktionsmaschinen, Schweißrobotern, Förderbändern und Lackieranlagen."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Drucker",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Zur Reinigung aller Druckmaschinen, Zylinder und Werkzeuge."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Holz- und Elektroindustrie",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Zur Reinigung von Holzbearbeitungsmaschinen, Generatoren, Turbinen, Schaltschränken usw."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Kunststoff- und Verpackungsindustrie",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Zur Entfernung von Silikon, Gummi, Farben, Lacken und anderen stark haftenden Verunreinigungen aus Spritzgussformen und Produktionslinien."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Automobilindustrie, Gießereien und Formenbau",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Zur Entfernung von stark haftenden Verschmutzungen: Silikon- oder Gummirückstände, Farben, Lacke, Schutzschichten von Spritzgussformen, Werkzeugen und Produktionsanlagen."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Lebensmittel-, Pharma- und Kosmetikindustrie",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Zur Reinigung von Förderanlagen, Abfüllanlagen und Mischern, Produktionslinien, Tanks und Öfen. Entfernt wirkungsvoll: eingebrannten Schmutz, Fett und Stärke."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Papierindustrie",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Zur Entfernung von Leim, Kalk, Staub und Zellulose aus Produktionsanlagen."
-                            }
-                        ]
-                    },
-                    {
-                        "tabTitle": "Kommunale und öffentliche Einrichtungen",
-                        "tabParagraphs": [
-                            {
-                                "tabParagraph": "Zur Entfernung von Graffiti und Kaugummi auf Gehwegen, Straßen, Gebäudefassaden, Mauern oder Brücken."
-                            }
-                        ]
-                    }
-                ]
+            {
+              "iconUrl": "/icons/food.png",
+              "tileTitle": "Przemysł spożywczy",
+              "listElements": [
+                {
+                  "listElement": "czyszczenie form do produkcji wafli etc"
+                },
+                {
+                  "listElement": "usuwanie bakterii"
+                },
+                {
+                  "listElement": "czyszczenie pieców"
+                },
+                {
+                  "listElement": "czyszczenie taśm produkcyjnych"
+                },
+                {
+                  "listElement": "czyszczenie trudnodostępnych miejsc"
+                },
+                {
+                  "listElement": "usuwanie wszystkich rodzajów zlepek produktu na taśmach, silnikach, urządzeniach"
+                }
+              ]
             },
-            "hydronomyCleaning": {
-                "title": "Hydronomische Hochdruckreinigung",
-                "description": "Wir bieten spezialisierte Druckreinigungsdienste (hydrodynamische Reinigung, Wasserstrahlen), bei denen Wasserstrahlen mit einem Druck von 50 bis 2500 bar auf die zu reinigenden Oberflächen gerichtet werden. Das Wasserstrahlen gewährleistet den höchstmöglichen Grad an Oberflächenreinheit. Die Methode wird eingesetzt, um schwere technologische Ablagerungen aus Industrieanlagen zu entfernen, Beton aus Stahlbetonkonstruktionen zu entfernen, wobei die Bewehrung an Ort und Stelle verbleibt, und für das strukturelle Schneiden von Stahlbeton.",
-                "listTitle": "Vorteile der hydrodynamischen Reinigung:",
-                "listContent": [
-                    {
-                        "listElement": "Beseitigung von Staub in der Umgebung und Verringerung der Abfallmenge"
-                    },
-                    {
-                        "listElement": "Keine strukturelle Verformung"
-                    },
-                    {
-                        "listElement": "Größere Reinigungskapazität als bei herkömmlichen Methoden"
-                    },
-                    {
-                        "listElement": "Vollständige Beseitigung der Korrosion"
-                    },
-                    {
-                        "listElement": "Präzises und selektives Abtragen von Farbschichten"
-                    }
-                ]
+            {
+              "iconUrl": "/icons/ladle.png",
+              "tileTitle": "Przemysł odlewniczy",
+              "listElements": [
+                {
+                  "listElement": "czyszczenie smarów grafitowych z matryc maszyn odlewniczych"
+                },
+                {
+                  "listElement": "usuwanie nadmiaru smaru, pyłu, tuszu, węgla z urządzeń produkcyjnych i siłowników hydraulicznych"
+                },
+                {
+                  "listElement": "czyszczenie przenośników bez demontażu urządzeń pneumatycznych, elektrycznych i łożysk"
+                }
+              ]
             },
-            "whatIsHydronomyCleaning": {
-                "title": "Was ist hydrodynamische Reinigung?",
-                "imageUrl": "/magmetBG.jpg",
-                "reverseElements": false,
-                "texts": [
-                    {
-                        "text": "Die Art und Weise, wie ein Wasserstrahl auf eine bestimmte Oberfläche wirkt, hängt von mehreren Faktoren ab. Es lässt sich jedoch nicht leugnen, dass die Grundvoraussetzung der Druck ist, mit dem das Wasser auf das gewählte Material trifft. Dieses Phänomen bietet viele Möglichkeiten, und eine der Dienstleistungen, die mit einem Hochdruckwasserstrahl durchgeführt werden, ist die hydrodynamische Reinigung, die von Unternehmen wie der Genossenschaft für die Wartung von Industrieanlagen angeboten wird."
-                    },
-                    {
-                        "text": "Bei dieser Methode wird eine große Menge Wasser (heiß oder kalt) unter hohem Druck (sogar 300 MPa) auf die zu reinigende Oberfläche gesprüht. In diesem Fall spielt auch der Durchmesser des Wasserstrahls eine wichtige Rolle, der von entsprechend gewählten (manchmal auch rotierenden) Düsen abhängt, was zusätzlich dazu führt, dass der Strahl eine recht hohe kinetische Energie hat, wodurch der gesamte mit der gereinigten Oberfläche verbundene Schmutz gelöst und nach außen getragen wird."
-                    },
-                    {
-                        "text": "Zur Erzeugung des erforderlichen Wasserdrucks werden spezielle Pumpen (z.B. Plungerpumpen) eingesetzt, die je nach Bedarf in den unterschiedlichsten Ausführungen erhältlich sind, wobei mit modernen Geräten dieser Art Wasserdrücke von über 3000bar erreicht werden können."
-                    }
-                ] 
+            {
+              "iconUrl": "/icons/eco-house.png",
+              "tileTitle": "Przemysł elektryczny i automatyka przemysłowa",
+              "listElements": [
+                {
+                  "listElement": "czyszczenie silników"
+                },
+                {
+                  "listElement": "czyszczenie szaf sterowniczych"
+                },
+                {
+                  "listElement": "czyszczenie akumulatorów"
+                },
+                {
+                  "listElement": "czyszczenie przewodów oraz zabrudzeń taśmach, silnikach i urządzeniach"
+                }
+              ]
             },
-            "whaterJetCleaning": {
-                "title": "Anwendungen und Vorteile der Hochdruckwasserstrahlreinigung",
-                "lists": [
-                    {
-                        "listDescription": "Die Technik der Oberflächenreinigung mit Hilfe von Druckwasserstrahlen ermöglicht es, eine Vielzahl von Ablagerungen (auch sehr hartnäckige) zu entfernen. Aus diesem Grund werden hydrodynamische Reinigungsdienste in vielen Industriezweigen eingesetzt, und das grundlegende Tätigkeitsspektrum umfasst: ",
-                        "listContent": [
-                            {
-                                "listElement": "Reinigung von Prozessrohrleitungen und Industrieanlagen"
-                            },
-                            {
-                                "listElement": "Reinigung und Wäsche von Tanks, Silos, Kesseln"
-                            },
-                            {
-                                "listElement": "Reinigung von Betonflächen (Böden, Straßen, Plätze, Flughäfen)"
-                            },
-                            {
-                                "listElement": "Entfernung von Verunreinigungen (Beton, Anstriche) von Gerüsten oder Metallkonstruktionen"
-                            },
-                            {
-                                "listElement": "Korrosionsschutzarbeiten in explosionsgefährdeten Bereichen"
-                            },
-                            {
-                                "listElement": "Reinigung von Kammern, Vertiefungen, Bioreaktoren, usw."
-                            }
-                        ]
-                    },
-                    {
-                        "listDescription": "Die Einwirkung eines Wasserstrahls unter hohem Druck auf eine ausgewählte Oberfläche ist eine äußerst beliebte Technologie, die eine Reihe von Vorteilen mit sich bringt, von denen wir einige nennen können: ",
-                        "listContent": [
-                            {
-                                "listElement": "hohe Genauigkeit und präzise und selektive Entfernung von Schmutzschichten"
-                            },
-                            {
-                                "listElement": "die hydrodynamische Reinigung beschädigt die gereinigte Oberfläche nicht"
-                            },
-                            {
-                                "listElement": "diese Methode ermöglicht es, alle schwer zugänglichen Bereiche zu erreichen"
-                            },
-                            {
-                                "listElement": "Entsperrt auch komplett verstopfte Rohre (z.B. Abwasserrohre) ohne Bohren"
-                            },
-                            {
-                                "listElement": "die hydrodynamische Methode reduziert die Menge der in die Umwelt freigesetzten Chemikalien"
-                            },
-                            {
-                                "listElement": "Diese Methode kann in explosionsgefährdeten Bereichen eingesetzt werden"
-                            }
-                        ]
-                    },
-                    {
-                        "listDescription": "Die hydrodynamische Reinigung mit der hohen dynamischen Energie von Wasserstrahlen ist eine äußerst vielseitige, moderne, effiziente und umweltfreundliche Methode zur Reinigung von Oberflächen unterschiedlicher Art."
-                    }
-                ]
+            {
+              "iconUrl": "/icons/plastic.png",
+              "tileTitle": "Przetwórstwo tworzyw sztucznych",
+              "listElements": [
+                {
+                  "listElement": "czyszczenie form do wydmuchiwania butelek"
+                },
+                {
+                  "listElement": "czyszczenie form wtryskowych"
+                },
+                {
+                  "listElement": "usuwanie pianki z form i maszyn"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/arch-of-triumph.png",
+              "tileTitle": "Renowacja zabytków, czyszczenie elewacji",
+              "listElements": [
+                {
+                  "listElement": "usuwanie graffiti"
+                },
+                {
+                  "listElement": "renowacja zabytków"
+                },
+                {
+                  "listElement": "renowacja elewacji"
+                },
+                {
+                  "listElement": "czyszczenie elementów drewnianych"
+                },
+                {
+                  "listElement": "czyszczenie pomników"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/fire.png",
+              "tileTitle": "Usuwanie skutków pożaru",
+              "listElements": [
+                {
+                  "listElement": "czyszczenie zwęglenia w drewnie, cegle, betonie i metalu"
+                },
+                {
+                  "listElement": "usuwanie sadzy"
+                },
+                {
+                  "listElement": "usuwanie zapachu spalenizny"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/ellipsis.png",
+              "tileTitle": "Pozostałe zastosowania",
+              "listElements": [
+                {
+                  "listElement": "usuwanie oznakowań w halach i na drogach"
+                },
+                {
+                  "listElement": "usuwanie gumy, kleju, smoły"
+                },
+                {
+                  "listElement": "czyszczenie powierzchni hal przemysłowych"
+                },
+                {
+                  "listElement": "czyszczenie powierzchni wchodzących w kontakt z żywnością"
+                },
+                {
+                  "listElement": "czyszczenie wymienników ciepła, chłodnic, rur, nagrzewnic"
+                },
+                {
+                  "listElement": "usuwanie pleśni"
+                },
+                {
+                  "listElement": "usuwanie reklam z samochodów oraz pozostałości kleju"
+                },
+                {
+                  "listElement": "czyszczenie maszyn i akcesoriów dla przemysłu drzewnego"
+                },
+                {
+                  "listElement": "czyszczenie maszyn i narzędzi do odlewów i formowania"
+                },
+                {
+                  "listElement": "czyszczenie narzędzi do formowania wtryskowego"
+                },
+                {
+                  "listElement": "czyszczenie przenośników oraz łańcuchów w przenośnikach"
+                },
+                {
+                  "listElement": "czyszczenie linii produkcyjnych (elementy elektryczne i mechaniczne) bez konieczności ich demontażu"
+                },
+                {
+                  "listElement": "czyszczenie łopatek turbin"
+                },
+                {
+                  "listElement": "czyszczenie pieców hutniczych"
+                }
+              ]
             }
+          ]
         }
-    ]
+      ],
+      "whatIsDryIceCleaningSection": {
+        "isTitleInOtherColumn": true,
+        "title": "Na czym polega czyszczenie suchym lodem?",
+        "imageUrl": "/whatIsDryIceCleaningSection.jpeg",
+        "texts": [
+          {
+            "text": "Proces czyszczenia suchym lodem wykorzystuje granulki, które uderzają w wybrany element i tym samym powodują nagłe, punktowe przechłodzenie powłoki lub zabrudzenia, które planujemy usunąć."
+          },
+          {
+            "text": "Dzięki wysokiej energii kinetycznej, granulki suchego lodu nie tylko ulegają deformacji i zgnieceniu – w czasie uderzeń w obrabiany przedmiot pojawiają się również mikropęknięcia w warstwie zabrudzeń. Następnie cząsteczki suchego lodu wchodzą w nie i zwiększają swoją objętość nawet 1000-krotnie, by oddzielić niechcianą warstwę od wybranej powierzchni. Medium używane w całej procedurze przechodzi w stan gazowy."
+          },
+          {
+            "text": "W odróżnieniu od większości tradycyjnych technik, czyszczenie suchym lodem nie stanowi procesu ściernego. Na powierzchni nie dochodzi do pojawienia się żadnych zarysowań czy zużycia."
+          }
+        ]
+      },
+      "principlesOfDryIceCleaning": {
+        "title": "Zasady czyszczenia suchym lodem.",
+        "accordionTabs": [
+          {
+            "tabTitle": "Ciągłość pracy zakładu",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "czyszczenie elementów maszyn, form czy narzędzi maszyn jest możliwa podczas pracy: nie wymaga demontażu ani przerw w produkcji, a więc nie generuje przerwy w harmonogramie działania przedsiębiorstwa."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Bezinwazyjność",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "w czyszczeniu suchym lodem nie stosuje się środków chemicznych ani ściernych, dzięki czemu proces nie powoduje uszkodzenia powierzchni."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Ekologia",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "suchy lód z formy stałej przechodzi w gazową, pomijając ciekły stan skupienia (sublimacja suchego lodu. Proces czyszczenia suchym lodem nie staje się więc przyczyną powstawania dodatkowych zanieczyszczeń."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Bezpieczeństwo dla urządzeń elektrycznych",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "to jedyna tak skuteczna metoda czyszczenia na sucho instalacji elektrycznej."
+              }
+            ]
+          }
+        ]
+      },
+      "dryIceApplication": {
+        "title": "Suchy lód - zastosowanie.",
+        "texts": [
+          {
+            "text": "Czyszczenie suchym lodem umożliwia dotarcie do zabrudzeń na powierzchniach trudnodostępnych o skomplikowanej geometrii i kształtach. Dlatego najczęściej technologia ta wykorzystywana jest do usuwania zanieczyszczeń z form do wtrysku tworzyw sztucznych i gumy czy aluminium. Świetnie sprawdza się również do odtłuszczania powierzchni, dlatego z powodzeniem wykorzystuje się ją w przemyśle spożywczym, drzewnym, papierniczym i narzędziowniach. Może służyć także do usuwania farby czy korozji."
+          },
+          {
+            "text": "Aby suchy lód zachował swoje cenne właściwości, należy go prawidłowo przechowywać. Najlepszym zabezpieczeniem jest izolowany kontener, np ze styropianu – w przypadku małych objętości, a dla dużych objętości formowany rotacyjnie z izolowaną pokrywą lub grubymi nakładkami górnymi"
+          },
+          {
+            "text": "Gruba izolacja pozwala spowolnić tempo sublimacji suchego lodu (CO2), która prowadzi do rozszerzenia lub pęknięcia pojemnika. Należy pamiętać, aby kontener znajdował się w dobrze wentylowanym pomieszczeniu. Małe ilości suchego lodu do podręcznych prac można przez krótki okres przechowywać w pojemnikach ze styropianu."
+          },
+          {
+            "text": "W przemyśle motoryzacyjnym używa się jej do czyszczenia form, linii technologicznych, także z komponentami elektronicznymi, w przemyśle drzewnym – do czyszczenia urządzeń produkcyjnych z kleju, lakierów oraz żywic, a w przemyśle odlewniczym – do czyszczenia form, tłoczników i ślimaków, odpowietrzeń rdzenia, półstałych odlewów i maszyn odlewniczych, usuwania żywic i środków adhezyjnych. Ma ona również zastosowanie w serwisach samochodowych do kompleksowego czyszczenia wnętrz samochodów, przestrzeni silnikowych, podwozia, układów elektrycznych i elektronicznych."
+          },
+          {
+            "text": "Metoda czyszczenia suchym lodem jest używana również do renowacji powierzchni po pożarach, zadymieniach i powodziach, usuwania pleśni, starej farby, eliminacji brzydkich zapachów, usuwania chwastów, mchu, gum do żucia na polbrukach. Pleśń na ścianach ma tendencje do powracania, ponieważ tradycyjne sposoby jej usuwania nie są skuteczne. Bardzo niska temperatura suchego lodu jest w stanie zniszczyć zarodniki pleśni, co zapobiega nawrotom."
+          },
+          {
+            "text": "Suchym lodem można też czyścić zabytki, by usunąć farbę, pleśń, sadzę oraz inne nagromadzone przez lata zanieczyszczenia. Renowacja następuje bez tworzenia pęknięć, rys i wżerów na powierzchniach. Możliwe jest czyszczenie marmuru, szkła, onyksu itp. bez powodowania uszkodzeń. Metoda jest wykorzystywana do renowacji historycznych budynków, pomników czy pojazdów zabytkowych. Może być też używana do czyszczenia uszkodzeń spowodowanych przez dym np. na księgozbiorach. Stosuje się ją również do usuwania graffiti."
+          }
+        ]
+      },
+      "cleanlinssInEveryField": {
+        "title": "Czystość na każdym polu.",
+        "description": "W procesie czyszczenia suchym lodem nie stosuje się żadnych detergentów. Metoda ta doskonale sprawdza się wszędzie tam, gdzie niedozwolone jest czyszczenie wodą lub piaskowanie. Dzieje się tak ponieważ suchy lód przechodzi w powietrzu z postaci stałej (granulat CO2) bezpośrednio do gazowej (sublimuje), dlatego też podczas czyszczenia nie powstają ścieki.",
+        "imageUrl": "/cleanlinssInEveryField.jpeg",
+        "accordionTabs": [
+          {
+            "tabTitle": "Przemysł metalurgiczny i maszynowy",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Intelblast umożliwia codzienne i dogłębne czyszczenie maszyn produkcyjnych, robotów spawalniczych, przenośników taśmowych i lakierni."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Drukarnie",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Do czyszczenia wszystkich maszyn drukarskich, cylindrów i narzędzi."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Przemysł drzewny i elektryczny",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Do czyszczenia maszyn do obróbki drewna, generatorów, turbin i szaf sterowniczych, itp."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Przemysł tworzyw sztucznych i opakowań",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Do usuwania sylikonu, gumy, farb, lakierów i innych silnie przylegających zabrudzeń z form wtryskowych i linii produkcyjnych."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Przemysł motoryzacyjny, odlewnie i produkcja form wtryskowych",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Do usuwania silnie przylegających zabrudzeń: pozostałości sylikonu czy gumy, farby, lakiery, powłoki ochronne z form wtryskowych, narzędzi i linii produkcyjnych."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Przemysł spożywczy, farmaceutyczny i kosmetyczny",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Do czyszczenia systemów przenośnikowych, systemów napełniania i mieszalników, linii produkcyjnych, zbiorników i pieców. Skutecznie usuwa: zapieczony brud, tłuszcz i skrobię."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Przemysł papierniczy",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Do usuwania kleju, wapna, pyłu i celulozy z urządzeń produkcyjnych."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Obiekty komunalne i użyteczności publicznej",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Do usuwania graffiti oraz gum do żucia z chodników, ulic, elewacji budynków, murów czy mostów."
+              }
+            ]
+          }
+        ]
+      },
+      "hydronomyCleaning": {
+        "title": "Hydronomiczne czyszczenie pod wysokim ciśnieniem",
+        "description": "Wykonujemy usługi specjalistycznego mycia ciśnieniowego (mycie hydrodynamiczne, water jetting) polegającego na skierowaniu na czyszczone powierzchnie strumienia wody pod ciśnieniem od 50 do 2500 bar. Mycie wodą zapewnia najwyższy możliwy stopień czystości powierzchni. Metoda wykorzystywana jest do usuwania ciężkich osadów technologicznych z instalacji przemysłowych, a także przy usuwaniu betonu z konstrukcji żelbetowych z pozostawieniem zbrojenia oraz przy cięciu konstrukcyjnym żelbetu.",
+        "listTitle": "Zalety czyszczenia metodą hydrodynamiczną:",
+        "listContent": [
+          {
+            "listElement": "Eliminacja zapylenia otoczenia oraz zmniejszenie ilości odpadów"
+          },
+          {
+            "listElement": "Brak odkształceń konstrukcji"
+          },
+          {
+            "listElement": "Większa wydajność czyszczenia w porównaniu do metod tradycyjnych"
+          },
+          {
+            "listElement": "Całkowita eliminacja korozji"
+          },
+          {
+            "listElement": "Precyzyjne i selektywne usunięcie warstw powłoki malarskiej"
+          }
+        ]
+      },
+      "whatIsHydronomyCleaning": {
+        "title": "Czym jest czyszczenie hydrodynamiczne?",
+        "imageUrl": "/whatIsHydronomyCleaning.jpeg",
+        "reverseElements": false,
+        "texts": [
+          {
+            "text": "To w jaki sposób strumień wody działać będzie na określoną powierzchnię zależy od sporej ilości czynników. Nie da się jednak ukryć, że podstawowym warunkiem jest tu ciśnienie z jakim woda uderza o wybrany materiał. Zjawisko to daje ogrom możliwości, przy czym jedną z usług realizowanych przy użyciu strumienia wody pod wysokim ciśnieniem jest czyszczenie hydrodynamiczne, które w swojej ofercie mają firmy takie jak Spółdzielnia pracy konserwacji urządzeń przemysłowych."
+          },
+          {
+            "text": "Metoda ta polega na natrysku na oczyszczaną powierzchnię dużej ilości wody (ciepłej lub zimnej) pod wysokim ciśnieniem (nawet 300 MPa). W tym przypadku ogromną rolę odgrywa tu również średnica strumienia wody, która uzależniona jest od odpowiednio dobranych dysz (niekiedy także obrotowych), co sprawia dodatkowo, że strumień posiada dość dużą energię kinetyczną, powodując odspojenie od oczyszczanej powierzchni wszelkich zanieczyszczeń z nią związanych i wyniesienie ich na zewnątrz."
+          },
+          {
+            "text": "Do wytworzenia niezbędnego ciśnienia wody wykorzystywane są specjalne pompy (np. nurnikowe), które w zależności od potrzeb dostępne są w zróżnicowanym zakresie konfiguracji, przy czym stosowane współcześnie urządzenia tego typu pozwalają uzyskać ciśnienie wody powyżej 3000bar."
+          }
+        ]
+      },
+      "whaterJetCleaning": {
+        "title": "Zastosowanie i zalety czyszczenia strumieniem wody pod wysokim ciśnieniem",
+        "lists": [
+          {
+            "listDescription": "Technika czyszczenia powierzchni, wykorzystująca strumień wody pod ciśnieniem, pozwala na usunięcie zróżnicowanych osadów (nawet tych niezwykle uporczywych). Dlatego też usługi hydrodynamicznego czyszczenia wykorzystywane są w wielu branżach, zaś podstawowy zakres działań obejmuje: ",
+            "listContent": [
+              {
+                "listElement": "czyszczenie rurociągów technologicznych i instalacji przemysłowych"
+              },
+              {
+                "listElement": "czyszczenie i mycie zbiorników, silosów, kotłów"
+              },
+              {
+                "listElement": "czyszczenie powierzchni betonowych (posadzki, drogi, place, lotniska)"
+              },
+              {
+                "listElement": "usuwaniu zanieczyszczeń (betonu, powłok malarskich) z rusztowań lub konstrukcji metalowych"
+              },
+              {
+                "listElement": "prace antykorozyjne w strefach zagrożenia wybuchem"
+              },
+              {
+                "listElement": "czyszczenie komór, studni, bioreaktorów, itp."
+              }
+            ]
+          },
+          {
+            "listDescription": "Działanie na wybraną powierzchnię strumieniem wody pod wysokim ciśnieniem to technologia, która cieszy się niezwykłą popularnością, co wynika z faktu, że niesie ona ze sobą szereg zalet, z których wymienić należy: ",
+            "listContent": [
+              {
+                "listElement": "wysoka dokładność oraz precyzyjne i selektywne usunięcie warstw zanieczyszczeń"
+              },
+              {
+                "listElement": "mycie hydrodynamiczne nie niszczy czyszczonej powierzchni"
+              },
+              {
+                "listElement": "metoda ta pozwala dotrzeć do wszystkich trudno dostępnych przestrzeni"
+              },
+              {
+                "listElement": "umożliwia odblokowanie nawet całkowicie zatkanych rur (np. kanalizacyjnych) bez przewiercania"
+              },
+              {
+                "listElement": "metoda hydrodynamiczna pozwala ograniczyć ilość chemii przedostającej się do otoczenia"
+              },
+              {
+                "listElement": "metodę tę można stosować w strefach zagrożenia wybuchem."
+              }
+            ]
+          },
+          {
+            "listDescription": "Usługi hydrodynamicznego czyszczenia, wykorzystujące wysoką energię dynamiczną strug wody, stanowią niezwykle uniwersalną, nowoczesną, wydajną i przyjazną środowisku, metodę czyszczenia powierzchni o zróżnicowanym charakterze."
+          }
+        ]
+      }
+    },
+    {
+      "language": "de-DE",
+      "heroTitle": "Dkice",
+      "heroDescription": "Es hat sich herausgestellt, dass Trockeneis in Granulatform (konzentriertes CO2) aufgrund seiner erstaunlichen physikalischen Eigenschaften ein ideales Reinigungsmittel ist, das in der Industrie gut funktioniert, um Verunreinigungen von empfindlichen Werkzeugen und Geräten nicht-invasiv zu entfernen.",
+      "heroImageUrl": "/magmetBG.jpg",
+      "buttonData": {
+        "href": "#dynamicContent",
+        "buttonContent": "Mehr lesen"
+      },
+      "tilesContainer": [
+        {
+          "sectionTitle": "Branchen, in denen Trockeneisstrahlen eingesetzt werden kann",
+          "tiles": [
+            {
+              "iconUrl": "/icons/garages.png",
+              "tileTitle": "Kfz-Werkstätten",
+              "listElements": [
+                {
+                  "listElement": "Reinigung und Restaurierung der Innenräume"
+                },
+                {
+                  "listElement": "Reinigung des Fahrgestells"
+                },
+                {
+                  "listElement": "Renovierung von Youngtimern und Oldtimern"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/car.png",
+              "tileTitle": "Automobilbranche",
+              "listElements": [
+                {
+                  "listElement": "Perfekte Sauberkeit: kürzere Reinigungszyklen = weniger Ausfallzeiten"
+                },
+                {
+                  "listElement": "Reinigung von Formen, die in verschiedenen Produktionsprozessen verwendet werden, ob aus Gummi oder Schaumstoff"
+                },
+                {
+                  "listElement": "Reinigung von Turbinen"
+                },
+                {
+                  "listElement": "Reinigung von Schweißgeräten"
+                },
+                {
+                  "listElement": "Reinigung von Produktionslinien"
+                },
+                {
+                  "listElement": "Reinigung von elektrophoretischen Beschichtungen"
+                },
+                {
+                  "listElement": "Reinigungskabinen und -geräte in Lackierereien"
+                },
+                {
+                  "listElement": "Reinigungsfächer"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/printing.png",
+              "tileTitle": "Druckindustrie",
+              "listElements": [
+                {
+                  "listElement": "Reinigung von Druckmaschinen"
+                },
+                {
+                  "listElement": "Entfettung"
+                },
+                {
+                  "listElement": "Entfernung von Tinte"
+                },
+                {
+                  "listElement": "Entfernung von Papierstaub"
+                },
+                {
+                  "listElement": "Reinigung von Bedienfeldern, Rollen"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/food.png",
+              "tileTitle": "Lebensmittelindustrie",
+              "listElements": [
+                {
+                  "listElement": "Reinigung von Wafer-Formen usw."
+                },
+                {
+                  "listElement": "Entfernung von Bakterien"
+                },
+                {
+                  "listElement": "Reinigung von Öfen"
+                },
+                {
+                  "listElement": "Reinigung der Produktionsbänder"
+                },
+                {
+                  "listElement": "Reinigung von schwer zugänglichen Stellen"
+                },
+                {
+                  "listElement": "Entfernung von Produktrückständen aller Art auf Bändern, Motoren, Geräten"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/ladle.png",
+              "tileTitle": "Gießerei-Industrie",
+              "listElements": [
+                {
+                  "listElement": "Reinigung von Graphitschmierstoffen aus den Druckgussmaschinen"
+                },
+                {
+                  "listElement": "Entfernung von überschüssigem Fett, Staub, Tinte und Kohlenstoff von Produktionsanlagen und Hydraulikzylindern"
+                },
+                {
+                  "listElement": "Reinigung von Förderanlagen ohne Demontage der pneumatischen und elektrischen Ausrüstung und der Lager"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/eco-house.png",
+              "tileTitle": "Elektroindustrie und industrielle Automatisierung",
+              "listElements": [
+                {
+                  "listElement": "Reinigung von Motoren"
+                },
+                {
+                  "listElement": "Reinigung von Steuerschränken"
+                },
+                {
+                  "listElement": "Batteriereinigung"
+                },
+                {
+                  "listElement": "Reinigung von Kabeln und Schmutz an Riemen, Motoren und Geräten"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/plastic.png",
+              "tileTitle": "Verarbeitung von Kunststoffen",
+              "listElements": [
+                {
+                  "listElement": "Reinigung von Flaschenblasformen"
+                },
+                {
+                  "listElement": "Reinigung von Spritzgießwerkzeugen"
+                },
+                {
+                  "listElement": "Schaumentfernung aus Formen und Maschinen"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/arch-of-triumph.png",
+              "tileTitle": "Restaurierung von Denkmälern, Reinigung von Fassaden",
+              "listElements": [
+                {
+                  "listElement": "Graffitientfernung"
+                },
+                {
+                  "listElement": "Restaurierung von Denkmälern"
+                },
+                {
+                  "listElement": "Fassadensanierung"
+                },
+                {
+                  "listElement": "Reinigung von Holzteilen"
+                },
+                {
+                  "listElement": "Reinigung von Denkmälern"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/fire.png",
+              "tileTitle": "Sanierung von Brandschäden",
+              "listElements": [
+                {
+                  "listElement": "Reinigung von Verkohlungen in Holz, Ziegel, Beton und Metall"
+                },
+                {
+                  "listElement": "Rußbeseitigung"
+                },
+                {
+                  "listElement": "Beseitigung von Brandgeruch"
+                }
+              ]
+            },
+            {
+              "iconUrl": "/icons/ellipsis.png",
+              "tileTitle": "Andere Verwendungen",
+              "listElements": [
+                {
+                  "listElement": "Entfernung von Markierungen in Hallen und auf Straßen"
+                },
+                {
+                  "listElement": "Entfernung von Gummi, Leim, Teer"
+                },
+                {
+                  "listElement": "Reinigung von Industriehallenflächen"
+                },
+                {
+                  "listElement": "Reinigung von Oberflächen, die mit Lebensmitteln in Berührung kommen"
+                },
+                {
+                  "listElement": "Reinigung von Wärmetauschern, Kühlern, Rohren und Heizungen"
+                },
+                {
+                  "listElement": "Schimmelpilzentfernung"
+                },
+                {
+                  "listElement": "Entfernung von Werbematerial und Kleberückständen von Autos"
+                },
+                {
+                  "listElement": "Reinigung von Maschinen und Zubehör für die holzverarbeitende Industrie"
+                },
+                {
+                  "listElement": "Reinigung von Maschinen und Werkzeugen für das Gießen und Formen"
+                },
+                {
+                  "listElement": "Reinigung von Spritzgießwerkzeugen"
+                },
+                {
+                  "listElement": "Reinigung von Förderern und Förderketten"
+                },
+                {
+                  "listElement": "Reinigung von Produktionslinien (elektrische und mechanische Komponenten) ohne deren Demontage"
+                },
+                {
+                  "listElement": "Reinigung von Turbinenschaufeln"
+                },
+                {
+                  "listElement": "Reinigung von Hochöfen"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "whatIsDryIceCleaningSection": {
+        "isTitleInOtherColumn": true,
+        "title": "Was ist Trockeneisreinigung?",
+        "imageUrl": "/whatIsDryIceCleaningSection.jpeg",
+        "texts": [
+          {
+            "text": "Bei der Trockeneisreinigung wird ein Granulat verwendet, das auf das ausgewählte Teil aufprallt und so eine plötzliche, punktuelle Abkühlung der zu entfernenden Beschichtung oder Verschmutzung bewirkt."
+          },
+          {
+            "text": "Dank ihrer hohen kinetischen Energie verformen und zerkleinern die Trockeneispellets nicht nur, sondern erzeugen beim Aufprall auf das Werkstück auch Mikrorisse in der Schmutzschicht. Die Trockeneispartikel dringen dann in die Risse ein und vergrößern ihr Volumen bis zum 1000-fachen, um die unerwünschte Schicht von der ausgewählten Oberfläche zu trennen. Das während des gesamten Verfahrens verwendete Medium geht in einen gasförmigen Zustand über."
+          },
+          {
+            "text": "Im Gegensatz zu den meisten traditionellen Verfahren ist die Trockeneisreinigung kein abrasiver Prozess. Die Oberfläche weist keine Kratzer oder Abnutzungen auf."
+          }
+        ]
+      },
+      "principlesOfDryIceCleaning": {
+        "title": "Grundsätze der Trockeneisreinigung.",
+        "description": "Warum entscheiden sich die Kunden immer häufiger für die Trockeneisreinigung?",
+        "accordionTabs": [
+          {
+            "tabTitle": "Kontinuität des Anlagenbetriebs",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Die Reinigung von Maschinenteilen, Formen oder Werkzeugen ist bei laufendem Betrieb möglich: Sie erfordert keine Demontage oder Unterbrechung der Produktion und führt daher nicht zu einer Unterbrechung des Zeitplans des Unternehmens."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Nicht-invasiv",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Bei der Trockeneisreinigung werden keine Chemikalien oder Scheuermittel verwendet, so dass die Oberfläche nicht beschädigt wird."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Ökologie",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Trockeneis geht vom festen in den gasförmigen Zustand über, wobei der flüssige Zustand der Materie umgangen wird (Trockeneissublimation). Der Trockeneis-Reinigungsprozess wird daher nicht zu einer Ursache für zusätzliche Verunreinigungen."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Sicherheit für elektrische Geräte",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "ist die einzige wirksame Methode zur Trockenreinigung von Elektroinstallationen."
+              }
+            ]
+          }
+        ]
+      },
+      "dryIceApplication": {
+        "title": "Trockeneis - Anwendung.",
+        "texts": [
+          {
+            "text": "Die Trockeneisreinigung ermöglicht es, Verschmutzungen auf schwer zugänglichen Oberflächen mit komplizierten Geometrien und Formen zu erreichen. Aus diesem Grund wird diese Technologie am häufigsten zur Entfernung von Verunreinigungen aus Kunststoff-, Gummi- oder Aluminiumspritzgussformen eingesetzt. Es eignet sich auch hervorragend zum Entfetten von Oberflächen, weshalb es in der Lebensmittel-, Holz-, Papier- und Werkzeugindustrie erfolgreich eingesetzt wird. Es kann auch zum Entfernen von Farbe oder Korrosion verwendet werden."
+          },
+          {
+            "text": "Trockeneis muss richtig gelagert werden, damit seine wertvollen Eigenschaften erhalten bleiben. Der beste Schutz ist ein isolierter Behälter, z. B. aus Polystyrol - bei kleinen Mengen, und bei großen Mengen ein rotationsgeformter Behälter mit isoliertem Deckel oder dicker Abdeckung"
+          },
+          {
+            "text": "Eine dicke Isolierung trägt dazu bei, die Sublimation von Trockeneis (CO2) zu verlangsamen, die zu einer Ausdehnung oder einem Bruch des Behälters führt. Achten Sie darauf, dass der Behälter an einem gut belüfteten Ort aufbewahrt wird. Kleine Mengen Trockeneis für handwerkliche Arbeiten können für kurze Zeit in Styroporbehältern gelagert werden."
+          },
+          {
+            "text": "In der Automobilindustrie wird es zur Reinigung von Formen, Prozesslinien, auch mit elektronischen Bauteilen, in der Holzindustrie - zur Reinigung von Produktionsanlagen von Leim, Lack und Harzen und in der Gießereiindustrie - zur Reinigung von Formen, Gesenken und Schnecken, Kernentlüftungen, halbfesten Gussteilen und Gießmaschinen, zur Entfernung von Harzen und Haftvermittlern eingesetzt. Es wird auch in der Automobilbranche für die komplexe Reinigung von Fahrzeuginnenräumen, Motorräumen, Fahrgestellen, elektrischen und elektronischen Systemen eingesetzt."
+          },
+          {
+            "text": "Die Trockeneis-Reinigungsmethode wird auch eingesetzt, um Oberflächen nach Bränden, Rauch und Überschwemmungen wiederherzustellen, Schimmel und alte Farbe zu entfernen, schlechte Gerüche zu beseitigen, Unkraut, Moos und Kaugummi auf Pflastersteinen zu entfernen. Schimmel an den Wänden neigt dazu, wieder aufzutreten, weil die herkömmlichen Mittel zur Beseitigung des Schimmels nicht wirksam sind. Die sehr niedrige Temperatur von Trockeneis kann Schimmelsporen zerstören, was ein erneutes Auftreten verhindert - sagt Ireneusz Ronkowski."
+          },
+          {
+            "text": "Trockeneis kann auch zur Reinigung von Denkmälern verwendet werden, um Farbe, Schimmel, Ruß und anderen Schmutz zu entfernen, der sich im Laufe der Jahre angesammelt hat. Die Renovierung erfolgt, ohne dass Risse, Kratzer oder Lochfraß auf den Oberflächen entstehen. Es ist möglich, Marmor, Glas, Onyx usw. zu reinigen, ohne sie zu beschädigen. Das Verfahren wird bei der Restaurierung historischer Gebäude, Denkmäler oder historischer Fahrzeuge eingesetzt. Es kann auch zur Reinigung von Rauchschäden, z. B. an Büchern, verwendet werden. Es wird auch zur Entfernung von Graffiti verwendet."
+          }
+        ]
+      },
+      "cleanlinssInEveryField": {
+        "title": "Sauberkeit in allen Bereichen.",
+        "description": "Bei der Trockeneisreinigung werden keine Reinigungsmittel verwendet. Diese Methode ist ideal, wenn Wasser- oder Sandstrahlen nicht erlaubt ist. Das liegt daran, dass Trockeneis in der Luft direkt vom festen Zustand (CO2-Granulat) in den gasförmigen Zustand (Sublimation) übergeht und daher während des Reinigungsprozesses kein Abwasser entsteht.",
+        "imageUrl": "/cleanlinssInEveryField.jpeg",
+        "accordionTabs": [
+          {
+            "tabTitle": "Metallurgie- und Maschinenbauindustrie",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Ice Blaster ermöglicht die tägliche und gründliche Reinigung von Produktionsmaschinen, Schweißrobotern, Förderbändern und Lackieranlagen."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Drucker",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Zur Reinigung aller Druckmaschinen, Zylinder und Werkzeuge."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Holz- und Elektroindustrie",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Zur Reinigung von Holzbearbeitungsmaschinen, Generatoren, Turbinen, Schaltschränken usw."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Kunststoff- und Verpackungsindustrie",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Zur Entfernung von Silikon, Gummi, Farben, Lacken und anderen stark haftenden Verunreinigungen aus Spritzgussformen und Produktionslinien."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Automobilindustrie, Gießereien und Formenbau",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Zur Entfernung von stark haftenden Verschmutzungen: Silikon- oder Gummirückstände, Farben, Lacke, Schutzschichten von Spritzgussformen, Werkzeugen und Produktionsanlagen."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Lebensmittel-, Pharma- und Kosmetikindustrie",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Zur Reinigung von Förderanlagen, Abfüllanlagen und Mischern, Produktionslinien, Tanks und Öfen. Entfernt wirkungsvoll: eingebrannten Schmutz, Fett und Stärke."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Papierindustrie",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Zur Entfernung von Leim, Kalk, Staub und Zellulose aus Produktionsanlagen."
+              }
+            ]
+          },
+          {
+            "tabTitle": "Kommunale und öffentliche Einrichtungen",
+            "tabParagraphs": [
+              {
+                "tabParagraph": "Zur Entfernung von Graffiti und Kaugummi auf Gehwegen, Straßen, Gebäudefassaden, Mauern oder Brücken."
+              }
+            ]
+          }
+        ]
+      },
+      "hydronomyCleaning": {
+        "title": "Hydronomische Hochdruckreinigung",
+        "description": "Wir bieten spezialisierte Druckreinigungsdienste (hydrodynamische Reinigung, Wasserstrahlen), bei denen Wasserstrahlen mit einem Druck von 50 bis 2500 bar auf die zu reinigenden Oberflächen gerichtet werden. Das Wasserstrahlen gewährleistet den höchstmöglichen Grad an Oberflächenreinheit. Die Methode wird eingesetzt, um schwere technologische Ablagerungen aus Industrieanlagen zu entfernen, Beton aus Stahlbetonkonstruktionen zu entfernen, wobei die Bewehrung an Ort und Stelle verbleibt, und für das strukturelle Schneiden von Stahlbeton.",
+        "listTitle": "Vorteile der hydrodynamischen Reinigung:",
+        "listContent": [
+          {
+            "listElement": "Beseitigung von Staub in der Umgebung und Verringerung der Abfallmenge"
+          },
+          {
+            "listElement": "Keine strukturelle Verformung"
+          },
+          {
+            "listElement": "Größere Reinigungskapazität als bei herkömmlichen Methoden"
+          },
+          {
+            "listElement": "Vollständige Beseitigung der Korrosion"
+          },
+          {
+            "listElement": "Präzises und selektives Abtragen von Farbschichten"
+          }
+        ]
+      },
+      "whatIsHydronomyCleaning": {
+        "title": "Was ist hydrodynamische Reinigung?",
+        "imageUrl": "/whatIsHydronomyCleaning.jpeśg",
+        "reverseElements": false,
+        "texts": [
+          {
+            "text": "Die Art und Weise, wie ein Wasserstrahl auf eine bestimmte Oberfläche wirkt, hängt von mehreren Faktoren ab. Es lässt sich jedoch nicht leugnen, dass die Grundvoraussetzung der Druck ist, mit dem das Wasser auf das gewählte Material trifft. Dieses Phänomen bietet viele Möglichkeiten, und eine der Dienstleistungen, die mit einem Hochdruckwasserstrahl durchgeführt werden, ist die hydrodynamische Reinigung, die von Unternehmen wie der Genossenschaft für die Wartung von Industrieanlagen angeboten wird."
+          },
+          {
+            "text": "Bei dieser Methode wird eine große Menge Wasser (heiß oder kalt) unter hohem Druck (sogar 300 MPa) auf die zu reinigende Oberfläche gesprüht. In diesem Fall spielt auch der Durchmesser des Wasserstrahls eine wichtige Rolle, der von entsprechend gewählten (manchmal auch rotierenden) Düsen abhängt, was zusätzlich dazu führt, dass der Strahl eine recht hohe kinetische Energie hat, wodurch der gesamte mit der gereinigten Oberfläche verbundene Schmutz gelöst und nach außen getragen wird."
+          },
+          {
+            "text": "Zur Erzeugung des erforderlichen Wasserdrucks werden spezielle Pumpen (z.B. Plungerpumpen) eingesetzt, die je nach Bedarf in den unterschiedlichsten Ausführungen erhältlich sind, wobei mit modernen Geräten dieser Art Wasserdrücke von über 3000bar erreicht werden können."
+          }
+        ]
+      },
+      "whaterJetCleaning": {
+        "title": "Anwendungen und Vorteile der Hochdruckwasserstrahlreinigung",
+        "lists": [
+          {
+            "listDescription": "Die Technik der Oberflächenreinigung mit Hilfe von Druckwasserstrahlen ermöglicht es, eine Vielzahl von Ablagerungen (auch sehr hartnäckige) zu entfernen. Aus diesem Grund werden hydrodynamische Reinigungsdienste in vielen Industriezweigen eingesetzt, und das grundlegende Tätigkeitsspektrum umfasst: ",
+            "listContent": [
+              {
+                "listElement": "Reinigung von Prozessrohrleitungen und Industrieanlagen"
+              },
+              {
+                "listElement": "Reinigung und Wäsche von Tanks, Silos, Kesseln"
+              },
+              {
+                "listElement": "Reinigung von Betonflächen (Böden, Straßen, Plätze, Flughäfen)"
+              },
+              {
+                "listElement": "Entfernung von Verunreinigungen (Beton, Anstriche) von Gerüsten oder Metallkonstruktionen"
+              },
+              {
+                "listElement": "Korrosionsschutzarbeiten in explosionsgefährdeten Bereichen"
+              },
+              {
+                "listElement": "Reinigung von Kammern, Vertiefungen, Bioreaktoren, usw."
+              }
+            ]
+          },
+          {
+            "listDescription": "Die Einwirkung eines Wasserstrahls unter hohem Druck auf eine ausgewählte Oberfläche ist eine äußerst beliebte Technologie, die eine Reihe von Vorteilen mit sich bringt, von denen wir einige nennen können: ",
+            "listContent": [
+              {
+                "listElement": "hohe Genauigkeit und präzise und selektive Entfernung von Schmutzschichten"
+              },
+              {
+                "listElement": "die hydrodynamische Reinigung beschädigt die gereinigte Oberfläche nicht"
+              },
+              {
+                "listElement": "diese Methode ermöglicht es, alle schwer zugänglichen Bereiche zu erreichen"
+              },
+              {
+                "listElement": "Entsperrt auch komplett verstopfte Rohre (z.B. Abwasserrohre) ohne Bohren"
+              },
+              {
+                "listElement": "die hydrodynamische Methode reduziert die Menge der in die Umwelt freigesetzten Chemikalien"
+              },
+              {
+                "listElement": "Diese Methode kann in explosionsgefährdeten Bereichen eingesetzt werden"
+              }
+            ]
+          },
+          {
+            "listDescription": "Die hydrodynamische Reinigung mit der hohen dynamischen Energie von Wasserstrahlen ist eine äußerst vielseitige, moderne, effiziente und umweltfreundliche Methode zur Reinigung von Oberflächen unterschiedlicher Art."
+          }
+        ]
+      }
+    }
+  ]
 }
