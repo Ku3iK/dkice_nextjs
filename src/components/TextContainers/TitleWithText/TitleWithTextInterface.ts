@@ -1,8 +1,9 @@
-import { TextsArrayType } from "../TextContainersInterface";
+import { TextsArrayType } from '../TextContainersInterface';
 
 export interface TitleWithTextInterface {
-    isTitleInOtherColumn?: boolean;
-    title: string;
-    texts: Array<TextsArrayType>;
-    classNames?: string;
-};
+  isTitleInOtherColumn?: boolean;
+  title: string;
+  texts: Array<TextsArrayType>;
+  imageUrl?: string;
+  classNames?: string;
+}

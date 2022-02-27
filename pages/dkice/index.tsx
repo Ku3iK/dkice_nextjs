@@ -17,74 +17,76 @@ const DkicePage = () => {
   const { locale } = useRouter();
 
   return (
-    <div className='pt-80'>
-      {!!dkiceHomePage?.length && (dkiceHomePage?.filter(({ language }: any) => language === locale ).map(({ 
-        heroTitle, 
-        heroDescription, 
-        heroImageUrl, 
-        buttonData, 
-        tilesContainer,
-        whatIsDryIceCleaningSection,
-        principlesOfDryIceCleaning,
-        dryIceApplication,
-        cleanlinssInEveryField,
-        hydronomyCleaning,
-        whatIsHydronomyCleaning,
-        whaterJetCleaning
-      }: any, key: number) => (
-        <React.Fragment key={key}>
-          <BgImageHero 
-            title={heroTitle}
-            description={heroDescription}
-            imageUrl={heroImageUrl}
-            buttonData={buttonData}
-          />
-          <Container {...{insideSection: true}}>
-            <TitleWithText 
-              isTitleInOtherColumn={whatIsDryIceCleaningSection.isTitleInOtherColumn}
-              title={whatIsDryIceCleaningSection.title}
-              texts={whatIsDryIceCleaningSection.texts}
-              classNames={'firstSection'}
-            />
-            <AccordionSection 
-              reverseElements
-              title={principlesOfDryIceCleaning.title}
-              description={principlesOfDryIceCleaning.description}
-              tabs={principlesOfDryIceCleaning.accordionTabs}
-            />
-            <TextsGrid
-              title={dryIceApplication.title}
-              texts={dryIceApplication.texts}
-            />
-            <AccordionSection 
-              title={cleanlinssInEveryField.title}
-              description={cleanlinssInEveryField.description}
-              tabs={cleanlinssInEveryField.accordionTabs}
-            />
-            <DynamicContent 
-              tilesContainer={tilesContainer[0]}
-            />
-            <TextWithList
-              title={hydronomyCleaning.title}
-              description={hydronomyCleaning.description}
-              listTitle={hydronomyCleaning.listTitle}
-              listContent={hydronomyCleaning.listContent}
-            />
-            <TextWithImage 
-              title={whatIsHydronomyCleaning.title}
-              texts={whatIsHydronomyCleaning.texts}
-              imageUrl={whatIsHydronomyCleaning.imageUrl}
-              reverseElements={whatIsHydronomyCleaning.reverseElements}
-            />
-            <ListsContainer 
-              title={whaterJetCleaning.title}
-              lists={whaterJetCleaning.lists}
-            />
-          </Container>
-        </React.Fragment>
-      )))}
+    <div className="pt-80">
+      {!!dkiceHomePage?.length &&
+        dkiceHomePage
+          ?.filter(({ language }: any) => language === locale)
+          .map(
+            (
+              {
+                heroTitle,
+                heroDescription,
+                heroImageUrl,
+                buttonData,
+                tilesContainer,
+                whatIsDryIceCleaningSection,
+                principlesOfDryIceCleaning,
+                dryIceApplication,
+                cleanlinssInEveryField,
+                hydronomyCleaning,
+                whatIsHydronomyCleaning,
+                whaterJetCleaning
+              }: any,
+              key: number
+            ) => (
+              <React.Fragment key={key}>
+                <BgImageHero
+                  title={heroTitle}
+                  description={heroDescription}
+                  imageUrl={heroImageUrl}
+                  buttonData={buttonData}
+                />
+                <Container {...{ insideSection: true }}>
+                  <TitleWithText
+                    isTitleInOtherColumn={whatIsDryIceCleaningSection.isTitleInOtherColumn}
+                    title={whatIsDryIceCleaningSection.title}
+                    imageUrl={whatIsDryIceCleaningSection.imageUrl}
+                    texts={whatIsDryIceCleaningSection.texts}
+                    classNames={'firstSection mb-64'}
+                  />
+                  <AccordionSection
+                    reverseElements
+                    title={principlesOfDryIceCleaning.title}
+                    description={principlesOfDryIceCleaning.description}
+                    tabs={principlesOfDryIceCleaning.accordionTabs}
+                  />
+                  <TextsGrid title={dryIceApplication.title} texts={dryIceApplication.texts} />
+                  <AccordionSection
+                    title={cleanlinssInEveryField.title}
+                    description={cleanlinssInEveryField.description}
+                    imageUrl={cleanlinssInEveryField.imageUrl}
+                    tabs={cleanlinssInEveryField.accordionTabs}
+                  />
+                  <DynamicContent tilesContainer={tilesContainer[0]} />
+                  <TextWithList
+                    title={hydronomyCleaning.title}
+                    description={hydronomyCleaning.description}
+                    listTitle={hydronomyCleaning.listTitle}
+                    listContent={hydronomyCleaning.listContent}
+                  />
+                  <TextWithImage
+                    title={whatIsHydronomyCleaning.title}
+                    texts={whatIsHydronomyCleaning.texts}
+                    imageUrl={whatIsHydronomyCleaning.imageUrl}
+                    reverseElements={whatIsHydronomyCleaning.reverseElements}
+                  />
+                  <ListsContainer title={whaterJetCleaning.title} lists={whaterJetCleaning.lists} />
+                </Container>
+              </React.Fragment>
+            )
+          )}
     </div>
-  )
-}
+  );
+};
 
 export default DkicePage;
