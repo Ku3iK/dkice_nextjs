@@ -49,6 +49,7 @@ const MagmetPage = () => {
                     title={whatYouWin.title}
                     description={whatYouWin.description}
                     listContent={whatYouWin.listContent}
+                    imageUrl={whatYouWin.imageUrl}
                   />
                   <TitleWithText
                     isTitleInOtherColumn={aboutTerraces.isTitleInOtherColumn}
