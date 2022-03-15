@@ -17,10 +17,10 @@ const MAGMET_GALLERY_QUERY = `
   }
 `;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   //@ts-ignore
   const data = await request({
-    query: MAGMET_GALLERY_QUERY,
+    query: MAGMET_GALLERY_QUERY
   });
 
   return {
@@ -33,9 +33,9 @@ const MagmetGallery = ({ data }: GalleriesInterface) => {
 
   return (
     <Container>
-      <Gallery galleryData={allMagmetGalleries}/>
+      <Gallery galleryData={allMagmetGalleries} />
     </Container>
-  )
-}
+  );
+};
 
 export default MagmetGallery;
