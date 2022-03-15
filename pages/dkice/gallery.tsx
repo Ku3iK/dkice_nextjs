@@ -17,7 +17,7 @@ const DKICE_GALLERY_QUERY = `
   }
 `;
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   //@ts-ignore
   const data = await request({
     query: DKICE_GALLERY_QUERY
