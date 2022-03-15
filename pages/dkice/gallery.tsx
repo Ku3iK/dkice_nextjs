@@ -17,14 +17,15 @@ const DKICE_GALLERY_QUERY = `
   }
 `;
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   //@ts-ignore
   const data = await request({
     query: DKICE_GALLERY_QUERY
   });
 
   return {
-    props: { data }
+    props: { data },
+    revalidate: 60 * 30 //60 sec * 30 = 30 min
   };
 }
 
