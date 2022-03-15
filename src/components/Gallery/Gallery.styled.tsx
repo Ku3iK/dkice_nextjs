@@ -20,6 +20,7 @@ export const ExitButton = styled.button`
 `;
 
 export const SingleImageWrapper = styled.div`
+  background-color: ${({ theme }) => theme.color.secondary};
   height: 25rem;
   transition: ease-in-out 0.3s;
 
