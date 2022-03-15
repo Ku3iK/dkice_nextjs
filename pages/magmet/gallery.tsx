@@ -24,7 +24,8 @@ export async function getServerSideProps() {
   });
 
   return {
-    props: { data }
+    props: { data },
+    revalidate: 60 * 30 //60 sec * 30 = 30 min
   };
 }
 
