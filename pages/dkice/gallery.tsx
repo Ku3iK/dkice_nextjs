@@ -17,10 +17,10 @@ const DKICE_GALLERY_QUERY = `
   }
 `;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   //@ts-ignore
   const data = await request({
-    query: DKICE_GALLERY_QUERY,
+    query: DKICE_GALLERY_QUERY
   });
 
   return {
@@ -33,9 +33,9 @@ const DkiceGallery = ({ data }: GalleriesInterface) => {
 
   return (
     <Container>
-      <Gallery galleryData={allDkiceGalleries}/>
+      <Gallery galleryData={allDkiceGalleries} />
     </Container>
-  )
-}
+  );
+};
 
 export default DkiceGallery;
