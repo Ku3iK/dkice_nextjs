@@ -5,7 +5,7 @@ import { GalleriesInterface } from 'src/types/GalleriesInterface';
 
 const DKICE_GALLERY_QUERY = `
   query MyQuery {
-    allDkiceGalleries {
+    allDkiceGalleries(first: 100) {
       imageTitle
       imageTitleDe
       imageDescription
