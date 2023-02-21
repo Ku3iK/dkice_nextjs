@@ -5,7 +5,7 @@ import { GalleriesInterface } from 'src/types/GalleriesInterface';
 
 const MAGMET_GALLERY_QUERY = `
   query MyQuery {
-    allMagmetGalleries {
+    allMagmetGalleries(first: 100) {
       imageTitle
       imageTitleDe
       imageDescription
